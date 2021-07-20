@@ -4,7 +4,7 @@ import Nav from '../components/nav';
 const Index = () => 
   <div>
     <Nav></Nav>
-  </div>
+  </div> 
 ;
 
 export default Index;
