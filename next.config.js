@@ -3,3 +3,6 @@ module.exports = {
     return config; // return the modified config
   },
 };
+
+const withImages = require('next-images')
+module.exports = withImages()
