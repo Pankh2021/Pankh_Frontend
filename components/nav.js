@@ -12,8 +12,8 @@ function Nav() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img
-                  
-                  src='file:///C:/Users/Khushi%20Gautam/Downloads/image2vector.svg'
+                  style={{maxWidth: '36%' , height: 'auto'}}
+                  src='https://photos.angel.co/startups/i/8408371-b4302661bffc9f14c75058c88d1cbf72-medium_jpg.jpg?buster=1625502223'
                   
                 />
               </div>
