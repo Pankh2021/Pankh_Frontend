@@ -59,8 +59,9 @@ function Nav() {
                   >
                     Contact Us
                   </a>
+
+                <button class="mt-3 px-7 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Login</button>
                 </div>
-                
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
