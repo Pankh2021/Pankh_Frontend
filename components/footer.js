@@ -21,9 +21,11 @@ return (
             <ul className="nav navbar-nav">
                 <li id="navi-2" className="leading-7 text-sm">
                     <a className="text-white underline text-small" href="/page-1">
-                        Page 1 </a>
+                        Drones </a>
                 </li>
-                <li id="navi-1" className="leading-7 text-sm"><a className="text-white underline text-small" href="/page-2">Page 2</a></li>
+                <li id="navi-1" className="leading-7 text-sm"><a className="text-white underline text-small" href="/page-2">Supply</a></li>
+                <li id="navi-1" className="leading-7 text-sm"><a className="text-white underline text-small" href="/page-2">DAAS</a></li>
+                <li id="navi-1" className="leading-7 text-sm"><a className="text-white underline text-small" href="/page-2">Supply</a></li>
             </ul>
 
 

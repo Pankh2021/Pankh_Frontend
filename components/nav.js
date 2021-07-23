@@ -23,37 +23,44 @@ function Nav() {
                     href="#"
                     className=" hover:bg-gray-700 hover:text-white text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Dashboard
+                    Home
                   </a>
 
                   <a
                     href="#"
                     className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Team
+                    Drones
                   </a>
 
                   <a
                     href="#"
                     className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Projects
+                    Drone as a Service (DAAS)
                   </a>
 
                   <a
                     href="#"
                     className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Calendar
+                    Blogs
                   </a>
 
                   <a
                     href="#"
                     className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Reports
+                    Check In
+                  </a>
+                  <a
+                    href="#"
+                    className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Contact Us
                   </a>
                 </div>
+                
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -119,35 +126,41 @@ function Nav() {
                   href="#"
                   className="hover:bg-gray-700 hover:text-white text-black px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  Home
                 </a>
 
                 <a
                   href="#"
                   className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
+                  Drones
                 </a>
 
                 <a
                   href="#"
                   className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
+                  Drone as a Service (DAAS)
                 </a>
 
                 <a
                   href="#"
                   className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
+                  Blogs
                 </a>
 
                 <a
                   href="#"
                   className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Check IN
+                </a>
+                <a
+                  href="#"
+                  className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Contact Us
                 </a>
               </div>
             </div>
