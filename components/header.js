@@ -42,10 +42,56 @@ return (
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat' }} >
         <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-            <div class="text-center">
-                <h1 class="text-white text-2xl font-semibold uppercase md:text-3xl">Build Your new <span class="underline text-blue-400">Saas</span></h1>
-                <button class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Start project</button>
-            </div>
+            
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"/>
+
+<div class="container mx-auto my-20 w-1/3 border border-purple-500 bg-white">
+  <div class="p-5 space-y-5 shadow-xl">
+    <h4 class="text-center text-3xl">Find your right drone</h4>
+
+    <form>
+      <div class="grid grid-cols-2 gap-5">
+        <input
+          type="text"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+          placeholder="Last Name"
+        />
+        <input
+          type="email"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+          placeholder="Phone"
+        />
+        <textarea
+          cols="10"
+          rows="5"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+          placeholder="Write your message..."
+        ></textarea>
+      </div>
+      <input
+        type="submit"
+        value="Send Message"
+        class="focus:outline-none mt-5 bg-purple-500 px-4 py-2 text-white font-bold w-full"
+      />
+    </form>
+  </div>
+</div>
+            
+
+
+
         </div>
     </div>
 </header>
