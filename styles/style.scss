@@ -23,7 +23,9 @@ a {
   flex-direction: column;
 }
 
-
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 .login-form {
     max-width: 300px;
