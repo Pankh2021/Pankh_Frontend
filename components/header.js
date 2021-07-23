@@ -12,7 +12,7 @@ return (
             <div class="md:flex md:items-center md:justify-between">
                 <div class="flex justify-between items-center">
                     <div class="text-xl font-semibold text-gray-700">
-                        <a href="#" class="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl">Brand</a>
+                        <a href="#" class="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl">Explore by</a>
                     </div>
 
                 
