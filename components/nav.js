@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import 'tailwindcss/tailwind.css'
-import logo from '../images/logo.png';
+import SearchOutlined from '@ant-design/icons'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ function Nav() {
         <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#">
         <div className="flex-shrink-0">
           <img
-            style={{maxWidth: '100%' , height: 'auto'}}
+            style={{maxWidth: '40%' , height: 'auto'}}
             src='https://photos.angel.co/startups/i/8408371-b4302661bffc9f14c75058c88d1cbf72-medium_jpg.jpg?buster=1625502223'
                   
           />
@@ -47,28 +47,23 @@ function Nav() {
       </div>
     </div>
 
-    <div class="w-full h-10 pl-3 pr-2 bg-white border rounded-full flex justify-between items-center relative">
-  <input type="search" name="search" id="search" placeholder="Search by brand, category, application, etc "
-         class="appearance-none w-full outline-none focus:outline-none active:outline-none"/>
-  <button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">
-    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-         viewBox="0 0 24 24" class="w-6 h-6">
-      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-    </svg>
-  </button>
+    <div class="shadow flex ">
+    <input class="w-full rounded p-2" type="text" placeholder="Search..."/>
+    <button class="bg-white w-auto flex justify-end items-center text-blue-500 p-2 hover:text-blue-400">
+      <SearchOutlined/> 
+    </button>
 </div>
     
     <div class="md:flex items-center">
       <div class="flex flex-col md:flex-row md:mx-6">
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Home</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Shop</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Contact</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">About</a>
+        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Buy Drones</a>
+        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Rent Drones</a>
+        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
       </div>
 
-      <div class="flex justify-center md:block">
-      <button class="mt-3 px-7 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Login</button>
-      </div>
+      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+  Login
+</button>
     </div>
   </div>
 </nav>
@@ -85,6 +80,7 @@ function Nav() {
       <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
     </ul>
     </div> */}
+
 
   </>
 
