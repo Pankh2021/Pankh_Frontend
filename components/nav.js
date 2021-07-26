@@ -48,7 +48,7 @@ function Nav() {
     </div>
 
     <div class="shadow flex ">
-    <input class="w-full rounded p-2" type="text" placeholder="Search..."/>
+    <input class="w-full rounded p-2" type="text" placeholder="Search by brand, category, application,etc..."/>
     <button class="bg-white w-auto flex justify-end items-center text-blue-500 p-2 hover:text-blue-400">
       <SearchOutlined/> 
     </button>
