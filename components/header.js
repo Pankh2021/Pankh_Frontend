@@ -106,13 +106,14 @@ return (
     </div>
     </nav>
 
+<div>
     <Swiper navigation={true} className="mySwiper">
   <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
   <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
   <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
   <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
   </Swiper>
-
+</div>
             
     
 </header>
