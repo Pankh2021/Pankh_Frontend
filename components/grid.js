@@ -6,6 +6,9 @@ function Grid (){
 
         <>
 
+<link rel="stylesheet" type="text/css" href="output.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+
 <section class="text-gray-700 body-font border-t border-gray-200">
 <div class="flex flex-wrap w-full mb-20 flex-col mt-20 items-center text-center">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
