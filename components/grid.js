@@ -11,13 +11,18 @@ function Grid (){
 
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap w-full mb-20">
-      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
-        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
-      </div>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-    </div>
+
+
+    <section class="mx-auto">
+            <div class="container px-5 mx-auto lg:px-24 lg:py-15">
+              <div class="flex flex-col w-full mb-12 text-left lg:text-center">
+                <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 rounded-full" src="https://photos.angel.co/startups/i/8408371-b4302661bffc9f14c75058c88d1cbf72-medium_jpg.jpg?buster=1625502223"/>
+                <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 lg:w-1/2">You're about to launch soon and must be 100% focused on your product. Don't loose precious days designing, coding the landing page and testing . </p>
+                <h2 class="mt-4 text-xs font-semibold tracking-widest text-black uppercase title-font"> Rasmus Doe <span href="#" class="font-semibold text-blueGray-500 lg:mb-0">Acme's HR </span>
+                </h2>
+              </div>
+            </div>
+          </section>
 
 
     <div class="flex flex-wrap -m-4">
