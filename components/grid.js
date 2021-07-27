@@ -18,38 +18,73 @@ function Grid (){
       </div>
       <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
     </div>
+
+
     <div class="flex flex-wrap -m-4">
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://www.leinsterexpress.ie/resizer/420/315/true/GN4_DAT_13882048.jpg--drone_prevention__contraband_checks__cell_audit__cctv__protection_equipment_part_of_making_prisons_safer.jpg" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+      <div class="w-full overflow-hidden lg:w-1/6 xl:my-2 xl:px-2 xl:w-1/4">
+      <div class="flex justify-between m-5">
+        <div class="flex flex-col h-full max-w-lg mx-auto w-full bg-white p-2 rounded-lg shadow-lg">
+            <div class="rounded-lg flex flex-col justify-center px-8" style={{backgroundImage: "url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/07/UAVs-help2.jpg)", height: "500px", width: "auto", backgroundSize: "cover"}}>
+              
+                <div class="flex justify-center bg-white backdrop-filter backdrop-blur-md bg-opacity-25 rounded-full text-center p-4 mt-2">
+                    <span class="text-white text-lg font-semibold">
+                        DGCA Compliant Drones
+                    </span>
+                </div>
+            
+            </div>
         </div>
+    </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://www.memuk.org/wp-content/uploads/elementor/thumbs/Could-Drones-be-used-for-Neighbourhood-CCTV-in-the-Future-o7ipce7mn1k2wm26976lmgkq7o3px4uzjfyryfq9ag.jpg" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+
+      <div class="w-full overflow-hidden lg:w-1/6 xl:my-2 xl:px-2 xl:w-1/4">
+      <div class="flex justify-between m-5">
+        <div class="flex flex-col h-full max-w-lg mx-auto w-full bg-white p-2 rounded-lg shadow-lg">
+            <div class="rounded-lg flex flex-col justify-center px-8" style={{backgroundImage: "url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/07/UAVs-help2.jpg)", height: "500px", width: "auto", backgroundSize: "cover"}}>
+              
+                <div class="flex justify-center bg-white backdrop-filter backdrop-blur-md bg-opacity-25 rounded-full text-center p-4 mt-2">
+                    <span class="text-white text-lg font-semibold">
+                        Transparent Pace & Service Quality
+                    </span>
+                </div>
+            
+            </div>
         </div>
+    </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://media4.s-nbcnews.com/i/streams/2013/August/130822/6C8705627-090409-f-0502f-001.jpg" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+
+      <div class="w-full overflow-hidden lg:w-1/6 xl:my-2 xl:px-2 xl:w-1/4">
+      <div class="flex justify-between m-5">
+        <div class="flex flex-col h-full max-w-lg mx-auto w-full bg-white p-2 rounded-lg shadow-lg">
+            <div class="rounded-lg flex flex-col justify-center px-8" style={{backgroundImage: "url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/07/UAVs-help2.jpg)", height: "500px", width: "auto", backgroundSize: "cover"}}>
+              
+                <div class="flex justify-center bg-white backdrop-filter backdrop-blur-md bg-opacity-25 rounded-full text-center p-4 mt-2">
+                    <span class="text-white text-lg font-semibold">
+                        Certified Pilots
+                    </span>
+                </div>
+            
+            </div>
         </div>
+    </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://image.freepik.com/free-vector/courier-delivers-package-by-drone-customer-address-modern-technology-delivery-services_310941-134.jpg" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+
+      <div class="w-full overflow-hidden lg:w-1/6 xl:my-2 xl:px-2 xl:w-1/4">
+      
+      <div class="flex justify-between m-5">
+        <div class="flex flex-col h-full max-w-lg mx-auto w-full bg-white p-2 rounded-lg shadow-lg">
+            <div class="rounded-lg flex flex-col justify-center px-8" style={{backgroundImage: "url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/07/UAVs-help2.jpg)", height: "500px", width: "auto", backgroundSize: "cover"}}>
+              
+                <div class="flex justify-center bg-white backdrop-filter backdrop-blur-md bg-opacity-25 rounded-full text-center p-4 mt-2">
+                    <span class="text-white text-lg font-semibold">
+                        Satisfied Customers
+                    </span>
+                </div>
+            
+            </div>
         </div>
+    </div>
+        
       </div>
     </div>
   </div>
