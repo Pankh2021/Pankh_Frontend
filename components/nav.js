@@ -47,11 +47,17 @@ function Nav() {
       </div>
     </div>
 
-    <div class="shadow flex ">
-    <input class="w-full rounded p-2" type="text" placeholder="Search by brand, category, application,etc..."/>
-    <button class="bg-white w-auto flex justify-end items-center text-blue-500 p-2 hover:text-blue-400">
-      <SearchOutlined/> 
-    </button>
+    <div class="flex items-center justify-center shadow bg-gray-200">
+  <form >
+    <div class="relative text-gray-600 focus-within:text-gray-400">
+      <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+        <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </button>
+      </span>
+      <input type="search" name="q" class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900" placeholder="Search..." autocomplete="off"/>
+    </div>
+  </form>
 </div>
     
     <div class="md:flex items-center">
@@ -61,8 +67,12 @@ function Nav() {
         <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
       </div>
 
-      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mx-1 border border-blue-500 hover:border-transparent rounded">
   Login
+</button>
+
+      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mx-1 border border-blue-500 hover:border-transparent rounded">
+  Sign up
 </button>
     </div>
   </div>
