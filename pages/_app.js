@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 import { useState, useEffect } from "react";
 import 'tailwindcss/tailwind.css'
 import '../styles/index.css';
+import '../styles/swiper.css';
 import firebase from "../firebase/firebase";
 import { Spin } from "antd";
 

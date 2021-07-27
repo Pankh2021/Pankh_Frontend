@@ -1,10 +1,24 @@
-import React from "react";
-import Background from '../images/drone.jpg';
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
-function Header () {
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/navigation/navigation.min.css";
+
+
+// import Swiper core and required modules
+import SwiperCore, {
+  Navigation
+} from 'swiper/core';
+
+SwiperCore.use([Navigation]);
+
+function Header() {
 
 return (
 <>
+
 
 <header>
     <nav class="bg-white shadow">
@@ -25,7 +39,7 @@ return (
                     </div>
                 </div>
 
-                <div class="dropdown inline-block relative">
+    <div class="dropdown inline-block relative">
     <button class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600 md:flex md:items-center">
       <span class="">Brand</span>
       <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
@@ -88,74 +102,21 @@ return (
     </ul>
     </div>
 
-
-        
-                <div class="hidden -mx-4 md:flex md:items-center">
-                    <a href="#" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600">UI/UX Designers</a>
-                    <a href="#" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600">Contact</a>
-                </div>
-            </div>
-        </div>
+    </div>
+    </div>
     </nav>
 
-    <div class="w-full bg-cover bg-center" style={{height: '32rem' ,
-    backgroundImage: "url(" + "https://www.robotics247.com/images/wide/warehouse_drones_ready_for_digital_inventory_management_wide.jpg" + ")",
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat' }} >
-        <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-            
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"/>
-
-<div class="container mx-auto my-20 w-1/3 border border-purple-500 bg-white">
-  <div class="p-5 space-y-5 shadow-xl">
-    <h4 class="text-center text-3xl">Find your right drone</h4>
-
-    <form>
-      <div class="grid grid-cols-2 gap-5">
-        <input
-          type="text"
-          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
-          placeholder="First Name"
-        />
-        <input
-          type="text"
-          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
-          placeholder="Last Name"
-        />
-        <input
-          type="email"
-          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
-          placeholder="Email"
-        />
-        <input
-          type="tel"
-          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
-          placeholder="Phone"
-        />
-        <textarea
-          cols="10"
-          rows="5"
-          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
-          placeholder="Write your message..."
-        ></textarea>
-      </div>
-      <input
-        type="submit"
-        value="Send Message"
-        class="focus:outline-none mt-5 bg-purple-500 px-4 py-2 text-white font-bold w-full"
-      />
-    </form>
-  </div>
+<div>
+    <Swiper navigation={true} className="mySwiper">
+  <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
+  <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
+  <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
+  <SwiperSlide className='height-200' > <img src="https://assets.kpmg/is/image/kpmg/white-drone-with-lights-flying-in-sky-with-clouds:cq5dam.web.1400.350" ></img> </SwiperSlide>
+  </Swiper>
 </div>
             
-        </div>
-    </div>
+    
 </header>
-
-
 
 </>
 );
