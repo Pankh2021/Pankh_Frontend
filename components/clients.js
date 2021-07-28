@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../images/afcons-logo.png'
+import Image from 'next/image'
 
 function Client(){
 
@@ -14,7 +14,7 @@ function Client(){
               </div>
               <div class="grid grid-cols-3 gap-16 text-center lg:grid-cols-6">
                 <div class="flex items-center justify-center ">
-                  <img src={logo1} alt="Todoist Logo" class="block object-contain h-10 filter grayscale"/>
+                  <img src={"/static/images/Amplus.jpg" } alt="Todoist Logo"  />
                 </div>
                 <div class="flex items-center justify-center ">
                   <img src="https://d33wubrfki0l68.cloudfront.net/3c4dca12c4e61997e31aa2810408ec46ea6b300c/35012/logos/jb_rider.svg" alt="Slack Logo" class="block object-contain h-10 filter grayscale"/>
