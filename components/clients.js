@@ -28,6 +28,9 @@ function Client(){
                 <div class="flex items-center justify-center ">
                   <img src={"/static/images/TUVSUD.jpg"} alt="Postcss Logo" />
                 </div>
+                <div class="flex items-center justify-center ">
+                  <img src={"/static/images/m2klogo.png"} alt="Postcss Logo" />
+                </div>
               </div>
             </div>
           </section>
