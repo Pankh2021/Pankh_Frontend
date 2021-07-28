@@ -14,53 +14,71 @@ return (
                       <div class="inline-flex items-center">
                         <div class="w-2 h-2 p-2 mr-2 rounded-full bg-gradient-to-tr from-blue-500 to-blue-600">
                         </div>
-                        <h2 class="block p-2 text-xl font-medium tracking-tighter text-black transition duration-500 ease-in-out transform cursor-pointer hover:text-blueGray-500 lg:text-x lg:mr-8"> wickedblocks </h2>
+                        <img style={{maxWidth: '70%' , height: 'auto'}} src={"/static/images/logo.png"} />
                       </div>
                     </a>
                   </div>
                 </div>
                 <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
-                  <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+                  <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Product </h1>
                     <nav class="mb-10 space-y-4 list-none">
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Email Templates</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by brands</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Web Templates</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by category</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Figma Files</a>
-                      </li>
-                      <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Sketch Files</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by application</a>
                       </li>
                     </nav>
                   </div>
-                  <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+                  <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Services </h1>
+                    <nav class="mb-10 space-y-4 list-none">
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Utilities</a>
+                      </li>
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Agriculture</a>
+                      </li>
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Survey & Mapping</a>
+                      </li>
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Recreation</a>
+                      </li>
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Security & Surveillance</a>
+                      </li>
+                    </nav>
+                  </div>
+
+                  <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Company </h1>
                     <nav class="mb-10 space-y-4 list-none">
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Home</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">About Us</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">About</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Careers</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Carriers</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Blog</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Pricing</a>
+                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Contact Us</a>
                       </li>
                     </nav>
                   </div>
-                  <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+                  <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Get updates </h1>
                     <nav class="mb-10">
                       <div class="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
                         <div class="relative w-40 mr-2 sm:w-auto">
                           <label for="email" class="text-sm leading-7 text-blueGray-600">subscribe</label>
-                          <input type="text" id="email" name="email" class="w-full px-3 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"/>
+                          <input type="text" id="email" name="email" class="w-full px-4 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow"/>
                         </div>
                         <button class="px-6 py-2 font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md ext-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">Subscribe</button>
                       </div>
