@@ -9,8 +9,10 @@ function Slide(){
     <>
 
 <Carousel>
-        
- </Carousel>
+  <img src={"/static/images/cor1.png"} /> 
+  <img src={"/static/images/cor2.png"} /> 
+  <img src={"/static/images/cor3.png"} /> 
+</Carousel>
 
     </>
   )

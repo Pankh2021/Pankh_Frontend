@@ -62,7 +62,7 @@ return (
                           <label for="email" class="text-sm leading-7 text-blueGray-600">subscribe</label>
                           <input type="text" id="email" name="email" class="w-full px-3 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"/>
                         </div>
-                        <button class="px-6 py-2 font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md ext-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">Button</button>
+                        <button class="px-6 py-2 font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md ext-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">Subscribe</button>
                       </div>
                       <p class="mt-2 text-xs font-semibold tracking-widest text-black uppercase title-font md:text-left"> NO, NO, GEORGE, LOOK, IT'S JUST AN ACT, RIGHT? </p>
                     </nav>
