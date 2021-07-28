@@ -1,11 +1,12 @@
 import React from 'react';
+import logo1 from '../images/afcons-logo.png'
 
 function Client(){
 
     return(
         <>
 
-<section class="mx-auto">
+<section class="mx-auto bg-white">
             <div class="container px-5 mx-auto lg:px-24 lg:py-20">
               <div class="flex flex-col w-full mb-12 text-center">
                 <h2 class="mb-4 text-xs font-semibold tracking-widest text-black uppercase title-font"> The world's best teams use Wickedtemplates to state theire presence. <a href="#" class="font-semibold text-blue-600 lg:mb-0 hover:text-black">Our customers »</a>
@@ -13,7 +14,7 @@ function Client(){
               </div>
               <div class="grid grid-cols-3 gap-16 text-center lg:grid-cols-6">
                 <div class="flex items-center justify-center ">
-                  <img src="https://d33wubrfki0l68.cloudfront.net/e018a9cb3c198579040cd7c76efc4319d9d73065/78dee/logos/notion.svg" alt="Todoist Logo" class="block object-contain h-10 filter grayscale"/>
+                  <img src={logo1} alt="Todoist Logo" class="block object-contain h-10 filter grayscale"/>
                 </div>
                 <div class="flex items-center justify-center ">
                   <img src="https://d33wubrfki0l68.cloudfront.net/3c4dca12c4e61997e31aa2810408ec46ea6b300c/35012/logos/jb_rider.svg" alt="Slack Logo" class="block object-contain h-10 filter grayscale"/>

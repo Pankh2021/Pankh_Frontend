@@ -90,22 +90,70 @@ export default function Faq () {
                   </svg>
                   <span class="relative">The</span>
                 </span>{' '}
-                quick, brown fox jumps over a lazy dog
+                Frequently Asked Questions
               </h2>
               <p class="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam, eaque ipsa quae.
+                Can't find the answer you're looking for? We've shared some of
+                our most frequently asked questions to help you out :)
               </p>
             </div>
           </div>
           <div class="space-y-4">
-            <Item title="The quick, brown fox jumps over a lazy dog?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="What are the Drones and their different categories?">
+Drones are unmanned aerial vehicles which could be automated or command controlled by
+drone pilots to carry out aerial flights for varying needs. Drones are categorized by Ministry of
+Civil Aviation in 5 different categories depending on their maximum all –up weight which
+includes the weight of payloads as well:
+<ul>
+
+<li typeof='bullet' >Nana Drones: Weighing less than 250gm</li>
+<li> Micro Drones: Weighing more than 250gm but less than 2.5kg</li>
+<li> Small Drones: Weight greater than 2.5kg but less than 25kg </li>
+<li> Medium Drones: Weight greater than 25kg but less than 150kg </li>
+<li> Large Drone: Weight greater than 150kg </li>
+</ul>
             </Item>
-            <Item title="The first mate and his Skipper too will do?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="Who can fly drones and is there any rules and regulations for it?">
+            A person who is resident of India, having attained an age of 18 years and passed class tenth or
+its equivalent examination from a recognized board can fly a drone if he holds a valid remote
+pilot license issued by DGCA recognized Flight Training Organizations.
+Exemptions: No Remote pilot license is required for a person operating a nano drone and
+operating a micro drone for non-commercial purpose
+Indian Airspace is divided into 3 zones: green, yellow and red zones to which all drone
+operators or pilots have to comply. No person can operate a drone in red or yellow zones.
+No Fly zones/ areas:
+<ul>
+<li> Within a distance of 5 kilometer from the perimeter of international airports at
+Mumbai,Delhi, Chennai, Kolkata, Bengaluru and Hyderabad</li>
+<li> Within a distance of 3 kilometer from the perimeter of any civil, private or defence
+airports, other than those mentioned in clause(a)</li>
+<li> Above the Obstacle Limitation Surfaces (OLS) or Procedures for Air Navigation ServicesAircraft Operations (PANS-OPS) surfaces, whichever is lower, of an operational
+aerodrome, specified in the rules related to Height Restrictions for Safeguarding of
+Aircraft Operations</li>
+• Within permanent or temporary Prohibited, Restricted and Danger Areas including
+Temporary Reserved Area (TRA), and Temporary Segregated Area (TSA), as notified in
+Aeronautical Information Publication (AIP) by Airport Authority of India;
+• Within 25 kilometer from international border which includes Line of Control (LoC), Line
+of Actual Control (LAC) and Actual Ground Position Line (AGPL);
+• Beyond 500 meter (horizontal) into sea from coast line provided the location of ground
+station is on fixed platform over land;
+• Directorate General of Lighthouses and Lightships (DGLL) lighthouses and coastal radar
+stations of the Indian Coast Guard;
+• Within 3 kilometer from perimeter of military installations/ facilities/ where military
+activities/ exercises are being carried out unless clearance is obtained from the local
+military installation/facility;
+• Within 5 kilometer radius from Vijay Chowk in Delhi. However, this is subject to any
+additional conditions/ restrictions imposed by local law enforcement agencies/
+authorities in view of the security.
+• Within 2 kilometer from perimeter of strategic locations/ vital installations notified by
+Ministry of Home Affairs unless clearance is obtained from Ministry of Home Affairs;
+• Within 3 kilometer from radius of State Secretariat Complex in State Capitals;
+• From a mobile platform such as a moving vehicle, ship or all types of sea going vessels
+including makeshift floating platforms or aircraft; and
+• Over eco-sensitive zones around National Parks and Wildlife Sanctuaries notified by
+Ministry of Environment, Forests and Climate Change without prior permission.
+
+</ul>
             </Item>
             <Item title="Is the Space Pope reptilian!?">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
