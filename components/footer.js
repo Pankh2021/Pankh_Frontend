@@ -12,8 +12,6 @@ return (
                   <div class="pr-2 lg:pr-8 lg:px-6">
                     <a href="/" class=" focus:outline-none">
                       <div class="inline-flex items-center">
-                        <div class="w-2 h-2 p-2 mr-2 rounded-full bg-gradient-to-tr from-blue-500 to-blue-600">
-                        </div>
                         <img style={{maxWidth: '70%' , height: 'auto'}} src={"/static/images/logo.png"} />
                       </div>
                     </a>
@@ -76,13 +74,11 @@ return (
                     <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Get updates </h1>
                     <nav class="mb-10">
                       <div class="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
-                        <div class="relative w-40 mr-2 sm:w-auto">
-                          <label for="email" class="text-sm leading-7 text-blueGray-600">subscribe</label>
-                          <input type="text" id="email" name="email" class="w-full px-4 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow"/>
+                        <div class="relative w-40  sm:w-auto">
+                          <input type="text" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow"/>
                         </div>
                         <button class="px-6 py-2 font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md ext-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">Subscribe</button>
                       </div>
-                      <p class="mt-2 text-xs font-semibold tracking-widest text-black uppercase title-font md:text-left"> NO, NO, GEORGE, LOOK, IT'S JUST AN ACT, RIGHT? </p>
                     </nav>
                   </div>
                 </div>

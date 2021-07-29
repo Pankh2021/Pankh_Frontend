@@ -154,15 +154,8 @@ including makeshift floating platforms or aircraft; and
 Ministry of Environment, Forests and Climate Change without prior permission.
 
 </ul>
-            </Item>
-            <Item title="Is the Space Pope reptilian!?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
-            </Item>
-            <Item title="How much money you got on you?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
-            </Item>
+</Item>
+        
           </div>
         </div>
       </div>
