@@ -2,7 +2,22 @@ module.exports = {
     purge: [],
     darkMode: 'class', // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        opacity: {
+          '10': '0.1',
+          '20': '0.2',
+          '95': '0.95',
+         }
+      },
+      divideWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '2': '2px',
+       '3': '3px',
+        '4': '4px',
+       '6': '6px',
+       '8': '8px',
+      }
     },
     variants: {
       extend: {

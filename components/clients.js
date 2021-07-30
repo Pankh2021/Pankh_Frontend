@@ -9,8 +9,9 @@ function Client(){
 <section class="mx-auto bg-white">
             <div class="container px-5 mx-auto lg:px-24 lg:py-20">
               <div class="flex flex-col w-full mb-12 text-center">
-                <h2 class="mb-4 text-xs font-semibold tracking-widest text-black uppercase title-font"> The world's best teams use Wickedtemplates to state theire presence. <a href="#" class="font-semibold text-blue-600 lg:mb-0 hover:text-black">Our customers »</a>
+                <h2 class="mb-4 text-xs font- tracking-widest text-black uppercase title-font"> Our Clients
                 </h2>
+                <div class="divider-5">OR</div> 
               </div>
               <div class="grid grid-cols-3 gap-16 text-center lg:grid-cols-6">
                 <div class="flex items-center justify-center ">

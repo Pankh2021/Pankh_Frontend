@@ -27,7 +27,7 @@ function Slide(){
 }} navigation={true} className="mySwiper">
   <SwiperSlide>
   <div class="container mx-auto h-84 relative">
-  <img src={'/static/images/1.jpg'} alt="" class="w-full max-h-full  "/>
+  <img src={'/static/images/1.png'} alt="" class="w-full h-96  "/>
   <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
 </div>
 

@@ -12,8 +12,8 @@ const Home = () =>
     <Nav></Nav>
     <Header></Header>
     <Slide></Slide>
-    <Location></Location>
     <Grid></Grid>
+    <Location></Location>
     <Client></Client>
     <Faq></Faq>
     <Footer></Footer>
