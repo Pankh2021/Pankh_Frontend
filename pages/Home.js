@@ -3,6 +3,7 @@ import Faq from '../components/faq';
 import Footer from '../components/footer';
 import Grid from '../components/grid';
 import Header from '../components/header';
+import Location from '../components/location';
 import Nav from '../components/nav';
 import Slide from '../components/slide';
 
@@ -11,6 +12,7 @@ const Home = () =>
     <Nav></Nav>
     <Header></Header>
     <Slide></Slide>
+    <Location></Location>
     <Grid></Grid>
     <Client></Client>
     <Faq></Faq>

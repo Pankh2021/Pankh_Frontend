@@ -71,31 +71,16 @@ export default function Faq () {
                     fill="currentColor"
                     class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                   >
-                    <defs>
-                      <pattern
-                        id="ec5d8ef5-b853-4714-b94f-df28ec98eeb7"
-                        x="0"
-                        y="0"
-                        width=".135"
-                        height=".30"
-                      >
-                        <circle cx="1" cy="1" r=".7" />
-                      </pattern>
-                    </defs>
+                  
                     <rect
                       fill="url(#ec5d8ef5-b853-4714-b94f-df28ec98eeb7)"
                       width="52"
                       height="24"
                     />
                   </svg>
-                  <span class="relative">The</span>
                 </span>{' '}
                 Frequently Asked Questions
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
-                Can't find the answer you're looking for? We've shared some of
-                our most frequently asked questions to help you out :)
-              </p>
             </div>
           </div>
           <div class="space-y-4">

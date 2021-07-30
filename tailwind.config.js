@@ -5,7 +5,13 @@ module.exports = {
       extend: {},
     },
     variants: {
-      extend: {},
+      extend: {
+        mixBlendMode: ['responsive'],
+        backgroundBlendMode: ['responsive'],
+        isolation: ['responsive'],
+      },
     },
-    plugins: [],
-  }
+    plugins: [
+      require('tailwindcss-blend-mode'),
+    ],
+}

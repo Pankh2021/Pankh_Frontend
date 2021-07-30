@@ -26,21 +26,22 @@ function Slide(){
   "clickable": true
 }} navigation={true} className="mySwiper">
   <SwiperSlide>
-    <div>
-    <img src={'/static/images/cor1.png'} />
-    <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-    </div>
+  <div class="container mx-auto h-84 relative">
+  <img src={'/static/images/1.jpg'} alt="" class="w-full max-h-full  "/>
+  <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
+</div>
+
   </SwiperSlide>
   <SwiperSlide>
-    <div>
-    <img src={'/static/images/cor2.png'} />
-    <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    <div class='w-full bg-cover bg-center' >
+    <img src={'/static/images/2.jpg'} />
+    <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
     </div> 
   </SwiperSlide>
   <SwiperSlide>
-    <div>
-    <img src={'/static/images/cor3.png'} />
-    <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    <div class='w-full bg-cover bg-center' >
+    <img src={'/static/images/3.jpg'} />
+    <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
     </div>
   </SwiperSlide>
   </Swiper>

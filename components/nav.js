@@ -10,7 +10,7 @@ function Nav() {
 <>
 
 <nav class="bg-white shadow">
-  <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+  <div class="container mx-auto px-6 py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
       <div>
         <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#">
@@ -67,29 +67,11 @@ function Nav() {
         <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
       </div>
 
-      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mx-1 border border-blue-500 hover:border-transparent rounded">
-  Login
-</button>
-
-      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mx-1 border border-blue-500 hover:border-transparent rounded">
-  Sign up
-</button>
+      <button type="button" class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Hello! Login/Signup</button>
     </div>
   </div>
 </nav>
 
-{/* 
-    <div class="dropdown inline-block relative">
-    <button class="hover:bg-gray-700 hover:text-white text-black px-4 py-2 mt-4 rounded-md text-sm font-medium inline-flex">
-      <span class="">Buy Drones</span>
-      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-    </button>
-    <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-      <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-      <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
-      <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
-    </ul>
-    </div> */}
 
 
   </>
