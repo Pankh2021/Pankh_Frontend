@@ -22,7 +22,7 @@ function Location(){
             >
 
 <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden ">
+				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
 					<img src="/static/images/kolkata.png"
 						 alt=""
 						 class="h-full w-full"/>
@@ -37,7 +37,7 @@ function Location(){
             >
 
 <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden">
+				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
 					<img src="/static/images/new-delhi.png"
 						 alt=""
 						 class="h-full w-full"/>
