@@ -9,11 +9,23 @@ function Location(){
 <div class="flex flex-col m-auto p-auto bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
 
       <div
-        class="flex overflow-x-scroll pt-20 pb-20 hide-scroll-bar"
+        class="flex overflow-x-scroll pt-20 pb-10 hide-scroll-bar"
       >
-        <h1 class="flex py-5 lg:px-20 md:px-10 px-3 lg:mx-40 md:mx-20 mx-5 font-bold text-4xl text-gray-800">
-        Search Drones by city
-      </h1>
+<div class="text-start mx-15 py-12 px-4 sm:px-6 lg:py-8 lg:px-9 z-20">
+        <h2 class="text-3xl truncate font-extrabold text-black dark:text-white sm:text-4xl">
+            <span class="block">
+                Search Drones by city
+            </span>
+            <span class="block text-indigo-500">
+                Drones across India
+            </span>
+        </h2>
+    </div>
+
+       
+
+
+
         <div
           class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 "
           >

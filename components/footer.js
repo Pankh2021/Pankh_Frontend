@@ -73,12 +73,15 @@ return (
                   <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Get updates </h1>
                     <nav class="mb-10">
-                      <div class="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
-                        <div class="relative w-40  sm:w-auto">
-                          <input type="text" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-1 leading-8 text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow"/>
-                        </div>
-                        <button class="px-6 py-2 font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md ext-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">Subscribe</button>
-                      </div>
+                    <form class="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center">
+                <div class=" relative ">
+                    <input type="text" id="&quot;form-subscribe-Subscribe" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Email"/>
+                    </div>
+                    <button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+
                     </nav>
                   </div>
                 </div>

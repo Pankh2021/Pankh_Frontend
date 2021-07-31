@@ -28,7 +28,13 @@ function Slide(){
   <SwiperSlide>
   <div class="container mx-auto h-84 relative">
   <img src={'/static/images/1.png'} alt="" class="w-full h-96  "/>
-  <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
+  
+            
+                <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                    Get started
+                </button>
+            
+        
 </div>
 
   </SwiperSlide>
