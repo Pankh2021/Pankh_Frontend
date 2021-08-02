@@ -5,50 +5,68 @@ function Signin(){
     return(
         <>
 
-<body class="bg-white">
-    <div class="flex min-h-screen bg-white">
+<section class="flex flex-col md:flex-row h-screen items-center">
 
-        <div class="w-1/2 bg-cover md:block hidden" style={{backgroundImage:  "url(https://images.unsplash.com/photo-1520243947988-b7b79f7873e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGJsYWNrJTIwZm9yZXN0fGVufDB8fDB8eWVsbG93&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60)"}}></div>
-       
-        <div class="md:w-1/2 max-w-lg mx-auto my-24 px-4 py-5 shadow-none">
+  <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
+    <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover"/>
+  </div>
 
-            <div class="text-left p-0 font-sans">
-                
-                <h1 class=" text-gray-800 text-3xl font-medium">Create an account for free</h1>
-                <h3 class="p-1 text-gray-700">Free forever. No payment needed.</h3>
-            </div>
-            <form action="#" class="p-0">
-                <div class="mt-5">
+  <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
+        flex items-center justify-center">
 
-                    
-                    <input type="text" class="block w-full p-2 border rounded border-gray-300 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:border-transparent " placeholder="Email"/>
-                </div>
-                <div class="mt-5">
-                    <input type="text" class="block w-full p-2 border rounded border-gray-300 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:border-transparent " placeholder="User-name"/>
-                </div>
-                <div class="mt-5">
-                    <input type="password" class="block w-full p-2 border rounded border-gray-300 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:border-transparent  " placeholder="Password"/>
-                </div>
+    <div class="w-full h-100">
 
-                <div class="mt-6 block p-5 text-sm md:font-sans text-xs text-gray-800">
-                    <input type="checkbox" class="inline-block border-0 "/>
-                    <span display="inline" class="">By creating an account you are agreeing to our 
-                        <a class="" href="/s/terms" target="_blank" data-test="Link">
-                        <span class="underline ">Terms and Conditions</span> </a> and
-                    <a class="" href="/s/privacy" target="_blank" data-test="Link">
-                        <span class="underline">Privacy Policy</span> </a>
-                    </span>
-                </div>
 
-                <div class="mt-10">
-                    <input type="submit" value="Sign up with email" class="py-3 bg-green-500 text-white w-full rounded hover:bg-green-600"/>
-                </div>
-            </form>
-            <a class="" href="/login" data-test="Link"><span class="block  p-5 text-center text-gray-800  text-xs ">Already have an account?</span></a>
+      <h1 class="text-xl md:text-2xl font-bold leading-tight mt-12">Log in to your account</h1>
+
+      <form class="mt-6" action="#" method="POST">
+        <div>
+          <label class="block text-gray-700">Email Address</label>
+          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required/>
         </div>
-    </div>
-</body>
 
+        <div class="mt-4">
+          <label class="block text-gray-700">Password</label>
+          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
+                focus:bg-white focus:outline-none" required/>
+        </div>
+
+        <div class="text-right mt-2">
+          <a href="#" class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
+              px-4 py-3 mt-6">Log In</button>
+      </form>
+
+      <hr class="my-6 border-gray-300 w-full"/>
+
+      <button type="button" class="w-full block bg-white hover:bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold rounded-lg px-4 py-3 border border-gray-300">
+            <div class="flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" class="w-6 h-6" viewBox="0 0 48 48">
+                <defs>
+                    <path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/>
+                </defs>
+            <clipPath id="b"><use xlinkHref="#a" overflow="visible"/></clipPath>
+            <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"/>
+            <path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"/><path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"/>
+            <path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"/>
+            </svg>
+            <span class="ml-4">
+            Log in
+            with
+            Google</span>
+            </div>
+          </button>
+
+      <p class="mt-8">Need an account? <a href="#" class="text-blue-500 hover:text-blue-700 font-semibold">Create an
+              account</a></p>
+
+
+    </div>
+  </div>
+
+</section>
         </>
     )
 }
