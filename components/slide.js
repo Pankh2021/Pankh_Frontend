@@ -28,26 +28,20 @@ function Slide(){
   <SwiperSlide>
   <div class="container mx-auto h-84 relative">
   <img src={'/static/images/1.png'} alt="" class="w-full h-96  "/>
-  
-            
-                <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                    Get started
-                </button>
-            
-        
+  <button class="bg-white absolute bottom-32 left-7 rounded-lg p-4">See all drones</button>
 </div>
 
   </SwiperSlide>
   <SwiperSlide>
     <div class='w-full bg-cover bg-center' >
     <img src={'/static/images/2.jpg'} />
-    <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
+    <button class="bg-white absolute bottom-6 left-5 rounded-lg p-4">Type your Requirements</button>
     </div> 
   </SwiperSlide>
   <SwiperSlide>
     <div class='w-full bg-cover bg-center' >
     <img src={'/static/images/3.jpg'} />
-    <button class="bg-red-300 absolute top-1/4 left-1/4 rounded-lg p-4">div</button>
+    <button class="bg-white absolute bottom-32 left-5 rounded-lg p-4">Register if you are a Drone pilot</button>
     </div>
   </SwiperSlide>
   </Swiper>
