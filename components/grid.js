@@ -16,7 +16,7 @@ function Grid (){
     <section class="mx-auto">
             <div class="container px-5 mx-auto lg:px-24 lg:py-15">
               <div class="flex flex-col w-full mb-12 text-left lg:text-center">
-                <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 rounded-full" src="https://photos.angel.co/startups/i/8408371-b4302661bffc9f14c75058c88d1cbf72-medium_jpg.jpg?buster=1625502223"/>
+                <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 rounded-full" src="/static/images/logo.png"/>
                 <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 lg:w-1/2">You're about to launch soon and must be 100% focused on your product. Don't loose precious days designing, coding the landing page and testing . </p>
                 <h2 class="mt-4 text-xs font-semibold tracking-widest text-black uppercase title-font"> Rasmus Doe <span href="#" class="font-semibold text-blueGray-500 lg:mb-0">Acme's HR </span>
                 </h2>
