@@ -14,6 +14,10 @@ return (
                       <div class="inline-flex items-center">
                         <img style={{maxWidth: '70%' , height: 'auto'}} src={"/static/images/logo.png"} />
                       </div>
+                      <div class="inline-flex items-center">
+                        <img style={{maxWidth: '70%' , height: 'auto'}} src={"/static/images/startup.png"} />
+                      </div>
+
                     </a>
                   </div>
                 </div>
