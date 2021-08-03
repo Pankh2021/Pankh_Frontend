@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from 'next/link'
 import { Transition } from "@headlessui/react";
 import 'tailwindcss/tailwind.css'
 import SearchOutlined from '@ant-design/icons'
@@ -68,7 +69,9 @@ function Nav() {
         <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
       </div>
 
+      <Link href="/signup" >
       <button type="button" class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Hello! Login/Signup</button>
+      </Link>
     </div>
   </div>
 </nav>

@@ -25,7 +25,7 @@ function Signup(){
             
                 <div class="text-center mb-10">
                 <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-1 rounded-full" src="/static/images/logo.png"/> 
-                <h1 class="font-bold text-3xl text-gray-900">SIGNUP</h1>
+                <h1 class="font-bold text-3xl text-gray-900">Sign Up</h1>
                 </div>
                 <div class="mt-2">
 <div >
@@ -74,7 +74,7 @@ function Signup(){
                     </div>
                     <div class="text-right mb-5">
                     <p class="">Already have an account?
-       <Link href='/'>
+       <Link href='/signin'>
       <a class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Signin</a>
       </Link> 
       </p>
