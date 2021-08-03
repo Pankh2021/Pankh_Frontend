@@ -26,6 +26,7 @@ function Signup(){
                 <div class="text-center mb-10">
                 <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-1 rounded-full" src="/static/images/logo.png"/> 
                 <h1 class="font-bold text-3xl text-gray-900">Sign Up</h1>
+                <p>Enter your information to signup</p>
                 </div>
                 <div class="mt-2">
 <div >
@@ -75,13 +76,13 @@ function Signup(){
                     <div class="text-right mb-5">
                     <p class="">Already have an account?
        <Link href='/signin'>
-      <a class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Signin</a>
+      <a class="text-sm font-semibold text-blue-500 hover:text-blue-700 focus:text-blue-700">Signin</a>
       </Link> 
       </p>
         </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
+                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-900 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
                         </div>
                     </div>
               </div>

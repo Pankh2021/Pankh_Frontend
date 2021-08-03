@@ -25,7 +25,7 @@ function Signin(){
 
     <div class="text-center mb-10">
                     
-    <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 rounded-full" src="/static/images/logo.png"/>
+    <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-1 rounded-full" src="/static/images/logo.png"/>
                     <h1 class="font-bold text-3xl text-gray-900">Sign In</h1>
                     <p>Enter your information to signin</p>
                 </div>
@@ -51,7 +51,7 @@ function Signin(){
           <a href="#" class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Forgot Password?</a>
         </div>
 
-        <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-6">Log In</button>
+        <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-900 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-6">Sign In</button>
       </form>
 
       <hr class="my-6 border-gray-300 w-full"/>
