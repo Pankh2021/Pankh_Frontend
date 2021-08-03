@@ -10,24 +10,33 @@ function Signup(){
 
 <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css')</style>        
 
+
 <section class="flex flex-col md:flex-row h-screen items-center">
 
-  <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
+  <div class="bg-indigo-600 hidden  lg:block w-full md:w-1/2 xl:w-2/3 h-screen mt-2">
     <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover"/>
   </div>
 
   <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
         flex items-center justify-center">
 
-<div class="w-full h-100">
+<div class="w-full">
             
                 <div class="text-center mb-10">
-                    
-    <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-8 rounded-full" src="/static/images/logo.png"/>
-                    <h1 class="font-bold text-3xl text-gray-900">SIGNUP</h1>
-                    <p>Enter your information to signup</p>
+                <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-1 rounded-full" src="/static/images/logo.png"/> 
+                <h1 class="font-bold text-3xl text-gray-900">SIGNUP</h1>
                 </div>
-                <div>
+                <div class="mt-2">
+<div >
+    <label class="inline-flex w-1/2 px-3 mb-5">
+        <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="personal"/>
+      <span class="ml-2 block text-gray-700">Clients</span>
+    </label>
+    <label class="inline-flex w-1/2 px-3 mb-5">
+      <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="busines"/>
+      <span class="ml-2 block text-gray-700">Drone Operator</span>
+    </label>
+  </div>
                     <div class="flex -mx-3">
                         <div class="w-1/2 px-3 mb-5">
                         <label class="block text-gray-700">First name</label>
@@ -64,7 +73,7 @@ function Signup(){
                     </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">REGISTER NOW</button>
+                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
                         </div>
                     </div>
               </div>

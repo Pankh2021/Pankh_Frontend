@@ -28,5 +28,6 @@ module.exports = {
     },
     plugins: [
       require('tailwindcss-blend-mode'),
+      require('@tailwindcss/custom-forms')
     ],
 }
