@@ -16,7 +16,7 @@ function Location(){
             <span class="block">
                 Search Drones by city
             </span>
-            <span class="block text-indigo-500">
+            <span class="block dark:text-white">
                 Drones across India
             </span>
         </h2>

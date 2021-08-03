@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Signup(){
 
@@ -63,7 +64,7 @@ function Signup(){
                         </div>
                     </div>
                     <div class="flex -mx-3">
-                        <div class="w-full px-3 mb-12">
+                        <div class="w-full px-3 mb-5">
                             <label for="" class="block text-gray-700">Password</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
@@ -71,6 +72,13 @@ function Signup(){
                             </div>
                         </div>
                     </div>
+                    <div class="text-right mb-5">
+                    <p class="">Already have an account?
+       <Link href='/'>
+      <a class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Signin</a>
+      </Link> 
+      </p>
+        </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
                             <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
