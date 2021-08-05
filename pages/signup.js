@@ -1,7 +1,37 @@
 import React from 'react';
 import Link from 'next/link';
+import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { useAuth } from '../firebase/authuserprovider';
 
-function Signup(){
+const Signup =() => {
+
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [firstname, setFirstname] = useState("");
+  const [lastname, setLastname] = useState("");
+  const router = useRouter();
+  const [error, setError] = useState(null);
+
+  const { createUserWithEmailAndPassword } = useAuth();
+
+  const onSubmit = event => {
+    setError(null)
+    //check if passwords match. If they do, create user in Firebase
+    // and redirect to your logged in page.
+      createUserWithEmailAndPassword(email, password)
+      .then(authUser => {
+        console.log("Success. The user is created in Firebase")
+        router.push("/signin");
+      })
+      .catch(error => {
+        // An error occurred. Set error message to be displayed to user
+        setError(error.message)
+      });
+    event.preventDefault();
+  };
+
 
     return(
         <>
@@ -28,7 +58,8 @@ function Signup(){
                 <h1 class="font-bold text-3xl text-gray-900">Sign Up</h1>
                 <p>Enter your information to signup</p>
                 </div>
-                <div class="mt-2">
+                <form class="mt-2" onSubmit={onSubmit}>
+                { error && <Alert color="danger">{error}</Alert>}
 <div >
     <label class="inline-flex w-1/2 px-3 mb-5">
         <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="personal"/>
@@ -44,14 +75,18 @@ function Signup(){
                         <label class="block text-gray-700">First name</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="John" required/>
+                                <input type="text" value={firstname} 
+                                onChange={(event) => setFirstname(event.target.value)}
+                  name="firstname" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="John" required/>
                             </div>
                         </div>
                         <div class="w-1/2 px-3 mb-5">
                             <label for="" class="block text-gray-700">Last name</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Smith" required/>
+                                <input type="text" value={lastname} 
+                                onChange={(event) => setLastname(event.target.value)}
+                  name="lastname" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Smith" required/>
                             </div>
                         </div>
                     </div>
@@ -60,7 +95,9 @@ function Signup(){
                             <label for="" class="block text-gray-700">Email</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                                <input type="email" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" required/>
+                                <input type="email" value={email} 
+                                onChange={(event) => setEmail(event.target.value)}
+                  name="email" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" required/>
                             </div>
                         </div>
                     </div>
@@ -69,7 +106,9 @@ function Signup(){
                             <label for="" class="block text-gray-700">Password</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                                <input type="password" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" required/>
+                                <input type="password" name="password"
+                  value={password}
+                  onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" required/>
                             </div>
                         </div>
                     </div>
@@ -85,7 +124,7 @@ function Signup(){
                             <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-900 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
                         </div>
                     </div>
-              </div>
+              </form>
 
 </div>
 

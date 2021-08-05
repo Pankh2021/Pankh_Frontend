@@ -6,27 +6,16 @@ import { useState, useEffect } from "react";
 import 'tailwindcss/tailwind.css'
 import '../styles/index.css';
 import '../styles/swiper.css';
-import firebase from "../firebase/firebase";
-import { Spin } from "antd";
+import { AuthUserProvider } from '../firebase/authuserprovider';
 
 function MyApp({ Component, pageProps }) {
 
-  const [firebaseInitialized, setFirebaseInitialized] = useState(false);
-
-  useEffect(async () => {
-    await firebase.isInitialized();
-    setFirebaseInitialized(true);
-  }, []);
-
     return (
      <>
-      {!firebaseInitialized ? (
-        <div className="fullscreenflexmiddle">
-          <Spin />
-        </div>
-      ) : (
-        <Component {...pageProps} />
-      )}
+     <AuthUserProvider>
+      <Component {...pageProps} />
+     </AuthUserProvider>
+      
     </>
     )
   }

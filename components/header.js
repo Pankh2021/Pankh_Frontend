@@ -29,31 +29,31 @@ return (
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Brand
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Category
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Application
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Payload
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Endurance
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
                
