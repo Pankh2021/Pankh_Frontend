@@ -17,7 +17,7 @@ function Nav() {
 
   useEffect(() => {
     if (!loading && !authUser)
-      router.push('/Index')
+      router.push('/')
   }, [authUser, loading])
 
   const [isOpen, setIsOpen] = useState(false);
