@@ -1,10 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from 'next/link'
 import { Transition } from "@headlessui/react";
 import 'tailwindcss/tailwind.css'
-import SearchOutlined from '@ant-design/icons'
+import { useRouter } from 'next/router';
+import { useAuth } from '../firebase/authuserprovider';
 
 function Nav() {
+
+  const { authUser, loading ,signOut} = useAuth();
+  const router = useRouter();
+
+  async function signup(){
+    
+    router.push('/signup')
+  }
+
+  useEffect(() => {
+    if (!loading && !authUser)
+      router.push('/Index')
+  }, [authUser, loading])
+
   const [isOpen, setIsOpen] = useState(false);
   return (
 
@@ -69,9 +84,10 @@ function Nav() {
         <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
       </div>
 
-      <Link href="/signup" >
-      <button type="button" class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Hello! Login/Signup</button>
-      </Link>
+      
+      {!authUser && <button type="button" onClick={signup} class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Hello! Login/Signup</button>}
+      
+      {authUser && <button type="button" onClick={signOut} class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Logout</button>}
     </div>
   </div>
 </nav>
