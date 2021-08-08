@@ -25,10 +25,11 @@ function Slide(){
 }} pagination={{
   "clickable": true
 }} navigation={true} className="mySwiper">
+
   <SwiperSlide>
-  <div class="container mx-auto h-84 relative">
+  <div class="w-full bg-cover bg-center relative">
   <img src={'/static/images/1.png'} alt="" class="w-full h-96  "/>
-  <button class="bg-white absolute bottom-32 left-7 rounded-lg p-4">See all drones</button>
+  <button class="bg-white absolute bottom-32 left-7 rounded-lg p-3">See all drones</button>
 </div>
 
   </SwiperSlide>
