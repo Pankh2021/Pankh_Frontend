@@ -17,7 +17,7 @@ function Nav() {
 
   useEffect(() => {
     if (!loading && !authUser)
-      router.push('/Index')
+      router.push('/')
   }, [authUser, loading])
 
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +57,7 @@ function Nav() {
       <div class="flex md:hidden">
         <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
           <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-            <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+            <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
           </svg>
         </button>
       </div>
@@ -68,7 +68,7 @@ function Nav() {
     <div class="relative text-gray-600 focus-within:text-gray-400">
       <span class="absolute inset-y-0 left-0 flex items-center pl-2">
         <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
         </button>
       </span>
       <input type="search" name='q' class="py-4 ml-10 mr-20 w-full text-sm text-white bg-gray-200  pl-10 focus:outline-none focus:text-gray-900" placeholder="Search by brand,category, application, etc...."  />

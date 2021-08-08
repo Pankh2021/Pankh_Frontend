@@ -1,4 +1,3 @@
-import React from 'react';
 import Client from '../components/clients';
 import Faq from '../components/faq';
 import Footer from '../components/footer';
