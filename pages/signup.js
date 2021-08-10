@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { Alert } from 'antd';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../firebase/authuserprovider';
@@ -23,7 +24,9 @@ const Signup =() => {
       createUserWithEmailAndPassword(email, password)
       .then(authUser => {
         console.log("Success. The user is created in Firebase")
-        router.push("/signin");
+        authUser.user.sendEmailVerification();
+        <Alert message='Email Sent' type='info' ></Alert>
+      
       })
       .catch(error => {
         // An error occurred. Set error message to be displayed to user
@@ -59,7 +62,7 @@ const Signup =() => {
                 <p>Enter your information to signup</p>
                 </div>
                 <form class="mt-2" onSubmit={onSubmit}>
-                { error && <Alert color="danger">{error}</Alert>}
+                { error && <Alert type='error'>{error}</Alert>}
 <div >
     <label class="inline-flex w-1/2 px-3 mb-5">
         <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="personal"/>
