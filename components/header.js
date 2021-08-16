@@ -36,7 +36,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <div className="text-3 text-sm font-sans font-medium text-white">SEE ALL DRONES</div>
+          <button className="text-3 text-sm font-sans font-medium text-white">SEE ALL DRONES</button>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <div className="text-3 text-sm font-sans font-medium text-white">DISCUSS REQUIREMENT</div>
+          <button className="text-3 text-sm font-sans font-medium text-white">DISCUSS REQUIREMENT</button>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <div className="text-3 text-sm font-sans font-medium text-white">REGISTER AS A DRONE PILOT</div>
+          <button className="text-3 text-sm font-sans font-medium text-white">REGISTER AS A DRONE PILOT</button>
         </div>
       </div>
     </div>
