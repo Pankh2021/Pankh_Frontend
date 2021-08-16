@@ -21,78 +21,68 @@ return (
                     </a>
                   </div>
                 </div>
-                <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
+                <div class="flex flex-wrap flex-grow mt-20 -mb-10 text-left md:pl-20 md:mt-10 ">
                   <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Product </h1>
+                    <h1 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> Services </h1>
                     <nav class="mb-10 space-y-4 list-none">
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by brands</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> Buy Drones </a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by category</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> Rent Drones</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones by application</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drone Pilot</a>
                       </li>
                     </nav>
                   </div>
                   <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Services </h1>
+                    <h1 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> Information </h1>
                     <nav class="mb-10 space-y-4 list-none">
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Utilities</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">FAQ</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Agriculture</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> Blogs</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Survey & Mapping</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Support</a>
                       </li>
-                      <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Recreation</a>
-                      </li>
-                      <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Drones for Security & Surveillance</a>
-                      </li>
+                    
                     </nav>
                   </div>
 
                   <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Company </h1>
+                    <h1 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> Company </h1>
                     <nav class="mb-10 space-y-4 list-none">
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">About Us</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">About Us</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Careers</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Careers</a>
                       </li>
                       <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Blog</a>
-                      </li>
-                      <li>
-                        <a class="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Contact Us</a>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Contact Us</a>
                       </li>
                     </nav>
                   </div>
                   <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h1 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"> Get updates </h1>
-                    <nav class="mb-10">
-                    <form class="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center">
-                <div class=" relative ">
-                    <input type="text" id="&quot;form-subscribe-Subscribe" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Email"/>
-                    </div>
-                    <button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200" type="submit">
-                        Subscribe
-                    </button>
-                </form>
+                    <h1 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> Contact Us </h1>
+                    <nav class="mb-10 space-y-4 list-none">
+                    <li>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">lorem@pankh.tech</a>
+                      </li>
 
+                      <li>
+                        <a class="mr-1 text-sm font-medium text-blue-500 transition duration-500 ease-in-out transform rounded-sm focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">123 Main Street <br/> New York, NT 10094 </a>
+                      </li>
                     </nav>
                   </div>
                 </div>
               </div>
-              <div class="w-full px-8 mt-4 rounded-b-lg bg-blueGray-50">
+              <div class="w-full px-8 mt-3 rounded-b-lg bg-blueGray-50">
                 <div class="container flex flex-col flex-wrap px-5 py-6 mx-auto sm:flex-row">
-                  <p class="text-sm text-center text-black sm:text-left ">© 2021 </p>
+                  <p class="text-sm text-center text-blue-500 sm:text-left ">© 2021 </p>
                   <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                     <a class="text-blue-500 hover:text-black">
                       <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" class="w-5 h-5" viewBox="0 0 24 24">

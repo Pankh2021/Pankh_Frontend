@@ -1,0 +1,191 @@
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --colour-1: 
+rgba(22, 135, 167, 1);
+  --cloud-burst: 
+rgba(38, 47, 86, 1);
+  --onyx: 
+rgba(58, 58, 58, 1);
+  --storm-dust: 
+rgba(96, 96, 96, 1);
+  --monsoon: 
+rgba(137, 137, 137, 1);
+  --geyser: 
+rgba(211, 224, 234, 1);
+  --iron: 
+rgba(216, 216, 216, 1);
+  --cultured-pearl: 
+rgba(246, 245, 245, 1);
+  --white-2: 
+rgba(255, 255, 255, 0.722);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 34px;
+  --font-size-xxxl: 48px;
+
+  --font-family-circular_std-book: "Circular Std-Book";
+  --font-family-circular_std-medium: "Circular Std-Medium";
+}
+
+
+.circularstd-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.border-1px-geyser {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--geyser);
+}
+
+.circularstd-medium-steel-blue-16px {
+  color: var(--colour-1);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-book-normal-monsoon-16px {
+  color: var(--monsoon);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.border-1-8px-cloud-burst {
+  border-width: 1.8px;
+  border-style: solid;
+  border-color: var(--cloud-burst);
+}
+
+.circularstd-medium-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-book-normal-onyx-18px {
+  color: var(--onyx);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circularstd-book-normal-monsoon-18px {
+  color: var(--monsoon);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.border-1px-colour-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--colour-1);
+}
+
+.circularstd-medium-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-book-normal-steel-blue-14px {
+  color: var(--colour-1);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circularstd-book-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circularstd-book-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circularstd-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-medium-onyx-20px {
+  color: var(--onyx);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.circularstd-medium-onyx-16px {
+  color: var(--onyx);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.border-1px-iron {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--iron);
+}
+
+.circularstd-book-normal-black-34px {
+  color: var(--black);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circularstd-book-normal-storm-dust-14px {
+  color: var(--storm-dust);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+

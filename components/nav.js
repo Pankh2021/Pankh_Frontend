@@ -35,56 +35,86 @@ function Nav() {
         </a>
       </div>
 
-      <div class="dropdown inline-block relative">
-    <button class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0 inline-flex">
-      <span class="">Search city</span>
-      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-    </button>
-    <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-      <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-      <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
-      <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
-    </ul>
-    </div>
+<div class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1">
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                  Buy
+                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </a>
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                  Rent
+                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </a>
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                  Drone Pilot
+                
+                </a>
+                </div>
 
 
-  
-      <div class="flex md:hidden">
-        <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
-          <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-            <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-          </svg>
-        </button>
+
+    <div className="searchbar">
+      <div className="overlap-group border-1px-geyser">
+        <span
+          className="ellipse"
+        >
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.6667 14.6667L10.5802 10.5802M10.5802 10.5802C11.5604 9.59998 12.1667 8.24581 12.1667 6.75004C12.1667 3.7585 9.74154 1.33337 6.75 1.33337C3.75846 1.33337 1.33334 3.7585 1.33334 6.75004C1.33334 9.74158 3.75846 12.1667 6.75 12.1667C8.24577 12.1667 9.59994 11.5604 10.5802 10.5802Z" stroke="#333333" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </span>
+        <input className="placeholder-i118929 w-full focus:outline-none"
+          type="search" placeholder="Search by brand, category, application"/>
       </div>
+      <style jsx>{`
+      .searchbar {
+        align-items: flex-start;
+        display: flex;
+        min-width: 475px;
+      }
+      
+      .overlap-group {
+        align-items: flex-start;
+        background-color: var(--white);
+        display: flex;
+        height: 48px;
+        min-width: 473px;
+        padding: 13px 17.0px;
+      }
+      
+      .ellipse {
+        height: 16px;
+        margin-top: 1.0px;
+        width: 16px;
+      }
+      
+      .placeholder-i118929 {
+        letter-spacing: 0.25px;
+        margin-left: 14px;
+        min-height: 18px;
+      }
+      
+      @font-face {
+        font-family: "Circular Std-Book";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
+      }
+      `} </style>
     </div>
 
-  <div class="flex items-center justify-center bg-gray-200">
-  <form >
-    <div class="relative text-gray-600 focus-within:text-gray-400">
-      <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-        <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </button>
-      </span>
-      <input type="search" name='q' class="py-4 ml-10 mr-20 w-full text-sm text-white bg-gray-200  pl-10 focus:outline-none focus:text-gray-900" placeholder="Search by brand,category, application, etc...."  />
-    </div>
-  </form>
-</div>
-    
-    <div class="md:flex items-center">
-      <div class="flex flex-col md:flex-row md:mx-6">
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Buy Drones</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Rent Drones</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">Blog</a>
-        <a class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0" href="#">More</a>
-      </div>
 
       
-      {!authUser && <Link href='/signup' ><button type="button" class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Hello! Login/Signup</button></Link>}
+      { !authUser && <Link href='/signup' ><Frame2>Register/Sign In</Frame2></Link> }
       
-      {authUser && <button type="button" class="btn-outline-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border border-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white font-normal py-2 px-4 rounded">Logout</button>}
-    </div>
-  </div>
+      {authUser && <Frame2>Logout</Frame2> }
+      </div>
+      </div>
+      
+
 </nav>
 
 
@@ -95,3 +125,40 @@ function Nav() {
 }
 
 export default Nav;
+
+
+function Frame2(props) {
+  const { children } = props;
+
+  return (
+    <div className="frame-2">
+      <button className="text-1 text-sm font-sans font-medium text-white">{children}</button>
+      <style jsx>{`
+      .frame-2 {
+        align-items: center;
+        background-color: var(--colour-1);
+        display: flex;
+        height: 48px;
+        justify-content: flex-end;
+        min-width: 185px;
+        padding: 0 30px;
+        margin-left: 80px;
+      }
+      
+      .text-1 {
+        align-items: center;
+        letter-spacing: 0.25px;
+        min-height: 20px;
+        min-width: 123px;
+      }
+      
+      @font-face {
+        font-family: "Circular Std-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://fonts.animaapp.com/CircularStd-Medium") format("opentype");
+      }
+      `} </style>
+    </div>
+  );
+}

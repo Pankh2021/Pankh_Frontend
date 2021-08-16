@@ -1,70 +1,53 @@
 import React, { useRef, useState } from "react";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css"
+import "swiper/components/navigation/navigation.min.css"
+
+
+import SwiperCore, {
+  Autoplay,Pagination,Navigation
+} from 'swiper/core';
+
+SwiperCore.use([Autoplay,Pagination,Navigation]);
+
 
 function Header() {
 
 return (
 <>
 
+<Swiper spaceBetween={30} centeredSlides={true} autoplay={{
+  "delay": 2500,
+  "disableOnInteraction": false
+}} pagination={{
+  "clickable": true
+}} navigation={true} className="mySwiper">
 
-<header>
-    <nav class="bg-white shadow">
-        <div class="container mx-auto px-6 py-3 ">
-            <div class="md:flex md:items-center md:justify-between">
-                <div class="flex justify-between items-center">
-                    <div class="text-xl font-semibold text-gray-700">
-                        <a href="#" class="text-gray-800 text-xl font-medium hover:text-gray-700 md:text-xl">Explore by</a>
-                    </div>
+  <SwiperSlide>
+  <div class="w-full bg-cover bg-center relative">
+  <img src={'/static/images/1.png'} alt="" class="w-full h-96  "/>
+  <button class="bg-white absolute bottom-32 left-7 rounded-lg p-3">See all drones</button>
+</div>
 
-                
-                    <div class="flex md:hidden">
-                        <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
-                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                                <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-                            </svg>
-                        </button>
-                    </div>
-
-                <div class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1">
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
-                  Brand
-                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
-                  Category
-                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
-                  Application
-                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
-                  Payload
-                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
-                  Endurance
-                  <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </a>
-               
-              </div>
-              </div>
-
+  </SwiperSlide>
+  <SwiperSlide>
+    <div class='w-full bg-cover bg-center' >
+    <img src={'/static/images/2.jpg'} />
+    <button class="bg-white absolute bottom-6 left-5 rounded-lg p-4">Type your Requirements</button>
+    </div> 
+  </SwiperSlide>
+  <SwiperSlide>
+    <div class='w-full bg-cover bg-center' >
+    <img src={'/static/images/3.jpg'} />
+    <button class="bg-white absolute bottom-32 left-5 rounded-lg p-4">Register if you are a Drone pilot</button>
     </div>
-    </div>
-    </nav>
+  </SwiperSlide>
+  </Swiper>
 
-</header>
+
 
 </>
 );
@@ -72,3 +55,20 @@ return (
 
 
 export default Header;
+
+function Rectangle51() {
+  return <div className="rectangle-51">
+    <style jsx>{`
+          .rectangle-51 {
+            background-color: var(--cultured-pearl);
+            height: 590px;
+            left: 2492px;
+            position: absolute;
+            top: 0;
+            width: 964px;
+          }
+    `} </style>
+  </div>;
+}
+
+

@@ -2,6 +2,8 @@ import { createContext, useContext, Context } from 'react'
 import useFirebaseAuth from './userauth';
 
 const authUserContext = createContext({
+  userDataPresent: false,
+  user: null,
   authUser: null,
   loading: true,
   signInWithEmailAndPassword: async () => {},

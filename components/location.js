@@ -1,146 +1,107 @@
 import React from 'react';
 
-
 function Location(){
-
     return (
         <>
-
-<div class="flex flex-col m-auto p-auto bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
-
-      <div
-        class="flex overflow-x-scroll pt-20 pb-10 hide-scroll-bar"
-      >
-<div class="text-start mx-15 py-12 px-4 sm:px-6 lg:py-8 lg:px-9 z-20">
-        <h2 class="text-3xl truncate font-extrabold text-black dark:text-white sm:text-4xl">
-            <span class="block">
-                Search Drones by city
-            </span>
-            <span class="block dark:text-white">
-                Drones across India
-            </span>
-        </h2>
-    </div>
-
-       
-
-
-
-        <div
-          class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 "
-          >
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            >
-
-<div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/victoria-memorial.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Kolkata</h2>
-</div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-              >
-
-<div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/gateway-of-india.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Delhi</h2>
-</div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-              >
-              <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-          <img src="/static/images/hawa-mahal.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Jaipur</h2>
-          </div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            >
-              <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/tajmahal.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Agra</h2>
-        </div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-              >
-              <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/surat-municipal-corporation.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Surat</h2>
-</div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            >
-              <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/bara-imambara.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Luckhnow</h2>
-</div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-              >
-              <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
-				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-					<img src="/static/images/chennai.png"
-						 alt=""
-						 class="h-full w-full"/>
-				</div>
-                <h2 class="mt-4 font-bold text-xl">Chennai</h2>
-</div>
-            </div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
-          </div>
-        </div>
+<div className='location justify-center p-10 items-center bg-white'>
+<h1 className="text-center text-4xl bg-white p-10 justify-between font-sans text-black">Search Drones by City</h1>
+<div className="group-38 ">
+      <div className="group-33">
+        <Group29 src="/static/assets(png)/image-12.png" />
+        <div className="text-lg font-medium mt-2 text-black">City Name</div>
       </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(png)/image-12.png" />
+        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(png)/image-12.png" />
+        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(png)/image-12.png" />
+        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(png)/image-12.png" />
+        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+      </div>
+      <style jsx>{`
+   
+      .group-38 {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        height: 188px;
+        min-width: 920px;
+      }
+      
+      .group-33 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 188px;
+        position: relative;
+        width: 162px;
+      }
+      
+      .text {
+        letter-spacing: 0.25px;
+        margin-top: 8px;
+        min-height: 20px;
+        min-width: 82px;
+      }
+
+      .group-3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+        min-height: 188px;
+        position: relative;
+        width: 162px;
+      }
+
+      @font-face {
+        font-family: "Circular Std-Book";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
+      }
+      `} </style>
+</div>
 </div>
 
-        </>
+</>
     )
 }
 
-
 export default Location;
+
+function Group29(props) {
+    const { src } = props;
+  
+    return (
+      <div className="group border-1px-geyser">
+        <img className="image-12" src={src} />
+    <style jsx>{`
+       .group {
+        align-items: flex-start;
+        background-color: var(--white);
+        display: flex;
+        height: 160px;
+        margin-right: 2.0px;
+        min-width: 160px;
+        padding: 4.0px 12.0px;
+      }
+
+      .image-12 {
+        height: 134px;
+        object-fit: cover;
+        width: 134px;
+      }
+      
+    `}</style>
+      </div>
+    );
+  }
