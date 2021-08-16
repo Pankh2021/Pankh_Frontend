@@ -21,7 +21,7 @@ function Group27(props) {
     const { text8, text21, group23Props, group232Props, group233Props, group234Props } = props;
   
     return (
-    <div className="bg-white p-20">
+    <div className="bg-white p-10">
       <div className="group-27">
         <div className="flex-col">
           <h1 className="text-1 text-3xl font-sans font-medium text-black-900">{text8}</h1>
@@ -87,7 +87,7 @@ function Group27(props) {
             justify-content: center;
             display: flex;
             height: 321px;
-            min-width: 1240px;
+            min-width: 1480px;
             
           }
           

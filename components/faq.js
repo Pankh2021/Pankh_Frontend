@@ -3,52 +3,81 @@ import {loadTimelineData} from 'anima-timeline';
 
 function Faq() {
   return (
-    <FAQS2
-      text120=" Frequently Asked Questions"
-      text123="Who can fly drones and is there any rules and regulations for it?"
-      property1AnswerProps={fAQS2Data.property1AnswerProps}
-    />
-  );
-}
-
-export default Faq;
-
-function FAQS2(props) {
-  const { text120, text123, property1AnswerProps } = props;
-
-  return (
     <div className="faqs">
-      <h1 className="text-1 circularstd-book-normal-black-34px">{text120}</h1>
-      <Property1Answer text34={property1AnswerProps.text34} text35={property1AnswerProps.text35} />
-      
-      {/* <div className="group-41">
-        <div className="overlap-group border-1px-geyser">
-          <div className="text-4 circularstd-medium-black-20px">{text123}</div>
-          <div className="plus-circle">
-            <div className="overlap-group1">
-              <img
-                className="vector"
-                src="vector-5.svg"
-              />
-              <img
-                className="vector-1"
-                src="vector-6.svg"
-              />
-            </div>
-          </div>
+      <h1 className="text-1 text-4xl bg-white  justify-between font-sans text-black"> Frequently Asked Questions</h1>
+      <div className="i951300-921018 componentcomponent-wrappernot-ready">
+        <div className="rectangle-53-x0xZ4Z"></div>
+        <div className="text-2-x0xZ4Z">What are the Drones and their different categories?</div>
+        <div className="plus-circle-x0xZ4Z">
+          <span
+            className="vector-eAO0UP"
+          >
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 28.3333C22.3638 28.3333 28.3333 22.3638 28.3333 15C28.3333 7.63616 22.3638 1.66663 15 1.66663C7.63619 1.66663 1.66666 7.63616 1.66666 15C1.66666 22.3638 7.63619 28.3333 15 28.3333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
+          <span
+            className="vector-CGDFiQ"
+          >
+          <svg width="2" height="14" viewBox="0 0 2 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.66663V12.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
+          <span
+            className="vector-q2vIll"
+          
+          >
+         <svg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.66666 1H12.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
         </div>
-      </div> */}
+      </div>
+
+      <div className="i951300-921018 componentcomponent-wrappernot-ready mt-4">
+        <div className="rectangle-53-x0xZ4Z"></div>
+        <div className="text-2-x0xZ4Z">What are the Drones and their different categories?</div>
+        <div className="plus-circle-x0xZ4Z">
+          <span
+            className="vector-eAO0UP"
+          >
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 28.3333C22.3638 28.3333 28.3333 22.3638 28.3333 15C28.3333 7.63616 22.3638 1.66663 15 1.66663C7.63619 1.66663 1.66666 7.63616 1.66666 15C1.66666 22.3638 7.63619 28.3333 15 28.3333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
+          <span
+            className="vector-CGDFiQ"
+          >
+          <svg width="2" height="14" viewBox="0 0 2 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.66663V12.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
+          <span
+            className="vector-q2vIll"
+          
+          >
+         <svg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.66666 1H12.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </span>
+        </div>
+      </div>
+      
       <style jsx>{`
       .faqs {
         align-items: center;
-        justify-content: center;
         background-color: var(--white);
         display: flex;
         flex-direction: column;
-        height: 691px;
+        height: 431px;
         padding: 80px 203px;
-        position: relative;
-        
+        width: 1560px;
       }
       
       .text-1 {
@@ -57,6 +86,77 @@ function FAQS2(props) {
         min-height: 43px;
         text-align: center;
         width: 642px;
+      }
+      
+      .i951300-921018 {
+        height: 80px;
+        margin-top: 40px;
+        opacity: 1;
+        position: relative;
+        width: 1030px;
+      }
+      
+      .rectangle-53-x0xZ4Z {
+        background-color: 
+      #ffffff;
+        border: 1px solid 
+      #d3e0ea;
+        height: 80px;
+        left: 0;
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        width: 1030px;
+      }
+      
+      .text-2-x0xZ4Z {
+        color: 
+      #000000;
+        font-family: 'Circular Std-Medium', Helvetica;
+        font-size: 20px;
+        font-weight: 500;
+        left: 60px;
+        letter-spacing: 0.15px;
+        opacity: 1;
+        position: absolute;
+        top: 28px;
+      }
+      
+      .plus-circle-x0xZ4Z {
+        height: 32px;
+        left: 938px;
+        opacity: 1;
+        overflow: hidden;
+        position: absolute;
+        top: 24px;
+        width: 32px;
+      }
+      
+      .vector-eAO0UP {
+        height: 30px;
+        left: 1px;
+        opacity: 1;
+        position: absolute;
+        top: 1px;
+        width: 30px;
+      }
+      
+      .vector-CGDFiQ {
+        height: 14px;
+        left: 15px;
+        opacity: 1;
+        position: absolute;
+        top: 9px;
+        width: 2px;
+      }
+      
+      .vector-q2vIll {
+        height: 2px;
+        left: 9px;
+        opacity: 1;
+        position: absolute;
+        top: 15px;
+        width: 14px;
       }
       
       .group-41 {
@@ -76,7 +176,7 @@ function FAQS2(props) {
         padding: 23px 59px;
       }
       
-      .text-4 {
+      .text-3 {
         align-self: center;
         letter-spacing: 0.15px;
         margin-bottom: 1.0px;
@@ -94,7 +194,7 @@ function FAQS2(props) {
       }
       
       .overlap-group1 {
-        background-image: url();
+        background-image: url(vector-16.svg);
         background-size: 100% 100%;
         height: 30px;
         margin-left: 1px;
@@ -115,144 +215,6 @@ function FAQS2(props) {
         left: 8px;
         position: absolute;
         top: 14px;
-        width: 14px;
-      }
-      
-      
-      `} </style>
-    </div>
-  );
-}
-
-
-function Property1Answer(props) {
-  const { text34, text35 } = props;
-
-  useEffect(() => {
-    loadTimelineData(x1201166TimelineData);
-  }, []);
-
-  return (
-    <div className="x1201166 componentcomponent-wrappernot-ready">
-      <div className="group-44-ydV4lV">
-        <div className="rectangle-53-Ozyyij"></div>
-        <div className="text-2-Ozyyij">{text34}</div>
-      </div>
-      <div className="group-45-ydV4lV">
-        <div className="rectangle-54-5JrTPp"></div>
-        <div className="text-3-5JrTPp">{text35}</div>
-        <div className="plus-circle-5JrTPp">
-          <img className="vector-fRTMhd" src="" />
-          <img
-            className="vector-zBduk9"
-            src="vector-6.svg"
-          />
-        </div>
-      </div>
-      <style jsx>{`
-      .x1201166 {
-        height: 340px;
-        margin-top: 40px;
-        opacity: 1;
-        position: relative;
-        width: 1030px;
-      }
-      
-      .group-44-ydV4lV {
-        height: 252px;
-        left: 0;
-        opacity: 1;
-        position: absolute;
-        top: 88px;
-        width: 1032px;
-      }
-      
-      .rectangle-53-Ozyyij {
-        background-color: 
-      #1687a7;
-        border: 1px solid 
-      #d3e0ea;
-        height: 252px;
-        left: 0;
-        opacity: 1;
-        position: absolute;
-        top: 0;
-        width: 1030px;
-      }
-      
-      .text-2-Ozyyij {
-        color: 
-      #ffffff;
-        font-family: 'Circular Std-Book', Helvetica;
-        font-size: 18px;
-        left: 60px;
-        letter-spacing: 0.15px;
-        opacity: 1;
-        position: absolute;
-        top: 28px;
-        width: 912px;
-      }
-      
-      .group-45-ydV4lV {
-        height: 80px;
-        left: 0;
-        opacity: 1;
-        position: absolute;
-        top: 0;
-        width: 1032px;
-      }
-      
-      .rectangle-54-5JrTPp {
-        background-color: 
-      #ffffff;
-        border: 1px solid 
-      #d3e0ea;
-        height: 80px;
-        left: 0;
-        opacity: 1;
-        position: absolute;
-        top: 0;
-        width: 1030px;
-      }
-      
-      .text-3-5JrTPp {
-        color: 
-      #000000;
-        font-family: 'Circular Std-Medium', Helvetica;
-        font-size: 20px;
-        font-weight: 500;
-        left: 60px;
-        letter-spacing: 0.15px;
-        opacity: 1;
-        position: absolute;
-        top: 28px;
-      }
-      
-      .plus-circle-5JrTPp {
-        height: 32px;
-        left: 938px;
-        opacity: 1;
-        overflow: hidden;
-        position: absolute;
-        top: 24px;
-        width: 32px;
-      }
-      
-      .vector-fRTMhd {
-        height: 30px;
-        left: 1px;
-        opacity: 1;
-        position: absolute;
-        top: 1px;
-        width: 30px;
-      }
-      
-      .vector-zBduk9 {
-        height: 2px;
-        left: 9px;
-        opacity: 1;
-        position: absolute;
-        top: 15px;
         width: 14px;
       }
       
@@ -307,32 +269,5 @@ function Property1Answer(props) {
   );
 }
 
-const x1201166TimelineData = [
-  {
-    initial_state_name: "Property-1=Answer",
-    root_element: ".x1201166",
-    states_flow: {
-      "Property-1=Answer": {
-        listeners: [],
-        overrides: {},
-      },
-      "Property-1=Default": {
-        listeners: [],
-        overrides: {},
-      },
-      "Property-1=Hover": {
-        listeners: [],
-        overrides: {},
-      },
-    },
-  },
-];
+export default Faq;
 
-const property1AnswerData = {
-    text34: <>Drones are unmanned aerial vehicles which could be automated or command controlled by drone pilots to carry out aerial flights for varying needs. Drones are categorized by Ministry of Civil Aviation in 5 different categories depending on their maximum all –up weight which includes the weight of payloads as well:<br />Nana Drones: Weighing less than 250gm<br />Micro Drones: Weighing more than 250gm but less than 2.5kg<br />Small Drones: Weight greater than 2.5kg but less than 25kg<br />Medium Drones: Weight greater than 25kg but less than 150kg<br />Large Drone: Weight greater than 150kg</>,
-    text35: "What are the Drones and their different categories?",
-};
-
-const fAQS2Data = {
-    property1AnswerProps: property1AnswerData,
-};

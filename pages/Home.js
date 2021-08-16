@@ -7,7 +7,7 @@ import Daas from '../components/daas';
 import Location from '../components/location';
 import Registerpilot from '../components/registerpilot';
 import Drones from '../components/drones';
-import Footer from '../components/footer';
+import Footerr from '../components/footer';
 
 const Home = () => 
   <div>
@@ -20,7 +20,7 @@ const Home = () =>
     <Registerpilot></Registerpilot>
     <Client></Client>
     <Faq></Faq>
-    <Footer></Footer>
+    <Footerr></Footerr>
   </div> 
 ;
 

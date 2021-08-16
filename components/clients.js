@@ -6,42 +6,105 @@ function Client(){
     return(
         <>
 
-<section class="mx-auto bg-white">
-            <div class="container px-5 mx-auto lg:px-24 lg:py-20">
-              <div class="flex flex-col w-full mb-12 text-center">
-              <h2 class="mb-4 text-2xl font-2xl tracking-widest text-black uppercase title-font"> Our Clients
-                </h2>
-                <div class="container" >
-                <hr class="hr-text" data-content="AND"/>
-                </div>
-              </div>
-              <div class="grid grid-cols-3 gap-16 text-center lg:grid-cols-6">
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/Amplus.jpg" } alt="Todoist Logo"  />
-                </div>
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/KEC.png"} alt="Slack Logo" />
-                </div>
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/afcons-logo.png" }alt="Typeform Logo" />
-                </div>
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/OIP.jpg"} alt="Algolia Logo" />
-                </div>
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/TUVSUD.jpg"} alt="Postcss Logo" />
-                </div>
-                <div class="flex items-center justify-center ">
-                  <img src={"/static/images/m2klogo.png"} alt="Postcss Logo" />
-                </div>
-              </div>
-            </div>
-          </section>
-        
+<div className="bg-white">
+<div className="group-43">
+      <h1 className="text-1 text-4xl bg-white  justify-between font-sans text-black">Our Clients</h1>
+      <div className="group-39">
+        <img
+          className="image-13"
+          src="/static/assets(png)/image-13.png"
+        />
+        <img
+          className="image-14"
+          src="/static/assets(png)/image-14.png"
+          />
+        <img
+          className="image-15"
+          src="/static/assets(png)/image-15.png"
+        />
+        <img
+          className="image-16"
+          src="/static/assets(png)/image-16.png"
+          />
+        <img
+          className="image-17"
+          src="/static/assets(png)/image-17.png"
+          />
+      </div>
 
-
-
-
+      <style jsx>{`
+      .group-43 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 256px;
+        width: 1580px;
+      }
+      
+      .text-1 {
+        letter-spacing: 0.25px;
+        margin-left: 2.0px;
+        min-height: 43px;
+        text-align: center;
+        width: 402px;
+      }
+      
+      .group-39 {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+        min-width: 1030px;
+      }
+      
+      .image-13 {
+        height: 173px;
+        object-fit: cover;
+        width: 136px;
+      }
+      
+      .image-14 {
+        height: 98px;
+        margin-left: 79px;
+        margin-top: 1.0px;
+        object-fit: cover;
+        width: 152px;
+      }
+      
+      .image-15 {
+        height: 34px;
+        margin-left: 79px;
+        margin-top: 1.0px;
+        object-fit: cover;
+        width: 126px;
+      }
+      
+      .image-16 {
+        height: 140px;
+        margin-left: 79px;
+        margin-top: 1.0px;
+        object-fit: cover;
+        width: 140px;
+      }
+      
+      .image-17 {
+        height: 142px;
+        margin-left: 79px;
+        margin-top: 1.0px;
+        object-fit: cover;
+        width: 158px;
+      }
+      
+      @font-face {
+        font-family: "Circular Std-Book";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
+      }
+      `} </style>
+    </div>
+  </div>
         </>
     )
 }

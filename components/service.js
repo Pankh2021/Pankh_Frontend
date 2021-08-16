@@ -2,8 +2,7 @@ import React from 'react';
 
 function Service() {
   return (
-    <div className="justify-between items-center p-20 h-full bg-white">
-     
+    <div className=" p-10 bg-white ">
      <div className="feature">
       <div className="group-5">
         <div className="trophy-1">
@@ -72,11 +71,12 @@ function Service() {
       </div>
       <style jsx>{`
       .feature {
-  align-items: flex-end;
+  
+  align-items: flex-start;
   justify-content: center;
   display: flex;
   min-width: 1240px;
-  
+  position: relative;
 }
 
 .group-5 {
@@ -195,8 +195,7 @@ function Service() {
       `}
       </style>
     </div>
-     
-</div>
+  </div>
   );
 }
 

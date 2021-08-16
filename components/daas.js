@@ -121,7 +121,7 @@ function Frame2(props) {
 }
 
 const frame2Data = {
-    children: "Connect with Us",
+    children: "Discuss Requirements",
 };
 
 const frame7Data = {

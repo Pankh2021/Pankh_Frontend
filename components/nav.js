@@ -20,22 +20,18 @@ function Nav() {
 
 <>
 
-<nav class="bg-white shadow">
+<nav class=" p-5 bg-white shadow">
   <div class="container mx-auto px-6 py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
-      <div>
-        <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#">
-        <div className="flex-shrink-0">
-          <img
-            style={{maxWidth: '40%' , height: 'auto'}}
-            src='https://photos.angel.co/startups/i/8408371-b4302661bffc9f14c75058c88d1cbf72-medium_jpg.jpg?buster=1625502223'
-                  
-          />
-        </div>
-        </a>
-      </div>
-
-<div class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1">
+    <div className="ml-32"> 
+<img
+style={{maxWidth: '60px' , height: '45px'}}
+src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
+/>
+</div>
+        <div class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1">
+        {/* <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#"> */}
+        
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
                   Buy
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -54,9 +50,7 @@ function Nav() {
                 </a>
                 </div>
 
-
-
-    <div className="searchbar">
+    <div className="searchbar ml-20">
       <div className="overlap-group border-1px-geyser">
         <span
           className="ellipse"
@@ -75,7 +69,7 @@ function Nav() {
         display: flex;
         min-width: 475px;
       }
-      
+  
       .overlap-group {
         align-items: flex-start;
         background-color: var(--white);
@@ -103,6 +97,8 @@ function Nav() {
         font-weight: 400;
         src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
       }
+      
+
       `} </style>
     </div>
 
