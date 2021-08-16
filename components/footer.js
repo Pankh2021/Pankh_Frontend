@@ -22,25 +22,25 @@ return (
               src="/static/assets(png)/pankh-blue-logo-2-1.png"
             />
             <div className="product">
-              <div className="product-i120117460 circularstd-medium-black-16px">Services</div>
+              <div className="product-i120117460  text-base font-sans-serif font-semibold text-black">Services</div>
               <div className="employee-database-i1 circularstd-book-normal-steel-blue-14px">Buy Drones</div>
               <div className="payroll-i120117460 circularstd-book-normal-steel-blue-14px">Rent Drones</div>
               <div className="absences-i12011746 circularstd-book-normal-steel-blue-14px">Drone Pilot</div>
             </div>
             <div className="information">
-              <div className="text-1 circularstd-medium-black-16px">Information</div>
+              <div className="text-1 text-base font-sans-serif font-semibold text-black">Information</div>
               <div className="faq-i12011746052 circularstd-book-normal-steel-blue-14px">FAQ</div>
               <div className="text-2 circularstd-book-normal-steel-blue-14px">Blog</div>
               <div className="text-3 circularstd-book-normal-steel-blue-14px">Support</div>
             </div>
             <div className="company">
-              <div className="text-4 circularstd-medium-black-16px">Company</div>
+              <div className="text-4 text-base font-sans-serif font-semibold text-black">Company</div>
               <div className="text-5 circularstd-book-normal-steel-blue-14px">About us</div>
               <div className="text-6 circularstd-book-normal-steel-blue-14px">Careers</div>
               <div className="text-7 circularstd-book-normal-steel-blue-14px">Contact us</div>
             </div>
             <div className="company-1">
-              <div className="company-i120117460 circularstd-medium-black-16px">Contact Us</div>
+              <div className="company-i120117460 text-base font-sans-serif font-semibold text-black">Contact Us</div>
               <div className="about-us-i12011746 circularstd-book-normal-steel-blue-14px">lorem@pankh.tech</div>
               <p className="careers-i120117460 circularstd-book-normal-steel-blue-14px">
                 123 Main Street, New York, NY 10030
@@ -184,6 +184,7 @@ return (
         letter-spacing: 0.25px;
         margin-top: 23px;
         min-height: 18px;
+        font-style: sans-serif;
       }
       
       .payroll-i120117460 {
@@ -237,6 +238,7 @@ return (
         flex-direction: column;
         margin-left: 132px;
         min-height: 127px;
+        margin-bottom: 10px;
         width: 85px;
       }
       
