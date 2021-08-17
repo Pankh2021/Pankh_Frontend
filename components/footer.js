@@ -23,35 +23,35 @@ return (
             />
             <div className="product">
               <div className="product-i120117460  text-base font-sans-serif font-semibold text-black">Services</div>
-              <div className="employee-database-i1 circularstd-book-normal-steel-blue-14px">Buy Drones</div>
-              <div className="payroll-i120117460 circularstd-book-normal-steel-blue-14px">Rent Drones</div>
-              <div className="absences-i12011746 circularstd-book-normal-steel-blue-14px">Drone Pilot</div>
+              <div className="employee-database-i1 text-sm font-sans-serif font-normal text-blue-500">Buy Drones</div>
+              <div className="payroll-i120117460 text-sm font-sans-serif font-normal text-blue-500">Rent Drones</div>
+              <div className="absences-i12011746 text-sm font-sans-serif font-normal text-blue-500">Drone Pilot</div>
             </div>
             <div className="information">
               <div className="text-1 text-base font-sans-serif font-semibold text-black">Information</div>
-              <div className="faq-i12011746052 circularstd-book-normal-steel-blue-14px">FAQ</div>
-              <div className="text-2 circularstd-book-normal-steel-blue-14px">Blog</div>
-              <div className="text-3 circularstd-book-normal-steel-blue-14px">Support</div>
+              <div className="faq-i12011746052 text-sm font-sans-serif font-normal text-blue-500">FAQ</div>
+              <div className="text-2 text-sm font-sans-serif font-normal text-blue-500">Blog</div>
+              <div className="text-3 text-sm font-sans-serif font-normal text-blue-500">Support</div>
             </div>
             <div className="company">
               <div className="text-4 text-base font-sans-serif font-semibold text-black">Company</div>
-              <div className="text-5 circularstd-book-normal-steel-blue-14px">About us</div>
-              <div className="text-6 circularstd-book-normal-steel-blue-14px">Careers</div>
-              <div className="text-7 circularstd-book-normal-steel-blue-14px">Contact us</div>
+              <div className="text-5 text-sm font-sans-serif font-normal text-blue-500">About us</div>
+              <div className="text-6 text-sm font-sans-serif font-normal text-blue-500">Careers</div>
+              <div className="text-7 text-sm font-sans-serif font-normal text-blue-500">Contact us</div>
             </div>
             <div className="company-1">
               <div className="company-i120117460 text-base font-sans-serif font-semibold text-black">Contact Us</div>
-              <div className="about-us-i12011746 circularstd-book-normal-steel-blue-14px">lorem@pankh.tech</div>
-              <p className="careers-i120117460 circularstd-book-normal-steel-blue-14px">
+              <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">lorem@pankh.tech</div>
+              <p className="careers-i120117460 text-sm font-sans-serif font-normal text-blue-500">
                 123 Main Street, New York, NY 10030
               </p>
             </div>
           </div>
           <div className="flex-row-1">
             <div className="terms-privacy-cookies">
-              <div className="pricing-i120117460 circularstd-book-normal-steel-blue-14px">Terms</div>
-              <div className="pricing-i120117460-1 circularstd-book-normal-steel-blue-14px">Privacy</div>
-              <div className="pricing-i120117460-2 circularstd-book-normal-steel-blue-14px">Cookies</div>
+              <div className="pricing-i120117460 text-sm font-sans-serif font-normal text-blue-500">Terms</div>
+              <div className="pricing-i120117460-1 text-sm font-sans-serif font-normal text-blue-500">Privacy</div>
+              <div className="pricing-i120117460-2 text-sm font-sans-serif font-normal text-blue-500">Cookies</div>
             </div>
             <div className="linkedin">
               <div className="overlap-group3">
