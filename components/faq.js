@@ -4,7 +4,7 @@ import {loadTimelineData} from 'anima-timeline';
 function Faq() {
   return (
     <div className="faqs">
-      <h1 className="text-1 text-4xl bg-white  justify-between font-sans text-black"> Frequently Asked Questions</h1>
+      <h1 className="text-1 text-4xl bg-white  justify-between font-sans-serif text-black"> Frequently Asked Questions</h1>
       <div className="i951300-921018 componentcomponent-wrappernot-ready">
         <div className="rectangle-53-x0xZ4Z"></div>
         <div className="text-2-x0xZ4Z">What are the Drones and their different categories?</div>
@@ -39,7 +39,7 @@ function Faq() {
 
       <div className="i951300-921018 componentcomponent-wrappernot-ready mt-4">
         <div className="rectangle-53-x0xZ4Z"></div>
-        <div className="text-2-x0xZ4Z">What are the Drones and their different categories?</div>
+        <div className="text-2-x0xZ4Z">Who can fly drones and is there any rules and regulations for it?</div>
         <div className="plus-circle-x0xZ4Z">
           <span
             className="vector-eAO0UP"
@@ -77,7 +77,7 @@ function Faq() {
         flex-direction: column;
         height: 431px;
         padding: 80px 203px;
-        width: 1560px;
+        
       }
       
       .text-1 {

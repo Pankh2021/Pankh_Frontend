@@ -3,28 +3,28 @@ import React from 'react';
 function Location(){
     return (
         <>
-<div className='location justify-center p-10 items-center bg-white'>
-<h1 className="text-center text-4xl bg-white p-10 justify-between font-sans text-black">Search Drones by City</h1>
+<div className='location justify-center items-center bg-white'>
+<h1 className="text-center text-4xl bg-white p-10 justify-between font-sans-serif text-black">Search Drones by City</h1>
 <div className="group-38 ">
       <div className="group-33">
         <Group29 src="/static/assets(png)/image-12.png" />
-        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+        <div className="text-base font-medium mt-2 text-black">Delhi-NCR</div>
       </div>
       <div className="group-3">
         <Group29 src="/static/assets(png)/image-12.png" />
-        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+        <div className="text-base font-medium mt-2 text-black">Lucknow-Kanpur</div>
       </div>
       <div className="group-3">
         <Group29 src="/static/assets(png)/image-12.png" />
-        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+        <div className="text-base font-medium mt-2 text-black">Jaipur</div>
       </div>
       <div className="group-3">
         <Group29 src="/static/assets(png)/image-12.png" />
-        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+        <div className="text-base font-medium mt-2 text-black">Mumbai</div>
       </div>
       <div className="group-3">
         <Group29 src="/static/assets(png)/image-12.png" />
-        <div className="text-lg font-medium mt-2 text-black">City Name</div>
+        <div className="text-base font-medium mt-2 text-black">Chandigarh</div>
       </div>
       <style jsx>{`
    

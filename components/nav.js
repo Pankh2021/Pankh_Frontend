@@ -29,22 +29,22 @@ style={{maxWidth: '60px' , height: '45px'}}
 src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 />
 </div>
-        <div class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1">
+        <div class="hidden lg:flex items-center justify-center  lg:ml-20 pt-0">
         {/* <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#"> */}
         
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans ">
                   Buy
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans">
                   Rent
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-bold tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out">
+                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans">
                   Drone Pilot
                 
                 </a>
@@ -128,7 +128,7 @@ function Frame2(props) {
 
   return (
     <div className="frame-2">
-      <button className="text-1 text-sm font-sans font-medium text-white">{children}</button>
+      <button className="text-1 text-base font-sans font-medium text-white">{children}</button>
       <style jsx>{`
       .frame-2 {
         align-items: center;
@@ -136,7 +136,7 @@ function Frame2(props) {
         display: flex;
         height: 48px;
         justify-content: flex-end;
-        min-width: 185px;
+        
         padding: 0 30px;
         margin-left: 80px;
       }

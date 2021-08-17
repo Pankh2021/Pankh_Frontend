@@ -41,7 +41,6 @@ function Frame7(props) {
         background-color: var(--cultured-pearl);
         justify-content: center;
         display: flex;
-        width: 1240px;
       }
       
       .group-28 {
@@ -85,7 +84,7 @@ function Frame2(props) {
 
   return (
     <div className="frame-2">
-      <button className="register-sign-in-i11 text-sm font-sans font-medium text-white">{children}</button>
+      <button className="register-sign-in-i11 text-base font-sans-serif font-medium text-white">{children}</button>
       <style jsx>{`
           .frame-2 {
             align-items: center;

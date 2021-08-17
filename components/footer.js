@@ -4,7 +4,7 @@ function Footerr (){
 
 return (
     <>
-<div className="justify-between items-center">
+
 
 <div className="footer">
       <span
@@ -43,9 +43,6 @@ return (
               <div className="company-i120117460 text-base font-sans-serif font-semibold text-black">Contact Us</div>
               <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">sales@pankh.tech</div>
               <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">09746207344</div>
-              <p className="careers-i120117460 text-sm font-sans-serif font-normal text-blue-500">
-                123 Main Street, New York, NY 10030
-              </p>
             </div>
           </div>
           <div className="flex-row-1">
@@ -123,11 +120,10 @@ return (
         align-items: center;
         background-color: var(--white);
         display: flex;
-        justify-content: center;
         flex-direction: column;
         height: 344px;
         padding: 0.5px 0;
-        width: 1520px;
+        width: 100%;
       }
       
       .line-1 {
@@ -278,6 +274,7 @@ return (
         margin-left: 150px;
         margin-top: 16.0px;
         min-height: 95px;
+        margin-bottom: 20px;
         width: 142px;
       }
       
@@ -464,7 +461,7 @@ return (
       }
       `} </style>
     </div>
-  </div>
+  
 
 </>
 );

@@ -19,7 +19,7 @@ function Header() {
 return (
 <>
 
-<div>
+<div className="w-full">
 
 <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
   "delay": 2500,

@@ -71,11 +71,11 @@ function Service() {
       </div>
       <style jsx>{`
       .feature {
-  
+  object-fit: cover;
   align-items: flex-start;
   justify-content: center;
   display: flex;
-  min-width: 1240px;
+  
   position: relative;
 }
 

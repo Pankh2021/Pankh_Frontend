@@ -8,7 +8,7 @@ function Client(){
 
 <div className="bg-white">
 <div className="group-43">
-      <h1 className="text-1 text-4xl bg-white  justify-between font-sans text-black">Our Clients</h1>
+      <h1 className="text-1 text-4xl bg-white  justify-between font-sans-serif text-black">Our Clients</h1>
       <div className="group-39">
         <img
           className="image-13"
@@ -39,7 +39,7 @@ function Client(){
         justify-content: center;
         flex-direction: column;
         min-height: 256px;
-        width: 1580px;
+        width: 100%;
       }
       
       .text-1 {

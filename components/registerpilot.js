@@ -24,7 +24,7 @@ function Frame8(props) {
       <div className="frame-8">
         <img className="image-11" src={image11} />
         <div className="group-28">
-          <h1 className="text-2 text-4xl font-sans font-medium text-black-900">{text25}</h1>
+          <h1 className="text-2 text-4xl font-sans-serif font-medium text-black-900">{text25}</h1>
           <div className="text-1 text-lg font-sans font-normal text-gray-400">{text24}</div>
           <Frame2>{frame2Props.children}</Frame2>
         </div>
@@ -83,7 +83,7 @@ function Frame8(props) {
   
     return (
       <div className="frame-2">
-        <button className="register-sign-in-i11 text-sm font-sans font-medium text-white">{children}</button>
+        <button className="register-sign-in-i11 text-base font-sans-serif font-medium text-white">{children}</button>
         <style jsx>{`
         .frame-2 {
             align-items: center;
