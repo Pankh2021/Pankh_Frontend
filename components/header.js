@@ -52,7 +52,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <button className="text-3 text-xs font-sans font-medium text-white">DISCUSS REQUIREMENT</button>
+          <button className="text-3 text-sm font-sans font-medium text-white">DISCUSS REQUIREMENT</button>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <button className="text-3 text-xs font-sans font-medium text-white">REGISTER AS A DRONE PILOT</button>
+          <button className="text-3 text-sm font-sans font-medium text-white">REGISTER AS A DRONE PILOT</button>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@ return (
     letter-spacing: 0.25px;
     min-height: 20px;
     text-align: center;
-    width: 140px;
+    width: 200px;
   }
   
   @font-face {
