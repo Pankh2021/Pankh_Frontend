@@ -41,7 +41,8 @@ return (
             </div>
             <div className="company-1">
               <div className="company-i120117460 text-base font-sans-serif font-semibold text-black">Contact Us</div>
-              <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">lorem@pankh.tech</div>
+              <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">sales@pankh.tech</div>
+              <div className="about-us-i12011746 text-sm font-sans-serif font-normal text-blue-500">09746207344</div>
               <p className="careers-i120117460 text-sm font-sans-serif font-normal text-blue-500">
                 123 Main Street, New York, NY 10030
               </p>

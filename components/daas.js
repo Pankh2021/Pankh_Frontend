@@ -24,8 +24,8 @@ function Frame7(props) {
     <div className=" daas bg-white justify-between p-20 items-center">
     <div className="frame-7">
       <div className="group-28">
-        <h1 className="text-2 text-4xl font-sans font-medium text-black-900">{text23}</h1>
-        <div className="text-1 text-lg font-sans font-normal text-gray-400">{text22}</div>
+        <h1 className="text-2 text-4xl font-sans-serif font-medium text-black-900">{text23}</h1>
+        <div className="text-1 text-lg font-sans-serif font-normal text-gray-400">{text22}</div>
         <Frame2>{frame2Props.children}</Frame2>
       </div>
       <img className="image-11" src={image11} />
