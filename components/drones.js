@@ -24,7 +24,7 @@ function Group27(props) {
     <div className="bg-white p-10">
       <div className="group-27">
         <div className="flex-col">
-          <h1 className="text-1 text-3xl font-sans font-medium text-black-900">{text8}</h1>
+          <h1 className="text-1 text-3xl bg-white  justify-between font-sans-serif text-black">{text8}</h1>
           <Group23
             image={group23Props.image}
             text9={group23Props.text9}
