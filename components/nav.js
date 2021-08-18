@@ -19,18 +19,16 @@ function Nav() {
   return (
 
 <>
-
 <nav class=" p-5 bg-white shadow">
-  <div class="container mx-auto px-6 py-0 md:flex md:justify-between md:items-center">
+  <div class="container py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
-    <div className="ml-32"> 
+    <div className="ml-16"> 
 <img
 style={{maxWidth: '60px' , height: '45px'}}
 src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 />
 </div>
-        <div class="hidden lg:flex items-center justify-center  lg:ml-20 pt-0">
-        {/* <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700" href="#"> */}
+        <div class="hidden lg:flex items-center justify-center lg:ml-20 pt-0">
         
                 <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans ">
                   Buy
@@ -44,11 +42,11 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans">
+                <a href="#" class="flex items-center justify-center mr-10 text-sm text-gray-700 font-medium font-sans">
                   Drone Pilot
                 
                 </a>
-                </div>
+              </div>
 
     <div className="searchbar ml-20">
       <div className="overlap-group border-1px-geyser">
@@ -104,7 +102,7 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 
 
       
-      { !authUser && <Link href='/signup' ><Frame2>Register/Sign In</Frame2></Link> }
+      { !authUser && <Link href='/signup'><Frame2>Register/Sign In</Frame2></Link> }
       
       {authUser && <Frame2>Logout</Frame2> }
       </div>
@@ -136,7 +134,6 @@ function Frame2(props) {
         display: flex;
         height: 48px;
         justify-content: flex-end;
-        
         padding: 0 30px;
         margin-left: 80px;
       }

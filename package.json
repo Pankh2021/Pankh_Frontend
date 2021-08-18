@@ -14,8 +14,11 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@brainhubeu/react-carousel": "^2.0.4",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "@headlessui/react": "^1.3.0",
     "@material-ui/core": "^5.0.0-beta.1",
+    "@material-ui/icons": "^4.11.2",
     "@popperjs/core": "^2.9.2",
     "@zeit/next-css": "^1.0.1",
     "anima-timeline": "^1.0.7",

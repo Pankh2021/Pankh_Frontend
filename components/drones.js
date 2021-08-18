@@ -87,7 +87,7 @@ function Group27(props) {
             justify-content: center;
             display: flex;
             height: 321px;
-            min-width: 1480px;
+            min-width: 1340px;
             
           }
           
