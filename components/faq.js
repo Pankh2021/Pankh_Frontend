@@ -67,7 +67,11 @@ function Faq(){
                                     )}
                                 </div>
                             </div>
-                            {question === 1 && <p className=" text justify-center items-center p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-white font-sans  text-sm md:text-sm  xl:text-base">Find the latest events updates or create events, concerts, conferences, workshops, exhibitions, and cultural events in all cities of the US. The aim of Eventistan is to promote healthy and entertaining event. Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>}
+                            {question === 1 && <p className=" text justify-center items-center p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-white font-sans  text-sm md:text-sm  xl:text-base">A person who is resident of India, having attained an age of 18 years and passed class tenth or its equivalent examination from a recognized board can fly a drone if he holds a valid remote pilot license issued by DGCA recognized Flight Training Organizations.Exemptions: No Remote pilot license is required for a person operating a nano drone and operating a micro drone for non-commercial purposeIndian Airspace is divided into 3 zones: green, yellow and red zones to which all drone operators or pilots have to comply. No person can operate a drone in red or yellow zones.<br/>No Fly zones/ areas:
+                            <br/> Within a distance of 5 kilometer from the perimeter of international airports at Mumbai,Delhi, Chennai, Kolkata, Bengaluru and Hyderabad.
+                            <br/>Within a distance of 3 kilometer from the perimeter of any civil, private or defence airports, other than those mentioned in clause(a)
+                            <br/>Above the Obstacle Limitation Surfaces (OLS) or Procedures for Air Navigation Services-Aircraft Operations (PANS-OPS) surfaces, whichever is lower, of an operational aerodrome, specified in the rules related to Height Restrictions for Safeguarding of Aircraft Operations. 
+                            <br/>Within permanent or temporary Prohibited, Restricted and Danger Areas including Temporary Reserved Area (TRA), and Temporary Segregated Area (TSA), as notified in Aeronautical Information Publication (AIP) by Airport Authority of India.</p>}
                         </li>
                     </ul>
                 </div>
