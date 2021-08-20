@@ -102,7 +102,7 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 
 
       
-      { !authUser && <Link href='/signup'><Frame2>Register/Sign In</Frame2></Link> }
+      {!authUser && <Link href='/signup'><Frame2>Register/Sign In</Frame2></Link> }
       
       {authUser && <Frame2>Logout</Frame2> }
       </div>

@@ -26,22 +26,7 @@ function Location(){
         <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
         <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
       </div>
-      <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
-      </div>
-      <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
-      </div>
-      <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
-      </div>
-      <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
-      </div>
+      
       <style jsx>{`
    
       .group-38 {

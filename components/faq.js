@@ -31,20 +31,18 @@ function Faq(){
                                     )}
                                 </div>
                             </div>
-                            {question === 0 &&<p className="text p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-white font-sans bg-blue-500 text-sm md:text-sm  xl:text-base ">
+                            {question === 0 &&<p className="p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-gray-900 font-sans bg-gray-200 text-sm md:text-sm  xl:text-base ">
           Drones are unmanned aerial vehicles which could be automated or command controlled by drone pilots to carry
           out aerial flights for varying needs. Drones are categorized by Ministry of Civil Aviation in 5 different
           categories depending on their maximum all –up weight which includes the weight of payloads as well:
-          <br />
-          Nana Drones: Weighing less than 250gm
-          <br />
-          Micro Drones: Weighing more than 250gm but less than 2.5kg
-          <br />
-          Small Drones: Weight greater than 2.5kg but less than 25kg
-          <br />
-          Medium Drones: Weight greater than 25kg but less than 150kg
-          <br />
-          Large Drone: Weight greater than 150kg
+          <ul className="list-disc">
+          
+         <li> Nana Drones: Weighing less than 250gm</li>
+          <li>Micro Drones: Weighing more than 250gm but less than 2.5kg</li>
+          <li>Small Drones: Weight greater than 2.5kg but less than 25kg</li>
+          <li>Medium Drones: Weight greater than 25kg but less than 150kg</li>
+          <li>Large Drone: Weight greater than 150kg</li>
+          </ul>
         </p>}
                         </li>
                         <li className="pt-4">
@@ -67,11 +65,14 @@ function Faq(){
                                     )}
                                 </div>
                             </div>
-                            {question === 1 && <p className=" text justify-center items-center p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-white font-sans  text-sm md:text-sm  xl:text-base">A person who is resident of India, having attained an age of 18 years and passed class tenth or its equivalent examination from a recognized board can fly a drone if he holds a valid remote pilot license issued by DGCA recognized Flight Training Organizations.Exemptions: No Remote pilot license is required for a person operating a nano drone and operating a micro drone for non-commercial purposeIndian Airspace is divided into 3 zones: green, yellow and red zones to which all drone operators or pilots have to comply. No person can operate a drone in red or yellow zones.<br/>No Fly zones/ areas:
-                            <br/> Within a distance of 5 kilometer from the perimeter of international airports at Mumbai,Delhi, Chennai, Kolkata, Bengaluru and Hyderabad.
-                            <br/>Within a distance of 3 kilometer from the perimeter of any civil, private or defence airports, other than those mentioned in clause(a)
-                            <br/>Above the Obstacle Limitation Surfaces (OLS) or Procedures for Air Navigation Services-Aircraft Operations (PANS-OPS) surfaces, whichever is lower, of an operational aerodrome, specified in the rules related to Height Restrictions for Safeguarding of Aircraft Operations. 
-                            <br/>Within permanent or temporary Prohibited, Restricted and Danger Areas including Temporary Reserved Area (TRA), and Temporary Segregated Area (TSA), as notified in Aeronautical Information Publication (AIP) by Airport Authority of India.</p>}
+                            {question === 1 && <p className=" text justify-center items-center p-8 w-2/3 pt-2 md:pt-3  lg:pt-5 text-gray-900 bg-gray-200 font-sans  text-sm md:text-sm  xl:text-base">A person who is resident of India, having attained an age of 18 years and passed class tenth or its equivalent examination from a recognized board can fly a drone if he holds a valid remote pilot license issued by DGCA recognized Flight Training Organizations.Exemptions: No Remote pilot license is required for a person operating a nano drone and operating a micro drone for non-commercial purposeIndian Airspace is divided into 3 zones: green, yellow and red zones to which all drone operators or pilots have to comply. No person can operate a drone in red or yellow zones.<br/>No Fly zones/ areas:
+                            <ul className="list-disc">
+                            <li>Within a distance of 5 kilometer from the perimeter of international airports at Mumbai,Delhi, Chennai, Kolkata, Bengaluru and Hyderabad.</li>
+                            <li>Within a distance of 3 kilometer from the perimeter of any civil, private or defence airports, other than those mentioned in clause(a)</li>
+                            <li>Above the Obstacle Limitation Surfaces (OLS) or Procedures for Air Navigation Services-Aircraft Operations (PANS-OPS) surfaces, whichever is lower, of an operational aerodrome, specified in the rules related to Height Restrictions for Safeguarding of Aircraft Operations.</li>
+                            <li>Within permanent or temporary Prohibited, Restricted and Danger Areas including Temporary Reserved Area (TRA), and Temporary Segregated Area (TSA), as notified in Aeronautical Information Publication (AIP) by Airport Authority of India.</li>
+                            </ul>
+                            </p>}
                         </li>
                     </ul>
                 </div>
@@ -80,9 +81,7 @@ function Faq(){
               letter-spacing: 0.15px;
               min-height: 25px;
             }
-            .text {
-              background-color: var(--colour-1);
-            }
+         
             .faq {
               align-items: center;
               // justify-content: center;

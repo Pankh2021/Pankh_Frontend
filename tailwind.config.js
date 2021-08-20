@@ -2,6 +2,12 @@ module.exports = {
     purge: [],
     darkMode: 'media', // or 'media' or 'class'
     theme: {
+      listStyleType: {
+        none: 'none',
+       disc: 'disc',
+       decimal: 'decimal',
+       
+      },
       extend: {
         opacity: {
           '10': '0.1',
