@@ -1,11 +1,14 @@
-import React from 'react';
+import React,{ constructor } from 'react';
 import Link from 'next/link';
 import { Alert } from 'antd';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../firebase/authuserprovider';
+import { info } from 'autoprefixer';
+import backimg from '/static/assets(svg)/image_pilot.svg'
 
-const Signup =() => {
+
+function Signup() {
 
 
   const [email, setEmail] = useState("");
@@ -16,6 +19,20 @@ const Signup =() => {
   const [error, setError] = useState(null);
 
   const { createUserWithEmailAndPassword } = useAuth();
+
+  const pilotimage = require(`/static/assets(svg)/image_pilot.svg`)
+  const clientimage = require(`/static/assets(svg)/image_client.svg`)
+  const image = {pilotimage,clientimage}
+  const [selected, setSelected] = useState(image.clientimage);
+
+//   function check() {
+//     if ($("#label input[name=pilot]:checked").val() == "2") {
+//         $('body').css('background-image', "url(https://c2.staticflickr.com/8/7151/6717697085_6d28849226_z.jpg)");
+//     } else {
+//         $('body').css('background', "");
+//     }
+//     return false;
+// }
 
   const onSubmit = event => {
     setError(null)
@@ -41,90 +58,97 @@ const Signup =() => {
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet"/>
 
 <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css')</style>        
 
+<section class="flex flex-col md:flex-row bg-white h-screen items-center">
 
-<section class="flex flex-col md:flex-row h-screen items-center">
-
-  <div class="bg-indigo-600 hidden  lg:block w-full md:w-1/2 xl:w-2/3 h-screen mt-2">
-    <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover"/>
+  <div class="flex items-center justify-center bg-white py-32 px-28 lg:block w-full md:w-1/2  h-screen ">
+    <img src={selected} id='img' name='backimg' alt="" class="flex items-center justify-center"/>
   </div>
 
-  <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
-        flex items-center justify-center">
+  <div class="bg-white w-full h-screen xl:w-1/3 flex items-center justify-center">
 
-<div class="w-full">
+<div class="w-full mr-32">
             
-                <div class="text-center mb-10">
-                <img alt="testimonial" class="inline-block object-cover object-center w-20 h-20 mx-auto mb-1 rounded-full" src="/static/images/logo.png"/> 
-                <h1 class="font-bold text-3xl text-gray-900">Sign Up</h1>
-                <p>Enter your information to signup</p>
+                <div class=" mb-4">
+               
+                <h1 class="font-medium font-sans-serif text-3xl text-gray-900">Sign up to Pankh</h1>
+                <p class="font-sans-serif mt-2 text-gray-400 font-medium font-base">Already have an account?
+       <Link href='/signin'>
+      <a class="text-sm font-semibold  hover:text-blue-700 focus:text-blue-700">Sign In</a>
+      </Link> 
+      </p>
                 </div>
                 <form class="mt-2" onSubmit={onSubmit}>
                 { error && <Alert type='error'>{error}</Alert>}
-<div >
-    <label class="inline-flex w-1/2 px-3 mb-5">
-        <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="personal"/>
-      <span class="ml-2 block text-gray-700">Clients</span>
+  <div class="mb-4">
+    <label class="inline-flex items-center" >
+      <input type="radio" class="form-radio" name="client" value="1" onClick={() => setSelected(image.clientimage)} />
+      <span class="ml-2">Client</span>
     </label>
-    <label class="inline-flex w-1/2 px-3 mb-5">
-      <input type="radio" class="form-radio border-2 border-gray-200" name="accountType" value="busines"/>
-      <span class="ml-2 block text-gray-700">Drone Operator</span>
+    <label class="inline-flex items-center ml-6" id='label'>
+      <input type="radio" class="form-radio" name="pilot" value="2" onClick={() => setSelected(image.pilotimage)} />
+      <span class="ml-2">Drone Pilot</span>
     </label>
   </div>
-                    <div class="flex -mx-3">
-                        <div class="w-1/2 px-3 mb-5">
-                        <label class="block text-gray-700">First name</label>
+                    
+                    <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
                             <div class="flex">
-                                <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                <input type="text" value={firstname} 
-                                onChange={(event) => setFirstname(event.target.value)}
-                  name="firstname" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="John" required/>
-                            </div>
-                        </div>
-                        <div class="w-1/2 px-3 mb-5">
-                            <label for="" class="block text-gray-700">Last name</label>
-                            <div class="flex">
-                                <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                <input type="text" value={lastname} 
-                                onChange={(event) => setLastname(event.target.value)}
-                  name="lastname" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Smith" required/>
+                            <div class=" w-10 z-10 pl-1 "></div>
+                                <input type="name"
+                  name="name" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
+                
                             </div>
                         </div>
                     </div>
-                    <div class="flex -mx-3">
+                    <div class="flex -mx-2 " id='A'>
                         <div class="w-full px-3 mb-5">
-                            <label for="" class="block text-gray-700">Email</label>
+                            <div class="flex">
+                                <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
+                                <input type="company name"
+                  name="company name" class="w-full -ml-10 pl-10 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500" placeholder="Company Name" required/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex -mx-2" id='B'>
+                        <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
                                 <input type="email" value={email} 
                                 onChange={(event) => setEmail(event.target.value)}
-                  name="email" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" required/>
+                  name="email" class="w-full -ml-10 pl-10 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" required/>
                             </div>
                         </div>
                     </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            <label for="" class="block text-gray-700">Password</label>
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
                                 <input type="password" name="password"
                   value={password}
-                  onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" required/>
+                  onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-10 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500" placeholder="************" required/>
                             </div>
                         </div>
                     </div>
-                    <div class="text-right mb-5">
-                    <p class="">Already have an account?
-       <Link href='/signin'>
-      <a class="text-sm font-semibold text-blue-500 hover:text-blue-700 focus:text-blue-700">Signin</a>
-      </Link> 
-      </p>
-        </div>
+                    <div class="flex my-2">
+  <label class="flex items-center">
+    <input type="checkbox" class="form-checkbox"/>
+    <span class="ml-2">I agree to the <span class="underline">privacy policy</span></span>
+  </label>
+</div>
+                    {/* <label class="flex inline-flex  mb-4">
+						<input type="checkbox" class="form-checkbox block bg-indigo-500 border border-gray-300 rounded"/>
+						<span for="remember_me" class="ml-4 block font-sm text-gray-900">
+                            by creating account, you agree to accept our Privacy Policy, Terms of Services, and Notification Settings.
+                        </span>
+					</label> */}
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-900 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-2">SIGN UP</button>
+                            <button type='submit' class="w-full block bg-indigo-500 hover:bg-indigo-900 focus:bg-indigo-400 text-white font-semibold px-4 py-3 mt-2">SIGN UP</button>
                         </div>
                     </div>
               </form>
@@ -134,9 +158,11 @@ const Signup =() => {
   </div>
 
 </section>
+
         </>
     )
 }
+
 
 
 export default Signup;
