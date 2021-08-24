@@ -56,7 +56,7 @@ function Signin(){
                
                 <h1 class="font-medium font-sans-serif text-4xl text-gray-900">Sign In to Pankh</h1>
                 <p class="font-sans mt-2 text-gray-600 font-normal text-base">Don't have an account?
-       <Link href='/signin'>
+       <Link href='/signup'>
       <a class="text-sm font-normal font-sans text-blue-500  hover:text-blue-700 "> Register</a>
       </Link> 
       </p>

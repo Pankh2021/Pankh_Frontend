@@ -64,7 +64,7 @@ function Signup() {
 
 <section class="flex flex-col md:flex-row bg-white h-screen items-center">
 
-  <div class="flex items-center justify-center bg-white py-32 px-28 lg:block w-full md:w-1/2  h-screen ">
+  <div className="flex items-center justify-center bg-white py-32 px-28 lg:block w-full md:w-1/2  h-screen ">
     <img src={selected} id='img' name='backimg' alt="" class="flex items-center justify-center"/>
   </div>
 

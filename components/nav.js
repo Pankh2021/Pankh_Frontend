@@ -11,8 +11,9 @@ function Nav() {
 
 
   useEffect(() => {
-    if (!loading && !authUser)
+    if (!loading && !authUser){
       router.push('/')
+    }
   }, [authUser, loading])
 
   const [isOpen, setIsOpen] = useState(false);
@@ -102,7 +103,7 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 
 
       
-      {!authUser && <Link href='/signup'><Frame2>Register/Sign In</Frame2></Link> }
+      {!authUser &&<a href='/signup'> <Frame2>Register/Sign In </Frame2></a> }
       
       {authUser && <Frame2>Logout</Frame2> }
       </div>
