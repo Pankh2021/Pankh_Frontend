@@ -1,5 +1,6 @@
 import Client from '../components/clients';
 import Faq from '../components/faq';
+import React from 'react'
 import Service from '../components/service'
 import Header from '../components/header';
 import Nav from '../components/nav';
@@ -9,7 +10,8 @@ import Registerpilot from '../components/registerpilot';
 import Drones from '../components/drones';
 import Footerr from '../components/footer';
 
-const Home = () => 
+function Home(){
+return (
   <div>
     <Nav></Nav>
     <Header></Header>
@@ -22,6 +24,7 @@ const Home = () =>
     <Faq></Faq>
     <Footerr></Footerr>
   </div> 
-;
+  )
+}
 
 export default Home;

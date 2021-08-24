@@ -11,10 +11,10 @@ function Nav() {
 
 
   useEffect(() => {
-    if (!loading && !authUser){
+    if (!authUser){
       router.push('/')
     }
-  }, [authUser, loading])
+  }, [authUser])
 
   const [isOpen, setIsOpen] = useState(false);
   return (

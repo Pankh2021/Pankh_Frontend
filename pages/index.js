@@ -1,11 +1,13 @@
-import Link from 'next/link';
+import React from 'react';
 import Home from './Home';
 
 
-const Index = () => 
-  <div>
+function Index(){
+  return(
+    <div>
     <Home></Home>
-  </div> 
-;
+    </div> 
+    )
+}
 
 export default Index;

@@ -1,11 +1,14 @@
 import React from 'react';
+import HorizontalScroll from 'react-scroll-horizontal'
 
 function Location(){
     return (
         <>
-<div className='location justify-center items-center bg-white'>
+<div className=' justify-center items-center bg-white'>
 <h1 className="text-center text-4xl bg-white p-10 justify-between font-sans-serif text-black">Search Drones by City</h1>
-<div className="group-38 ">
+<div className="group-38 flex flex-start overflow-x-scroll hide-scroll-bar mx-40">
+  <HorizontalScroll> 
+
       <div className="group-33">
         <Group29 src="/static/assets(svg)/DelhiNCR.svg" />
         <div className="text-base font-medium mt-2 text-black">Delhi-NCR</div>
@@ -26,19 +29,44 @@ function Location(){
         <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
         <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
       </div>
-      
+      <div className="group-3">
+        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
+        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
+        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
+        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+      </div>
+      <div className="group-3">
+        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
+        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+      </div>
+  </HorizontalScroll>
+      </div>
+
       <style jsx>{`
-   
-      .group-38 {
-        align-items: flex-start;
-        justify-content: center;
-        display: flex;
-        height: 188px;
-        min-width: 920px;
-      }
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+.group-38 {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  height: 188px;
+  min-width: 920px;
+}
       
       .group-33 {
-        align-items: center;
+        align-items: flex-start;
         display: flex;
         flex-direction: column;
         min-height: 188px;
@@ -52,7 +80,6 @@ function Location(){
         min-height: 20px;
         min-width: 82px;
       }
-
       .group-3 {
         align-items: center;
         display: flex;
@@ -62,7 +89,6 @@ function Location(){
         position: relative;
         width: 162px;
       }
-
       @font-face {
         font-family: "Circular Std-Book";
         font-style: normal;
@@ -70,7 +96,6 @@ function Location(){
         src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
       }
       `} </style>
-</div>
 </div>
 
 </>
@@ -93,9 +118,8 @@ function Group29(props) {
         height: 160px;
         margin-right: 2.0px;
         min-width: 160px;
-        padding: 4.0px 12.0px;
+        padding: 4px 12px;
       }
-
       .image-12 {
         height: 134px;
         object-fit: cover;

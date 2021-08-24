@@ -30,7 +30,7 @@ return (
             <div className="information">
               <div className="text-1 text-base font-sans-serif font-semibold text-black">Information</div>
               <div className="faq-i12011746052 text-sm font-sans-serif font-normal text-blue-500">FAQ</div>
-              <div className="text-2 text-sm font-sans-serif font-normal text-blue-500">Blog</div>
+              <div className="text-2 text-sm font-sans-serif font-normal text-blue-500"><a href='/blog'>Blog</a></div>
               <div className="text-3 text-sm font-sans-serif font-normal text-blue-500">Support</div>
             </div>
             <div className="company">

@@ -51,7 +51,7 @@ export default function useFirebaseAuth() {
 
   return {
     authUser,
-    loading,
+
     signInWithEmailAndPassword,
     createUserWithEmailAndPassword,
     signOut
