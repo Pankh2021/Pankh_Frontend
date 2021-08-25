@@ -9,8 +9,8 @@ function Location(){
 <div className="group-38 flex flex-start overflow-x-scroll hide-scroll-bar mx-40">
   <HorizontalScroll> 
 
-      <div className="group-33">
-        <Group29 src="/static/assets(svg)/DelhiNCR.svg" />
+      <div className="group-3">
+        <Group29 className='hov' src="/static/assets(svg)/DelhiNCR.svg" />
         <div className="text-base font-medium mt-2 text-black">Delhi-NCR</div>
       </div>
       <div className="group-3">
@@ -30,21 +30,18 @@ function Location(){
         <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
       </div>
       <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+        <Group29 src="/static/assets(svg)/Chandigarh.svg" />
+        <div className="text-base font-medium mt-2 text-black">Chandigarh</div>
       </div>
       <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+        <Group29 src="/static/assets(svg)/Chennai.svg" />
+        <div className="text-base font-medium mt-2 text-black">Chennai</div>
       </div>
       <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
+        <Group29 src="/static/assets(svg)/Hyderabad.svg" />
+        <div className="text-base font-medium mt-2 text-black">Hyderabad</div>
       </div>
-      <div className="group-3">
-        <Group29 src="/static/assets(svg)/Indore-Bhopal.svg" />
-        <div className="text-base font-medium mt-2 text-black">Indore-Bhopal</div>
-      </div>
+    
   </HorizontalScroll>
       </div>
 
@@ -85,10 +82,11 @@ function Location(){
         display: flex;
         flex-direction: column;
         margin-left: 28px;
-        min-height: 188px;
+      
         position: relative;
-        width: 162px;
+        
       }
+
       @font-face {
         font-family: "Circular Std-Book";
         font-style: normal;
@@ -115,15 +113,18 @@ function Group29(props) {
         align-items: flex-start;
         background-color: var(--white);
         display: flex;
-        height: 160px;
+        
         margin-right: 2.0px;
         min-width: 160px;
         padding: 4px 12px;
       }
-      .image-12 {
-        height: 134px;
-        object-fit: cover;
-        width: 134px;
+
+      .img:hover {
+        color: white;
+      }
+
+      .group:hover {
+        background-color: var(--colour-1);
       }
       
     `}</style>

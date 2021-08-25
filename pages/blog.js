@@ -6,13 +6,13 @@ import Nav from '../components/nav';
 function Blog() {
     return (
         <>
-      <Nav></Nav>  
+      
 <section class="text-gray-600 body-font bg-white">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/static/assets(png)/image-3.png" alt="blog"/>
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.nationalbusinesscapital.com/wp-content/uploads/2018/04/Fotolia_200621471_Subscription_Monthly_M-1.jpg" alt="blog"/>
           <div class="p-6">
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Drones in the construction</h1>
             <p class="leading-relaxed mb-3">Drones have been underutilized in the construction industry for a long time now. But with the changing technology trends, the construction industry is adapting itself too. Drones have increased safety and accuracy in this sector alongside reducing the total cost of the project. Lack of knowledge about drones and their capabilities in the field of construction is a liability.</p>
@@ -49,13 +49,14 @@ relevant data, as is and without prejudice, in a much faster and effective manne
           </div>
         </div>
       </div>
+
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Ortho mosaic map</h1>
+            <p class="leading-relaxed mb-3">Ortho mosaic maps - represent the area of interest with a high-resolution image captured from the top at 90 degrees. In the field of construction, this can be utilized to receive the constant progress of the construction site and measure true distances. Raw data from the survey can be integrated with software to get the 3D model of the construction site. </p>
             <div class="flex items-center flex-wrap ">
               <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -63,26 +64,75 @@ relevant data, as is and without prejudice, in a much faster and effective manne
                   <path d="M12 5l7 7-7 7"></path>
                 </svg>
               </a>
-              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                  <circle cx="12" cy="12" r="3"></circle>
-                </svg>1.2K
-              </span>
-              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>6
-              </span>
             </div>
           </div>
         </div>
       </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
+          <div class="p-6">
+            
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Ortho mosaic map</h1>
+            <p class="leading-relaxed mb-3">Ortho mosaic maps - represent the area of interest with a high-resolution image captured from the top at 90 degrees. In the field of construction, this can be utilized to receive the constant progress of the construction site and measure true distances. Raw data from the survey can be integrated with software to get the 3D model of the construction site. </p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
+          <div class="p-6">
+            
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Ortho mosaic map</h1>
+            <p class="leading-relaxed mb-3">It is important to understand the purpose of drones in each stage and appreciate the amount of progress that can be made with them during a project.
+
+Initiation: Every venture begins with a piece of land. An aerial analysis of the land can quickly
+capture the territory and its challenges, allowing informed decisions about how development can
+occur. Upon request, specific geological guides and 3D models can be obtained to produce a lot more information on the direction of work.
+
+Planning: Project plans are made based on the information gathered during the overview.
+During this time, drone imaging will showcase the current reality of the land's difficulties for
+the development plan, rather than leaving it to suspicion. GIS planning also allows for 3D imaging of what the project will look like when it is completed.
+
+Execution: This is the most crucial stage of growth as everything starts happening at the same
+time. Drone tours are a viable alternative to on-site tours. It gives a birds-eye view to the
+customers and other stakeholders. Also, it allows to take pictures of construction sites and
+provides stakeholders and consumers with real-time alerts. The ability to monitor the progress remotely and store data in the cloud makes it easier to carry worksites to the workplace.
+It increases customer satisfaction and acts as a customer magnet to sell to more customers.
+
+Handover: At this stage of construction, from the outside, everything appears fine until the
+project is completed. It takes drones' technological prowess to detect any heat leaks with their
+thermal imaging feature. Drones keep track of the "invisible"—what flows through the walls,
+underground pipes, and so on. It uses technology to match the model with the output of
+construction and checks to identify any deviation and anomalies from the design drawings.
+
+The mentioned features above shall help increase the speed of work and reduce the cost needed to perform the same task using manpower and reduce the risk of accidents. 
+
+ </p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-<Footerr></Footerr>
     </>
     )
 }
