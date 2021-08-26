@@ -6,7 +6,7 @@ import Nav from '../components/nav';
 function Blog() {
     return (
         <>
-      
+      <Nav></Nav>
 <section class="text-gray-600 body-font bg-white">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
@@ -132,9 +132,10 @@ The mentioned features above shall help increase the speed of work and reduce th
     </div>
   </div>
 </section>
+<Footerr></Footerr>
 
     </>
     )
-}
+};
 
 export default Blog;

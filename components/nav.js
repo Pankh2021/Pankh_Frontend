@@ -6,17 +6,16 @@ import { useAuth } from '../firebase/authuserprovider';
 
 function Nav() {
 
-  const { authUser, loading} = useAuth();
+  const { authUser } = useAuth();
   const router = useRouter();
 
 
   useEffect(() => {
     if (!authUser){
-      router.push('/')
+      console.log('you are not logged in');
     }
   }, [authUser])
 
-  const [isOpen, setIsOpen] = useState(false);
   return (
 
 <>

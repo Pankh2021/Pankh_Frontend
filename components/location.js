@@ -10,7 +10,7 @@ function Location(){
   <HorizontalScroll> 
 
       <div className="group-3">
-        <Group29 className='hov' src="/static/assets(svg)/DelhiNCR.svg" />
+        <Group29 src="/static/assets(svg)/DelhiNCR.svg" style={{ hover:'color'}} />
         <div className="text-base font-medium mt-2 text-black">Delhi-NCR</div>
       </div>
       <div className="group-3">
