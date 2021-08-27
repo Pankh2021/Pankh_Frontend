@@ -15,7 +15,14 @@ function Blog() {
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.nationalbusinesscapital.com/wp-content/uploads/2018/04/Fotolia_200621471_Subscription_Monthly_M-1.jpg" alt="blog"/>
           <div class="p-6">
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Drones in the construction</h1>
-            <p class="leading-relaxed mb-3">Drones have been underutilized in the construction industry for a long time now. But with the changing technology trends, the construction industry is adapting itself too. Drones have increased safety and accuracy in this sector alongside reducing the total cost of the project. Lack of knowledge about drones and their capabilities in the field of construction is a liability.</p>
+            <p class="leading-relaxed mb-3">Drones have been underutilized in the construction industry for a long time now. But with the changing technology trends, the construction industry is adapting itself too. Drones have increased safety and accuracy in this sector alongside reducing the total cost of the project. Lack of knowledge about drones and their capabilities in the field of construction is a liability.
+
+In the next few minutes, you shall be able to gain insights into the ability of drones. Before that, it is vital to understand the drone survey and the results obtained by it. 
+
+A drone survey is a method developed to capture the top view of the area of interest using drones to understand various aspects of the given area. The drone survey involves two main parts:
+Data acquisition- involves capturing aerial photos and videos. 
+Data processing- involves stitching the images captured by drones to give meaningful data in terms of ortho mosaic maps, digital surface models, topo sheets, contour maps, and digital elevation models.
+Ortho mosaic maps - represent the area of interest with a high-resolution image captured from the top at 90 degrees. In the field of construction, this can be utilized to receive the constant progress of the construction site and measure true distances. Raw data from the survey can be integrated with software to get the 3D model of the construction site.</p>
             <div class="flex items-center flex-wrap ">
               <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -24,122 +31,11 @@ function Blog() {
                 </svg>
               </a>
             
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/static/assets(png)/image-2.png" alt="blog"/>
-          <div class="p-6">
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">One stop drop platform</h1>
-            <p class="leading-relaxed mb-3">Beyond the predictable deliverables, aerial site intelligence is more beneficial for construction
-projects. Drones used to capture construction progress are a sure-fire way of collecting all
-relevant data, as is and without prejudice, in a much faster and effective manner. More than half of construction projects fall short of their timelines and budgets. Using drone technology in construction will assist in meeting these goals without incurring exorbitant costs. Drones will help you get the job done, whether for evaluation, data collection, or transportation. Drones have already proven their worth to a few construction companies. They're constantly looking for ways to put them to use for their company and customers. If the use of drones in construction grows, further advances can benefit the construction industry and beyond.
-</p>
-            <div class="flex items-center flex-wrap">
-              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-              
             </div>
           </div>
         </div>
       </div>
 
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
-          <div class="p-6">
-            
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Ortho mosaic map</h1>
-            <p class="leading-relaxed mb-3">Ortho mosaic maps - represent the area of interest with a high-resolution image captured from the top at 90 degrees. In the field of construction, this can be utilized to receive the constant progress of the construction site and measure true distances. Raw data from the survey can be integrated with software to get the 3D model of the construction site. </p>
-            <div class="flex items-center flex-wrap ">
-              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
-          <div class="p-6">
-            
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Surface Model</h1>
-            <p class="leading-relaxed mb-3">Digital Surface Model- The measurement takes top portions of buildings, trees, and other objects in the area of interest. Similar to DEM even DSM utilizes colour to indicate the elevations of the subjects.<br/> Digital Terrain Model- A 3D model of the terrain plotted using the data obtained using DSM. This model gives an overall geographical representation of the area of interest </p>
-            <div class="flex items-center flex-wrap ">
-              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
-          <div class="p-6">
-            
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Counter Lines</h1>
-            <p class="leading-relaxed mb-3">Contour lines- Lines connecting points of equal elevation. This gives an insight into the type of terrain and the height and depth of the terrain as well. 
- </p>
-            <div class="flex items-center flex-wrap ">
-              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
-          <div class="p-6">
-            
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Four Phases</h1>
-            <p class="leading-relaxed mb-3">It is important to understand the purpose of drones in each stage and appreciate the amount of progress that can be made with them during a project. <br/>
-
-Initiation: Every venture begins with a piece of land. 
-<br/>
-Planning: Project plans are made based on the information gathered during the overview.
-
-<br/>
-Execution: Drone tours are a viable alternative to on-site tours. It gives a birds-eye view to the
-customers and other stakeholders. Also, it allows to take pictures of construction sites and
-provides stakeholders and consumers with real-time alerts. The ability to monitor the progress remotely and store data in the cloud makes it easier to carry worksites to the workplace.
-<br/>
-Handover: At this stage of construction, from the outside, everything appears fine until the
-project is completed. It takes drones' technological prowess to detect any heat leaks with their
-thermal imaging feature.
-<br/>
-The mentioned features above shall help increase the speed of work and reduce the cost needed to perform the same task using manpower and reduce the risk of accidents. 
-
- </p>
-            <div class="flex items-center flex-wrap ">
-              <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>

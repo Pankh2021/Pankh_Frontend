@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { useAuth } from '../firebase/authuserprovider';
 import { info } from 'autoprefixer';
 import backimg from '/static/assets(svg)/image_pilot.svg'
+import { name } from 'file-loader';
 
 
 function Signup() {
@@ -24,15 +25,10 @@ function Signup() {
   const clientimage = require(`/static/assets(svg)/image_client.svg`)
   const image = {pilotimage,clientimage}
   const [selected, setSelected] = useState(image.clientimage);
+  const companyname = () =>{
+    if(setSelected(image.pilotimage));
+  }
 
-//   function check() {
-//     if ($("#label input[name=pilot]:checked").val() == "2") {
-//         $('body').css('background-image', "url(https://c2.staticflickr.com/8/7151/6717697085_6d28849226_z.jpg)");
-//     } else {
-//         $('body').css('background', "");
-//     }
-//     return false;
-// }
 
   const onSubmit = event => {
     setError(null)
@@ -105,15 +101,16 @@ function Signup() {
                             </div>
                         </div>
                     </div>
-                     <div class="flex -mx-2 " id='A'>
+
+                    { !companyname && <div class="flex -mx-2 " id='A'>
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1"></div>
                                 <input type="company name"
-                  name="company name" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Company Name" required/>
+                  name="client" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Company Name" required/>
                             </div>
                         </div>
-                    </div>
+                    </div> }
                     
                     <div class="flex -mx-2" id='B'>
                         <div class="w-full px-3 mb-5">
@@ -141,18 +138,6 @@ function Signup() {
     <label for="checkbox-example" class='text-sm '>by creating account, you agree to accept our<a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'> Privacy <br/> Policy</a>, <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Terms of Services</a>, and <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Notification Settings</a>.</label>
 </div>
 
-                    {/* <div class="flex my-2">
-  <label class="flex items-center">
-    <input type="checkbox" class="form-checkbox"/>
-    <span class="ml-2">I agree to the <span class="underline">privacy policy</span></span>
-  </label>
-</div> */}
-                    {/* <label class="flex inline-flex  mb-4">
-						<input type="checkbox" class="form-checkbox block bg-indigo-500 border border-gray-300 rounded"/>
-						<span for="remember_me" class="ml-4 block font-sm text-gray-900">
-                            by creating account, you agree to accept our Privacy Policy, Terms of Services, and Notification Settings.
-                        </span>
-					</label> */}
                     <div class="flex -mx-3">
                         <div className="signup w-full px-3 mb-5">
                             <button type='submit' class=" w-full text-base items-center font-sans-serif font-medium text-white">Create Account</button>

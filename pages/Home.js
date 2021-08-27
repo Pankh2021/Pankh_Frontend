@@ -12,7 +12,7 @@ import Footerr from '../components/footer';
 
 function Home(){
 return (
-  <div>
+  <div className='overflow-hidden'> 
     <Nav></Nav>
     <Header></Header>
     <Service></Service>
@@ -23,7 +23,8 @@ return (
     <Client></Client>
     <Faq></Faq>
     <Footerr></Footerr>
-  </div> 
+  </div>
+
   )
 }
 
