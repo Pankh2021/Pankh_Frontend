@@ -25,9 +25,6 @@ function Signup() {
   const clientimage = require(`/static/assets(svg)/image_client.svg`)
   const image = {pilotimage,clientimage}
   const [selected, setSelected] = useState(image.clientimage);
-  const companyname = () =>{
-    if(setSelected(image.pilotimage));
-  }
 
 
   const onSubmit = event => {
@@ -102,7 +99,7 @@ function Signup() {
                         </div>
                     </div>
 
-                    { !companyname && <div class="flex -mx-2 " id='A'>
+                    { selected=== image.clientimage && (<div class="flex -mx-2 " id='A'>
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1"></div>
@@ -110,7 +107,7 @@ function Signup() {
                   name="client" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Company Name" required/>
                             </div>
                         </div>
-                    </div> }
+                    </div>) }
                     
                     <div class="flex -mx-2" id='B'>
                         <div class="w-full px-3 mb-5">
