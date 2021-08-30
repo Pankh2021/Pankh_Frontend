@@ -6,13 +6,16 @@ function Dashboard() {
    return (
        <>
        <Nav />
-<div class="min-h-screen flex flex-row bg-gray-100 shadow-lg border-r">
-  <div class="flex flex-col w-1/5 bg-white overflow-hidden">
+    
+       <div className="Home">
+       <div class="flex h-screen bg-white">
+
+  <div class=" w-1/5 bg-white overflow-hidden shadow-lg ">
   <div className="head p-10 items-center h-32 ">
       <h1 className="text-3xl text-white items-center">Rahul Gupta</h1>
       <div className='text-sm text-white items-center'>abcd@gmail.com </div>
     </div>
-    <ul class="flex flex-col">
+    <ul class="">
       <li className='hover:bg-blue-300'>
         <a href="#" class="flex flex-row items-center ml-8 h-16 text-gray-900">
           <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src='/static/assets(svg)/dashboard.svg' /></span>
@@ -46,13 +49,17 @@ function Dashboard() {
   background-color: var(--colour-1);
 }
 `} </style>
-</div>
 
-<main className='flex-1 overflow-x-hidden overflow-y-auto bg-gray-200'>
-<div class="container mx-auto px-6 py-8">
+<div class="flex-1 flex flex-col overflow-hidden">
+
+<main className='container mx-auto px-6 py-8'>
+
   <h1>hii</h1>
-</div>
+
 </main>
+</div>
+</div>
+</div>
 
       </>
      )
