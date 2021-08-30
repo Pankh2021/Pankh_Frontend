@@ -55,7 +55,7 @@ function Signup() {
 
 <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css')</style>        
 
-<section class="flex flex-col md:flex-row bg-white h-screen items-center">
+<section class="flex flex-col md:flex-row bg-white h-screen w-screen items-center">
 
   <div className="flex items-center justify-center bg-white py-32 px-28 lg:block w-full md:w-1/2  h-screen ">
     <img src={selected} id='img' name='backimg' alt="" class="flex items-center justify-center"/>

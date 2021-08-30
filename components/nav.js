@@ -19,8 +19,8 @@ function Nav() {
   return (
 
 <>
-<nav class=" w-screen p-5 bg-white shadow">
-  <div class="container py-0 md:flex md:justify-between md:items-center">
+<nav class="flex flex-wrap w-full p-5 bg-white border-b">
+  <div class="py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
     <div className="ml-16"> 
 <a href='/Home'> 
