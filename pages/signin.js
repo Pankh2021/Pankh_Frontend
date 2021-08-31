@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../firebase/authuserprovider';
-
+import authHelper from '../auth/authHelper';
+import { Alert } from 'antd';
 
 
 function Signin(){
@@ -14,11 +15,15 @@ function Signin(){
   const router = useRouter();
   const { signInWithEmailAndPassword } = useAuth();
 
+  const auth = authHelper();
+
   const onSubmit = event => {
     setError(null)
     signInWithEmailAndPassword(email, password)
     .then(authUser => {
       console.log("success!! you have logged in")
+      console.log(authUser.user.emailVerified);
+      auth.login(authUser.user);
       router.push('/dashboard');
     })
     .catch(error => {

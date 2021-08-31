@@ -7,6 +7,8 @@ import { useAuth } from '../firebase/authuserprovider';
 import { info } from 'autoprefixer';
 import backimg from '/static/assets(svg)/image_pilot.svg'
 import { name } from 'file-loader';
+import authHelper from '../auth/authHelper';
+
 
 
 function Signup() {
@@ -14,11 +16,12 @@ function Signup() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [firstname, setFirstname] = useState("");
+  const [name, setname] = useState("");
   const [lastname, setLastname] = useState("");
   const router = useRouter();
   const [error, setError] = useState(null);
 
+  const auth = authHelper();
   const { createUserWithEmailAndPassword } = useAuth();
 
   const pilotimage = require(`/static/assets(svg)/image_pilot.svg`)
@@ -32,15 +35,21 @@ function Signup() {
     //check if passwords match. If they do, create user in Firebase
     // and redirect to your logged in page.
       createUserWithEmailAndPassword(email, password)
-      .then(authUser => {
+      .then(async (authUser) => {
         console.log("Success. The user is created in Firebase")
-        authUser.user.sendEmailVerification();
+        try{
+          await authUser.user.sendEmailVerification();
+          // ------------TODO: display msg "Verification email send succesfully"
+          console.log("Email verification sent");
+        }
+        catch
+        {
+          // -------------TODO: display error "Unabe to send verification email. Please try again later"
+          console.log("Email Verification send Error");
+        }
         <Alert message='Email Sent' type='info' ></Alert>
-      
-      })
-      .catch(error => {
-        // An error occurred. Set error message to be displayed to user
-        setError(error.message)
+        auth.login(authUser.user);
+        // router.push('/dashboard');
       });
     event.preventDefault();
   };
@@ -92,7 +101,8 @@ function Signup() {
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                             <div class=" w-10 z-10 pl-1 "></div>
-                                <input type="name"
+                                <input type="name" value={name}
+                                onChange={(event) => setname(event.target.value)}
                   name="name" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
                 
                             </div>

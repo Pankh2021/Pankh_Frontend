@@ -3,8 +3,7 @@ import Firebase from './firebaseclient';
 
 const formatAuthUser = (user) => ({
   uid: user.uid,
-  firstname: user.firstname,
-  lastname: user.lastname,
+  name: user.name,
   email: user.email,
   password: user.password,
 });

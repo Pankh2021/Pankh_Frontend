@@ -1,10 +1,61 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Footerr from '../components/footer';
 import Nav from '../components/nav';
+import authHelper from '../auth/authHelper';
+import db from '../firebase/database';
 
 function Dashboard() {
 
   const [openTab, setOpenTab] = React.useState(1);
+  const {user} = authHelper();
+  const [projects, setProjects] = useState(null);
+
+  const getProjects = async ()=>{
+          
+    // console.log(user.uid);
+    try{
+         const doc = await db.collection('projects').doc(user.uid).get();
+         setProjects(doc.data().projects);
+    }
+    catch(error)
+    {
+         // --------------TODO: show error in frontend 
+         // "No Projects Found"----------------
+         console.log(`Failed with error message: ${error.message}`);
+    }
+    // console.log(doc.data().projects);
+}
+
+// called only when dashboard loads for first time
+useEffect(()=>{
+
+    if(user)
+    {
+         console.log(user.emailVerified);
+         getProjects(); 
+    
+    }
+
+},[]);
+
+// render if user logged in
+// const RenderDashboard = ()=>{
+//     return (
+//          <>
+//          <h1>Projects submitted by {user.displayName}:</h1>
+//          <br/>
+//          <h1>{user.email} verification status: </h1>
+//          {user.emailVerified?<h1>Verified</h1>:<h1>Not Verified</h1>}
+//          {projects&&projects.map((project, index)=>(
+//               <>
+//               <a key={index} href={project.url}>{project.name}</a>
+//               <br/>
+//               </>
+//          )
+//          )}
+//          </>
+//     );
+// }
 
    return (
        <>
@@ -14,9 +65,11 @@ function Dashboard() {
        <div class="flex h-auto h-screen bg-white">
 
   <div class=" w-1/5 bg-white h-full shadow-lg ">
-  <div className="head p-10 items-center h-32 ">
-      <h1 className="text-3xl text-white items-center">Rahul Gupta</h1>
-      <div className='text-sm text-white items-center'>abcd@gmail.com </div>
+  <div className="bg-blue-600 p-10 items-center h-32 ">
+      {user?<h1 className="text-3xl text-white items-center">{user.displayName}</h1>:<h1 className="text-3xl text-white items-center">not verified</h1>}
+      {user?<div className='text-sm text-white items-center'>{user.email} </div>: <div className='text-sm text-white items-center'>Please Login</div>}
+     
+   
     </div>
     <ul class="">
       <li className='hover:bg-blue-300'>
@@ -87,6 +140,15 @@ function Dashboard() {
 <h3 class="text-gray-700 text-3xl font-medium">Dashboard</h3>
 <div className='text-base mt-6 text-gray-400 font-sans-serif font-normal items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
 
+{projects&&projects.map((project, index)=>(
+             <>
+              <span className=' flex flex-col mt-10 h-44 w-44 bg-blue-200 items-center '> 
+  <img className='p-6' src='/static/assets(svg)/drone.svg' />
+  <div key={index} href={project.url} className="flex text-base font-sans font-medium">{project.name} </div>
+</span>
+              </>
+            )
+         )}
 
 
 </main>
@@ -296,11 +358,6 @@ function Dashboard() {
 
 </div>
 
-<style jsx>{`
-.head {
-  background-color: var(--colour-1);
-}
-`} </style>
 </div>
 </div>
 
