@@ -10,10 +10,10 @@ function Dashboard() {
        <>
        <Nav />
     
-       <div className="Home">
-       <div class="flex h-screen bg-white">
+       <div className="h-screen">
+       <div class="flex h-auto h-screen bg-white">
 
-  <div class=" w-1/5 bg-white overflow-hidden shadow-lg ">
+  <div class=" w-1/5 bg-white h-full shadow-lg ">
   <div className="head p-10 items-center h-32 ">
       <h1 className="text-3xl text-white items-center">Rahul Gupta</h1>
       <div className='text-sm text-white items-center'>abcd@gmail.com </div>
@@ -78,19 +78,14 @@ function Dashboard() {
      
     </ul>
   </div>
-<style jsx>{`
-.head {
-  background-color: var(--colour-1);
-}
-`} </style>
 
-<div class="flex-1 flex flex-col overflow-hidden">
+<div class="flex-1 flex flex-col ">
 
 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
 <main className='container mx-auto px-32 py-10'>
 
 <h3 class="text-gray-700 text-3xl font-medium">Dashboard</h3>
-<div className='text-sm text-white items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
+<div className='text-base mt-6 text-gray-400 font-sans-serif font-normal items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
 
 
 
@@ -100,8 +95,96 @@ function Dashboard() {
 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
 <main className='container mx-auto px-32 py-10'>
 
-<h3 class="text-gray-700 text-3xl font-medium">settings</h3>
-<div className='text-sm text-white items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
+<h3 class="text-gray-700 text-3xl font-medium">My Invoices</h3>
+
+<div class="flex flex-col mt-8">
+                        <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                            <div
+                                class="align-middle inline-block min-w-full overflow-hidden border-b border-gray-200">
+                                <table class="min-w-full">
+                                    <thead>
+                                        <tr className='head'>
+                                            <th
+                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                Sr. No.</th>
+                                            <th
+                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                Project Name</th>
+                                         
+                                            <th
+                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                Date</th>
+                                            <th
+                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                Invoice</th>
+                                          
+                                        </tr>
+                                        </thead>
+    
+                                    <tbody class="bg-white">
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                <div class="flex items-center">
+                              
+    
+                                                    <div class="ml-4">
+                                                        <div class="text-sm leading-5 font-medium text-gray-900">1.
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+                                            </td>
+    
+                                            <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                <div class="text-sm leading-5 text-gray-900">Software Engineer</div>
+                                                
+                                            </td>
+    
+                                
+    
+                                            <td
+                                                class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
+                                                Owner</td>
+    
+                                            <td
+                                                class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium">
+                                                <a href="#" class="text-indigo-600 hover:text-indigo-900">view</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                <div class="flex items-center">
+    
+                                                    <div class="ml-4">
+                                                        <div class="text-sm leading-5 font-medium text-gray-900">2.
+                                                        </div>
+                                                
+                                                    </div>
+                                                </div>
+                                            </td>
+    
+                                            <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                <div class="text-sm leading-5 text-gray-900">Software Engineer</div>
+                                        
+                                            </td>
+    
+                                            <td
+                                                class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
+                                                Owner</td>
+    
+                                            <td
+                                                class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium">
+                                                <a href="#" class="text-indigo-600 hover:text-indigo-900">view</a>
+                                            </td>
+                                        </tr>
+                                
+                                      
+                                     
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
 
 
 
@@ -111,7 +194,7 @@ function Dashboard() {
 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
 <main className='container mx-auto px-32 py-10'>
 
-<h3 class="text-gray-700 text-3xl font-medium">Invoices</h3>
+<h3 class="text-gray-700 text-3xl font-medium">My Account</h3>
 <div className='text-sm text-white items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
 
 
@@ -119,24 +202,105 @@ function Dashboard() {
 </main>
 </div>
 
-<div className={openTab === 4 ? "block" : "hidden"} id="link4">
-<main className='container mx-auto px-32 py-10'>
+<div className = {
+  openTab === 4 ? "block" : "hidden"}id = "link4">
+  <main className = 'mx-auto px-32 py-10' >
 
-<h3 class="text-gray-700 text-3xl font-medium">Account</h3>
-<div className='text-sm text-white items-center'>From your dashboard you can manage your projects, check your invoices, view your recent orders, and edit your password and account details</div>
+  <h3 class = "text-gray-700 mb-6 text-3xl font-medium"> Account Details </h3>
+
+  <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'> Full Name</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                                <input type="name"
+                  name="name" class="w-5/8 -ml-10 pl-4 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'> Company Name</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                                <input type="name"
+                  name="name" class="w-1/3 -ml-10 pl-4 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Company Name" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'> Email Id</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                            <input type="email"
+                  name="email" class="w-1/3 -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="johnsmith@example.com" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+
+
+  <h3 class = "text-gray-700 mt-10 mb-6 text-3xl font-medium"> Change Password</h3>
+
+  <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'>Current Password</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                            <input type="password" name="password"
+                class="w-1/3 -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'> New Password</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                            <input type="password" name="password"
+                   class="w-1/3 -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5">
+                          <label className='block text-gray-600 text-base font-sans font-medium mb-2'> Confirm New Passowrd</label>
+                            <div class="flex">
+                            <div class=" w-10 z-10 pl-1 "></div>
+                            <input type="password" name="password"
+                   class="w-1/3 -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
+                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+  </main>
+  </div>
 
 
 
-</main>
+
+
+
 </div>
 
-
-
-
-
-
-</div>
-
+<style jsx>{`
+.head {
+  background-color: var(--colour-1);
+}
+`} </style>
 </div>
 </div>
 
