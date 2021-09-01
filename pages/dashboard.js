@@ -275,7 +275,7 @@ useEffect(()=>{
                             <div class="flex">
                             <div class=" w-10 z-10 pl-1 "></div>
                                 <input type="name"
-                  name="name" class="w-5/8 -ml-10 pl-4 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
+                  name="name" class="w-1/3 -ml-10 pl-4 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
                 
                             </div>
                         </div>

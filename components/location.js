@@ -131,7 +131,6 @@ group-22 {
       img.svg:hover {
         fill: #fff;
       }
-      
 
       @font-face {
         font-family: "Circular Std-Book";

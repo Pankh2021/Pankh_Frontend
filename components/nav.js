@@ -23,12 +23,12 @@ function Nav() {
   <div class="py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
     <div className="ml-16"> 
-<a href='/Home'> 
+<Link href='/Home'> 
 <img
 style={{maxWidth: '60px' , height: '45px'}}
 src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 />
-</a>
+</Link>
 </div>
         <div class="hidden lg:flex items-center justify-center lg:ml-20 pt-0">
         
