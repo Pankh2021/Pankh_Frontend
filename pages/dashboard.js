@@ -267,7 +267,7 @@ useEffect(()=>{
   openTab === 4 ? "block" : "hidden"}id = "link4">
   <main className = 'mx-auto px-32 py-10' >
 
-  <h3 class = "text-gray-700 mb-6 text-3xl font-medium"> Account Details </h3>
+  <h3 class = "text-gray-700 mb-4 text-3xl font-medium"> Account Details </h3>
 
   <div class="flex -mx-2">
                         <div class="w-full px-3 mb-5">
@@ -307,7 +307,7 @@ useEffect(()=>{
                     </div>
 
 
-  <h3 class = "text-gray-700 mt-10 mb-6 text-3xl font-medium"> Change Password</h3>
+  <h3 class = "text-gray-700 mt-10 mb-4 text-3xl font-medium"> Change Password</h3>
 
   <div class="flex -mx-2">
                         <div class="w-full px-3 mb-5">

@@ -7,10 +7,10 @@ function Blog() {
     return (
         <>
       <Nav></Nav>
-      <section class="container px-6 py-4 mx-auto bg-white-200">
+      <section class="container px-6 py-4 mx-auto bg-white">
   <div class="grid  mb-8 md:grid-cols-1 lg:grid-cols-1">
 
-    <div class="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
+    <div class="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm ">
         <img alt="mountain" class="lg:h-48 md:h-28 w-45 rounded-md border-2 border-gray-300" src="https://www.nationalbusinesscapital.com/wp-content/uploads/2018/04/Fotolia_200621471_Subscription_Monthly_M-1.jpg" />
          <div id="body" class="flex flex-col ml-5">
             <h4 id="name" class="text-xl font-semibold mb-2">Drones in Construction</h4>
