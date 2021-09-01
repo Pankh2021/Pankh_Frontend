@@ -65,18 +65,7 @@ function Location(){
         </div>
         <div className="text-base font-medium mt-2 text-black">Hyderabad</div>
       </div>
-      <div className="group-3">
-      <div className='group border-1px-geyser' >
-          <img className='svg' src="/static/assets(svg)/Hyderabad.svg" />  
-        </div>
-        <div className="text-base font-medium mt-2 text-black">Hyderabad</div>
-      </div>
-      <div className="group-3">
-      <div className='group border-1px-geyser' >
-          <img className='svg' src="/static/assets(svg)/Hyderabad.svg" />  
-        </div>
-        <div className="text-base font-medium mt-2 text-black">Hyderabad</div>
-      </div>
+      
 
       </HorizontalScroll>
     
