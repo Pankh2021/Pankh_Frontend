@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 function Footerr (){
 
@@ -51,22 +52,29 @@ return (
               <div className="pricing-i120117460-1 text-sm font-sans-serif font-normal text-blue-500">Privacy</div>
               <div className="pricing-i120117460-2 text-sm font-sans-serif font-normal text-blue-500">Cookies</div>
             </div>
+
+            <Link href='https://www.linkedin.com/company/pankhtechnology/'>
+            <button>
+
             <div className="linkedin">
               <div className="overlap-group3">
                 <div className="group-36">
                   <div className="flex-col">
+                   
                     <span
                       className="oval"
-                    >
+                      >
                     <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.48367 2.9671C2.30301 2.9671 2.96722 2.30289 2.96722 1.48355C2.96722 0.664208 2.30301 0 1.48367 0C0.66433 0 0.00012207 0.664208 0.00012207 1.48355C0.00012207 2.30289 0.66433 2.9671 1.48367 2.9671Z" fill="#1687A7"/>
 </svg>
 
                     </span>
+                    
+
                     <span
                       className="shape"
                       src="shape-2.svg"
-                    >
+                      >
                     <svg width="3" height="9" viewBox="0 0 3 9" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M2.71984 0.958008H0.247258C0.110772 0.958008 0 1.06878 0 1.20527V8.62302C0 8.7595 0.110772 8.87028 0.247258 8.87028H2.71984C2.85633 8.87028 2.9671 8.7595 2.9671 8.62302V1.20527C2.9671 1.06878 2.85633 0.958008 2.71984 0.958008Z" fill="#1687A7"/>
 </svg>
@@ -75,7 +83,7 @@ return (
                   </div>
                   <span
                     className="shape-1"
-                  >
+                    >
                   <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7.08804 0.546646C6.03126 0.18466 4.70942 0.502634 3.91671 1.07281C3.88951 0.96649 3.79258 0.887368 3.67736 0.887368H1.20478C1.06829 0.887368 0.95752 0.998139 0.95752 1.13463V8.55237C0.95752 8.68886 1.06829 8.79963 1.20478 8.79963H3.67736C3.81385 8.79963 3.92462 8.68886 3.92462 8.55237V3.22149C4.32419 2.8773 4.83898 2.76752 5.26031 2.94653C5.66878 3.11912 5.90269 3.54045 5.90269 4.10172V8.55237C5.90269 8.68886 6.01346 8.79963 6.14994 8.79963H8.62253C8.75902 8.79963 8.86979 8.68886 8.86979 8.55237V3.60375C8.8416 1.57178 7.8857 0.819619 7.08804 0.546646Z" fill="#1687A7"/>
 </svg>
@@ -84,6 +92,9 @@ return (
                 </div>
               </div>
             </div>
+            </button>
+            </Link>
+
             <div className="flex-row-item">
               <div className="overlap-group2">
                 <span
