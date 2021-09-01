@@ -65,7 +65,7 @@ useEffect(()=>{
        <div class="flex h-auto h-screen bg-white">
 
   <div class=" w-1/5 bg-white h-full shadow-lg ">
-  <div className="bg-blue-600 p-10 items-center h-32 ">
+  <div className=" p-10 items-center h-32" style={{backgroundColor: "var(--colour-1)"}}>
       {user?<h1 className="text-3xl text-white items-center">{user.displayName}</h1>:<h1 className="text-3xl text-white items-center">not verified</h1>}
       {user?<div className='text-sm text-white items-center'>{user.email} </div>: <div className='text-sm text-white items-center'>Please Login</div>}
      
@@ -161,23 +161,22 @@ useEffect(()=>{
 
 <div class="flex flex-col mt-8">
                         <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                            <div
-                                class="align-middle inline-block min-w-full overflow-hidden border-b border-gray-200">
-                                <table class="min-w-full">
+                            <div class="align-middle inline-block min-w-full overflow-hidden border-b border-gray-200" style={{backgroundColor: "var(--colour-1)"}}>
+                                <table class="min-w-full ">
                                     <thead>
                                         <tr className='head'>
                                             <th
-                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                class="px-6 py-4 border-b border-gray-200 text-left text-sm leading-4 font-medium text-white font-sans tracking-wider">
                                                 Sr. No.</th>
                                             <th
-                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                class="px-6 py-4 border-b border-gray-200 text-left text-sm leading-4 font-medium text-white font-sans tracking-wider">
                                                 Project Name</th>
                                          
                                             <th
-                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                class="px-6 py-4 border-b border-gray-200 text-left text-sm leading-4 font-medium text-white font-sans tracking-wider">
                                                 Date</th>
                                             <th
-                                                class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-white tracking-wider">
+                                                class="px-6 py-4 border-b border-gray-200 text-left text-sm leading-4 font-medium text-white font-sans tracking-wider">
                                                 Invoice</th>
                                           
                                         </tr>
