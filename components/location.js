@@ -139,10 +139,6 @@ group-22 {
         padding: 4px 12px;
       }
 
-      .group:hover {
-        background-color: var(--colour-1);
-      }
-
       img.svg:hover {
         fill: #fff;
       }
