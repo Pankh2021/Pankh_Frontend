@@ -84,34 +84,28 @@ function Signin(){
     </div>
 </div>
                  
-                    <div class="flex -mx-2" id='B'>
-                        <div class="w-full px-3 mb-5">
-                            <div class="flex">
-                                <div class="w-10 z-10 pl-1 "></div>
-                                <input type="email" value={email} 
-                                onChange={(event) => setEmail(event.target.value)}
-                  name="email" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="johnsmith@example.com" required/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex -mx-2">
-                        <div class="w-full px-3 mb-5">
-                            <div class="flex">
-                                <div class="w-10 z-10 pl-1 "></div>
-                                <input type="password" name="password"
-                  value={password}
-                  onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-right ">
+<div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} name="email" placeholder=" " class="block py-3 px-4 pr-4 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="email" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Email</label>
+  </div>
+  </div>
+
+                    <div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder=" " class="block py-3 px-4 pr-4 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="password" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Password</label>
+  </div>
+  </div>
+
+  <div class="text-right ">
           <a href="#" class="text-sm font-normal text-gray-500 hover:text-blue-700 focus:text-blue-700">Forgot Password?</a>
         </div>
 
-                    <div class="flex -mx-3 mt-4">
-                        <div className="signup w-full px-3 mb-5">
+        <div class="flex w-full px-3 mb-5 -mx-2 mt-4">
+                        <div className="signup w-full mb-5">
                             <button type='submit' class=" w-full text-base items-center justify-center py-3 font-sans-serif font-medium text-white" style={{backgroundColor: 'var(--colour-1)'}}>Sign In</button>
-                            
+                     
                         </div>
                     </div>
               </form>

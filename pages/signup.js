@@ -29,7 +29,6 @@ function Signup() {
   const image = {pilotimage,clientimage}
   const [selected, setSelected] = useState(image.clientimage);
 
-
   const onSubmit = event => {
     setError(null)
     //check if passwords match. If they do, create user in Firebase
@@ -99,29 +98,31 @@ function Signup() {
     </div>
 </div>
                     
-                    <div class="flex -mx-2">
-                        <div class="w-full px-3 mb-5">
+                    {/* <div class="flex -mx-2">
+                        <div class="w-full px-3 mb-5 ">
                             <div class="flex">
-                            <div class=" w-10 z-10 pl-1 "></div>
-                                <input type="name" value={name}
+                            <div class="w-10 z-10 pl-1"></div>
+                                <input type="name" value={name} id="name"
                                 onChange={(event) => setname(event.target.value)}
-                  name="name" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Full Name" required/>
-                
+                  name="name" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900 block p-4 w-full text-lg appearance-none focus:outline-none bg-transparent" required/>
+                  <label for="name" class="absolute top-0 text-lg bg-white p-4 -z-1 duration-300 origin-0">Full Name</label>
                             </div>
                         </div>
-                    </div>
-
-                    { selected=== image.clientimage && (<div class="flex -mx-2 " id='A'>
-                        <div class="w-full px-3 mb-5">
-                            <div class="flex">
-                                <div class="w-10 z-10 pl-1"></div>
-                                <input type="company name"
-                  name="client" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="Company Name" required/>
-                            </div>
-                        </div>
-                    </div>) }
+                    </div> */}
+                    <div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="text" onChange={(event) => setname(event.target.value)} value={name} name="name" placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="name" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Full Name</label>
+  </div>
+  </div>
+                    { selected=== image.clientimage && (<div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="text" name="companyname" placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="companyname" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Company Name</label>
+  </div>
+  </div>) }
                     
-                    <div class="flex -mx-2" id='B'>
+                    {/* <div class="flex -mx-2" id='B'>
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 "></div>
@@ -130,8 +131,14 @@ function Signup() {
                   name="email" class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="johnsmith@example.com" required/>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex -mx-2">
+                    </div> */}
+                    <div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} name="email" placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="email" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Email</label>
+  </div>
+  </div>
+                    {/* <div class="flex -mx-2">
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 "></div>
@@ -140,15 +147,21 @@ function Signup() {
                   onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+               <div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="password" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Password</label>
+  </div>
+  </div>
 
                     <div class="flex">
     <input type="checkbox" id="checkbox-example" class="h-4 w-4 text-teal-700 flex border rounded mr-2"/>
     <label for="checkbox-example" class='text-sm '>by creating account, you agree to accept our<a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'> Privacy <br/> Policy</a>, <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Terms of Services</a>, and <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Notification Settings</a>.</label>
 </div>
 
-                    <div class="flex -mx-3 mt-4">
-                        <div className="signup w-full px-3 mb-5">
+                    <div class="flex w-full px-3 mb-5 -mx-2 mt-4">
+                        <div className="signup w-full mb-5">
                             <button type='submit' class=" w-full text-base items-center justify-center py-3 font-sans-serif font-medium text-white" style={{backgroundColor: 'var(--colour-1)'}}>Create Account</button>
                      
                         </div>
