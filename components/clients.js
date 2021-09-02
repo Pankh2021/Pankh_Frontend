@@ -10,26 +10,36 @@ function Client(){
 <div className="group-43">
       <h1 className="text-1 text-4xl bg-white  justify-between font-sans-serif text-black">Our Clients</h1>
       <div className="group-39">
+        <a href='https://amplussolar.com/' target='_blank'> 
         <img
           className="image-13"
           src="/static/assets(png)/image-13.png"
-        />
+          />
+        </a>
+        <a href='https://kecrpg.com/' target='_blank'> 
         <img
           className="image-14"
           src="/static/assets(png)/image-14.png"
           />
+        </a>
+        <a href='https://www.afcons.com/en' target='_blank'> 
         <img
           className="image-15"
           src="/static/assets(png)/image-15.png"
         />
+        </a>
+        <a href='https://www.greenyatra.org/' target='_blank'> 
         <img
           className="image-16"
           src="/static/assets(png)/image-16.png"
           />
+        </a>
+        <a href='https://www.tuvsud.com/en-in' target='_blank'> 
         <img
           className="image-17"
           src="/static/assets(png)/image-17.png"
           />
+        </a>
       </div>
 
       <style jsx>{`

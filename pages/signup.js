@@ -63,11 +63,13 @@ function Signup() {
 <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet"/>
 
 <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css')</style>        
-
+<div class="relative">
+<a href='/Home'> <div class="absolute left-12 top-10 h-16 w-16"><img src='/static/assets(png)/logo.png' /> </div> </a>
+</div>
 <section class="flex flex-col md:flex-row bg-white h-screen w-screen items-center">
 
   <div className="flex items-center justify-center bg-white py-32 px-28 lg:block w-full md:w-1/2  h-screen ">
-    <img src={selected} id='img' name='backimg' alt="" class="flex items-center justify-center"/>
+  <img src={selected} id='img' name='backimg' alt="" class="flex items-center justify-center"/>
   </div>
 
   <div class="bg-white w-full h-screen xl:w-1/3 flex items-center justify-center">
@@ -129,7 +131,7 @@ function Signup() {
                             </div>
                         </div>
                     </div>
-                    <div class="flex -mx-3">
+                    <div class="flex -mx-2">
                         <div class="w-full px-3 mb-5">
                             <div class="flex">
                                 <div class="w-10 z-10 pl-1 "></div>
@@ -145,21 +147,10 @@ function Signup() {
     <label for="checkbox-example" class='text-sm '>by creating account, you agree to accept our<a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'> Privacy <br/> Policy</a>, <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Terms of Services</a>, and <a className='text-sm font-normal font-sans text-blue-500  hover:text-blue-700'>Notification Settings</a>.</label>
 </div>
 
-                    <div class="flex -mx-3">
+                    <div class="flex -mx-3 mt-4">
                         <div className="signup w-full px-3 mb-5">
-                            <button type='submit' class=" w-full text-base items-center font-sans-serif font-medium text-white">Create Account</button>
-                            <style jsx>{`
-                            .signup {
-                              align-items: center;
-            background-color: var(--colour-1);
-            display: flex;
-            height: 48px;
-            justify-content: flex-end;
-            margin-top: 24px;
-            min-width: 189px;
-            padding: 0 30px;
-                            }
-                            `} </style>
+                            <button type='submit' class=" w-full text-base items-center justify-center py-3 font-sans-serif font-medium text-white" style={{backgroundColor: 'var(--colour-1)'}}>Create Account</button>
+                     
                         </div>
                     </div>
               </form>

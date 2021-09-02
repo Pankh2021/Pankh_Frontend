@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import Link from 'next/link';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -52,7 +53,7 @@ return (
       </div>
       <div className="cta-primary">
         <div className="overlap-group">
-          <button className="text-3 text-sm font-sans font-medium text-white">DISCUSS REQUIREMENT</button>
+          <button className="text-3 text-sm font-sans font-medium text-white"><Link href='/rentdrone'> DISCUSS REQUIREMENT </Link></button>
         </div>
       </div>
     </div>

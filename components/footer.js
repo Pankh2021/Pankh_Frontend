@@ -53,7 +53,7 @@ return (
               <div className="pricing-i120117460-2 text-sm font-sans-serif font-normal text-blue-500">Cookies</div>
             </div>
 
-            <Link href='https://www.linkedin.com/company/pankhtechnology/'>
+            <a href='https://www.linkedin.com/company/pankhtechnology/' target='_blank'>
             <button>
 
             <div className="linkedin">
@@ -93,7 +93,7 @@ return (
               </div>
             </div>
             </button>
-            </Link>
+            </a>
 
             <div className="flex-row-item">
               <div className="overlap-group2">

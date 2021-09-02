@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import HorizontalScroll from 'react-scroll-horizontal'
 
-
 function Location(){
 
   const ref = useRef(null)
@@ -13,12 +12,12 @@ function Location(){
         <>
 <div className=' justify-center items-center bg-white'>
 <h1 className="text-center text-4xl bg-white p-10 justify-between font-sans-serif text-black">Search Drones by City</h1>
-<div className="group-38 flex flex-start overflow-x-scroll hide-scroll-bar mx-40">
-<HorizontalScroll> 
+<div className="group-38 flex flex-start overflow-x-scroll hide-scroll-bar mx-40" >
+<HorizontalScroll>
 
       <div className="group-3">
       <div className='group border-1px-geyser' >
-          <img class='svg' src="/static/assets(svg)/DelhiNCR.svg" />  
+        <img class='svg' src="/static/assets(svg)/DelhiNCR.svg" />  
         </div>
         <div className="text-base font-medium mt-2 text-black">Delhi-NCR</div>
       </div>
@@ -66,19 +65,25 @@ function Location(){
         <div className="text-base font-medium mt-2 text-black">Hyderabad</div>
       </div>
       
-
-      </HorizontalScroll>
+</HorizontalScroll>
+   
+  </div>
     
-      </div>
 
       <style jsx>{`
-
 .hide-scroll-bar {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
+}
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
 
 group-22 {
@@ -93,6 +98,7 @@ group-22 {
   display: flex;
   height: 188px;
   min-width: 920px;
+  overflow-x: scroll;
 }
       
       .group-33 {
@@ -118,7 +124,6 @@ group-22 {
         position: relative;
         
       }
-
       .group {
         align-items: flex-start;
         background-color: var(--white);
@@ -127,11 +132,9 @@ group-22 {
         min-width: 160px;
         padding: 4px 12px;
       }
-
       img.svg:hover {
         fill: #fff;
       }
-
       @font-face {
         font-family: "Circular Std-Book";
         font-style: normal;
@@ -145,5 +148,25 @@ group-22 {
     )
 }
 
-export default Location;
 
+function LeftArrow() {
+  const { isFirstItemVisible, scrollPrev } = React.useContext(VisibilityContext)
+
+  return (
+    <div disabled={isFirstItemVisible} onClick={() => scrollPrev()}>
+      <img src='/static/assets(png)/left.png' />
+    </div>
+  );
+}
+
+function RightArrow() {
+  const { isLastItemVisible, scrollNext } = React.useContext(VisibilityContext)
+
+  return (
+    <div disabled={isLastItemVisible} onClick={() => scrollNext()}>
+      <img src='/static/assets(png)/Right.png' />
+    </div>
+  );
+}
+
+export default Location;
