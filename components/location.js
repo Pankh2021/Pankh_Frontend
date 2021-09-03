@@ -97,7 +97,7 @@ group-22 {
   justify-content: center;
   display: flex;
   height: 188px;
-  min-width: 920px;
+  
   overflow-x: scroll;
 }
       
@@ -129,7 +129,7 @@ group-22 {
         background-color: var(--white);
         display: flex;
         margin-right: 2.0px;
-        min-width: 160px;
+        min-width: 130px;
         padding: 4px 12px;
       }
       img.svg:hover {

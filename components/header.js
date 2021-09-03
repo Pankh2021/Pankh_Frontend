@@ -81,7 +81,7 @@ return (
   .image-1 {
     height: 480px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     object-fit: cover;
     width: 934px;
   }
@@ -115,7 +115,7 @@ return (
     align-items: flex-start;
     display: flex;
     margin-top: 48px;
-    min-width: 387px;
+    min-width: 377px;
   }
   
   .overlap-group {
@@ -123,8 +123,8 @@ return (
     background-color: var(--colour-1);
     display: flex;
     height: 56px;
-    justify-content: flex-end;
-    min-width: 385px;
+    justify-content: flex-start;
+    min-width: 387px;
     padding: 0 121.5px;
   }
   
@@ -159,19 +159,6 @@ return (
 
 export default Header;
 
-function Rectangle51() {
-  return <div className="rectangle-51">
-    <style jsx>{`
-          .rectangle-51 {
-            background-color: var(--cultured-pearl);
-            height: 590px;
-            left: 2492px;
-            position: absolute;
-            top: 0;
-            width: 964px;
-          }
-    `} </style>
-  </div>;
-}
+
 
 

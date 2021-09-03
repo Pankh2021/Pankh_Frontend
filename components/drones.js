@@ -86,9 +86,8 @@ function Group27(props) {
             align-items: flex-end;
             justify-content: center;
             display: flex;
-            height: 321px;
+          
             margin-left: 40px;
-            min-width: 1340px;
             
           }
           
@@ -96,7 +95,7 @@ function Group27(props) {
             align-items: flex-start;
             display: flex;
             flex-direction: column;
-            min-height: 321px;
+            min-height: 270px;
             position: relative;
             width: 295px;
           }

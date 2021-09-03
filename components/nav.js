@@ -19,43 +19,41 @@ function Nav() {
   return (
 
 <>
-<nav class="flex flex-wrap w-full p-5 bg-white border-b">
-  <div class="py-0 md:flex md:justify-between md:items-center">
+<nav class="flex flex-wrap  items-center justify-between py-4 bg-white border-b">
+  <div class=" md:flex  md:items-center items-center">
     <div class="flex justify-between items-center">
-    <div className="ml-16"> 
-<Link href='/Home'> 
+    <div className="ml-10"> 
+<a href='/Home'> 
 <img
 style={{maxWidth: '60px' , height: '45px'}}
 src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 />
-</Link>
+</a>
 </div>
-        <div class="hidden lg:flex items-center justify-center lg:ml-20 pt-0">
-        
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans ">
+        <div class="lg:flex items-center justify-center lg:ml-20 pt-1">
+                <a href="#" class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans ">
                   Buy
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans">
+                <a href="#" class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans">
                   Rent
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="#" class="flex items-center justify-center mr-10 text-sm text-gray-700 font-medium font-sans">
-                  Drone Pilot
-                
-                </a>
+                <span className="flex truncate items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans">
+                Drone Pilot
+                </span>
 
                  <div class="dropdown inline-block relative">
-    <button class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans"> Solutions
+    <button class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans"> Solutions
       <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
     </button>
-    <ul class=" w-52 dropdown-menu absolute hidden text-gray-700 pt-8">
+    <ul class=" w-52 dropdown-menu absolute hidden text-gray-700 pt-7">
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Construction</a></li>
       <li class=""><a class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap" href="#">Utility</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Security & Surveillance</a></li>
@@ -64,7 +62,7 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
     </div>   
               </div>
 
-    <div className="searchbar ml-20">
+    <div className="searchbar ml-16">
       <div className="overlap-group border-1px-geyser">
         <span
           className="ellipse"
