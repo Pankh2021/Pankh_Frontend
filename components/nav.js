@@ -2,33 +2,41 @@ import React, { useState, useEffect } from "react";
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 import { useRouter } from 'next/router';
-import { useAuth } from '../firebase/authuserprovider';
+// import { useAuth } from '../firebase/authuserprovider';
+import authHelper from '../auth/authHelper';
 
 function Nav() {
 
-  const { authUser } = useAuth();
+  // const { authUser } = useAuth();
   const router = useRouter();
 
+  // user instance
+  const {user, logOut} = authHelper();
 
-  useEffect(() => {
-    if (!authUser){
-      console.log('you are not logged in');
-    }
-  }, [authUser])
+  // logging out user
+  const handleLogout = ()=>{
+    logOut();
+    router.push('/dashboard');
+  }
+
+
+  // useEffect(() => {
+  //   if (!authUser){
+  //     console.log('you are not logged in');
+  //   }
+  // }, [authUser])
 
   return (
 
 <>
-<nav class="flex flex-wrap w-full p-5 bg-white border-b">
-  <div class="py-0 md:flex md:justify-between md:items-center">
+<nav class=" p-5 bg-white shadow">
+  <div class="container py-0 md:flex md:justify-between md:items-center">
     <div class="flex justify-between items-center">
     <div className="ml-16"> 
-<Link href='/Home'> 
 <img
 style={{maxWidth: '60px' , height: '45px'}}
 src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 />
-</Link>
 </div>
         <div class="hidden lg:flex items-center justify-center lg:ml-20 pt-0">
         
@@ -48,20 +56,6 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
                   Drone Pilot
                 
                 </a>
-
-                 <div class="dropdown inline-block relative">
-    <button class="flex items-center justify-center mr-10 text-base text-gray-700 font-medium font-sans"> Solutions
-      <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-    </button>
-    <ul class=" w-52 dropdown-menu absolute hidden text-gray-700 pt-8">
-      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Construction</a></li>
-      <li class=""><a class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap" href="#">Utility</a></li>
-      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Security & Surveillance</a></li>
-      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Agriculture</a></li>
-    </ul>
-    </div>   
               </div>
 
     <div className="searchbar ml-20">
@@ -112,15 +106,13 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
         src: url("https://fonts.animaapp.com/CircularStd-Book") format("opentype");
       }
       
-
       `} </style>
     </div>
 
 
+      {/* render differently according to user state */}
+      {user?<a onClick={handleLogout}><Frame2>Logout</Frame2></a>:<a href='/signup'> <Frame2>Register/Sign In </Frame2></a> }
       
-      {!authUser &&<a href='/signup'> <Frame2>Register/Sign In </Frame2></a> }
-      
-      {authUser && <Frame2>Logout</Frame2> }
       </div>
       </div>
       
