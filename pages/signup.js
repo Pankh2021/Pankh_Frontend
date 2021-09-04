@@ -8,6 +8,7 @@ import { info } from 'autoprefixer';
 import backimg from '/static/assets(svg)/image_pilot.svg'
 import { name } from 'file-loader';
 import authHelper from '../auth/authHelper';
+import { Message } from 'semantic-ui-react'
 
 
 
@@ -39,6 +40,7 @@ function Signup() {
         try{
           await authUser.user.sendEmailVerification();
           // ------------TODO: display msg "Verification email send succesfully"
+          alert('email sent');
           console.log("Email verification sent");
         }
         catch
