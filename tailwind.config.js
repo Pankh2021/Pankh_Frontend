@@ -6,7 +6,10 @@ module.exports = {
         none: 'none',
        disc: 'disc',
        decimal: 'decimal',
-       
+       backdropFilter: {
+      'none': 'none',
+      'blur': 'blur(20px)',
+    },
       },
       extend: {
         opacity: {
@@ -34,6 +37,7 @@ module.exports = {
     },
     plugins: [
       require('tailwindcss-blend-mode'),
-      require('@tailwindcss/custom-forms')
+      require('@tailwindcss/custom-forms'),
+      require('tailwindcss-filters'),
     ],
 }
