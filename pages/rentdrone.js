@@ -14,8 +14,8 @@ function rentdrone(){
             <img src='/static/assets(png)/Headerimage.png' />
         </div>
 
-        <div class="bg-white shadow-md mt-6 overflow-hidden  backdrop-filter backdrop-blur-xl bg-opacity-60">
-            <div class="items-center justify-between py-10 px-10 bg-white shadow-2xl rounded-lg mx-auto text-center">
+        <div class="shadow-md mt-6 overflow-hidden backdrop-filter backdrop-blur-xl bg-opacity-60">
+            <div class="items-center justify-between py-10 px-10 bg-white shadow-2xl  mx-auto text-center overflow-hidden backdrop-filter backdrop-blur-xl bg-opacity-60">
                 <div class="px-2 -mt-6">
                     <div class="text-center">
                         <h1 class="font-normal text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Get the
@@ -23,8 +23,8 @@ function rentdrone(){
                         <div class="w-full text-center">
                             <form action="#">
 
-<div class="group inline-block px-4">
-  <button class="outline-none focus:outline-none border px-14 py-2 bg-white border-gray-900 flex min-w-32">
+<div class="group inline-block px-4 ">
+  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
     <span class="font-semibold flex-1">Location</span>
     <span>
       <svg
@@ -50,7 +50,7 @@ function rentdrone(){
 </div>
 
 <div class="group inline-block px-4">
-  <button class="outline-none focus:outline-none border px-14 py-2 bg-white border-gray-900 flex min-w-32">
+  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
     <span class="pr-1 font-semibold flex-1">Application</span>
     <span>
       <svg
@@ -76,7 +76,7 @@ function rentdrone(){
 </div>
 
 <div class="group inline-block px-4">
-  <button class="outline-none focus:outline-none border px-14 py-2 bg-white border-gray-900 flex min-w-32">
+  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
     <span class="pr-1 font-semibold flex-1">Date</span>
     <span>
       <svg
@@ -102,18 +102,18 @@ function rentdrone(){
 </div>
 
 <div class=" relative inline-block px-4">
-    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="No. of days"/>
+    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-3 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="No. of days"/>
 </div>
 
 <div class=" relative inline-block px-4">
-    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="Area"/>
+    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-3 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="Area"/>
 </div>
 
 
                             </form>
                         </div>
 
-                        <div className="flex flex-center mx-auto w-48 mt-5 mb-5 items-center justify-center">
+                        <div className="flex flex-center mx-auto w-48 mb-5 mt-6 items-center justify-center">
                             <button type='submit' class=" w-full text-base items-center justify-center py-3 font-sans-serif font-medium text-white" style={{backgroundColor: 'var(--colour-1)'}}>GET QUOTE</button>
                         </div>
                     </div>
@@ -137,14 +137,14 @@ function rentdrone(){
     </div>
 
 <div class="container mx-auto mt-10 bg-white py-10 items-center justify-between">
-<div className='flex flex-center mx-auto justify-between items-center'>
+<div className='flex flex-col mx-auto mt-10 justify-between items-center'>
         <h1 className="flex text-4xl bg-white font-sans-serif text-black"> Get drone for all your needs</h1>
       </div>
 
-<div class="flex justify-center items-center px-8 mt-10 bg-white py-10">
+<div class="flex justify-center items-center mt-4 bg-white py-10 mx-10 px-20">
 
 <div class="container ">
-    <div class="w-11/12 bg-white mx-auto ">
+    <div class="w-11/12 bg-white ">
       <div class="h-20 bg-green-100 border shadow-lg flex items-center justify-between">
       <div class="flex items-center space-x-2">
         <img class="mx-4" src="/static/assets(svg)/bill1.svg" alt="sara" />
@@ -160,7 +160,7 @@ function rentdrone(){
   </div>
 
   <div class="container ">
-    <div class="w-11/12 bg-white mx-auto rounded-sm overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 transform hover:scale-100 cursor-pointer">
+    <div class="w-11/12 bg-white rounded-sm overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 transform hover:scale-100 cursor-pointer">
       <div class="h-20 bg-yellow-100 border shadow-lg flex items-center justify-between">
       <div class="flex items-center space-x-2">
         <img class="mx-4" src="/static/assets(svg)/worker1.svg" alt="sara" />
@@ -176,7 +176,7 @@ function rentdrone(){
   </div>
 
   <div class="container ">
-    <div class="w-11/12 bg-white mx-auto rounded-sm overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 transform hover:scale-100 cursor-pointer">
+    <div class="w-11/12 bg-white rounded-sm overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 transform hover:scale-100 cursor-pointer">
       <div class="h-20 bg-blue-100 border shadow-lg flex items-center justify-between">
       <div class="flex items-center space-x-2">
         <img class="mx-4" src="/static/assets(svg)/dashboard1.svg" alt="sara" />
@@ -227,50 +227,50 @@ function rentdrone(){
 
 
 
-<div class="py-5 mx-10 ">
-        <main class="h-full ">
+<div class=" container py-5 mx-10 ">
+
+<h2 className='font-sans font-semibold text-xl text-gray-900 ml-10 px-10'>Recommend by clients across India</h2>
+        <div class="flex mx-10 justify-center items-center px-8 bg-white py-4">
         
-              
-                
-                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border ">
+                <div class="container mx-2 flex w-1/2 items-center bg-white rounded-lg shadow-xl border ">
                  
                   <div class="text-blue-500 ">
                   <img src='/static/assets(png)/img1.png' />
                   </div>
                   <div>
-                    <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                    <p class="px-6 mb-2 text-xl font-semibold font-sans text-gray-900">
                      500+ trained <br/> drone pilots
                     </p>
                   </div>
                 </div>
           
-                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border">
+                <div class=" container mx-2 flex w-1/2 items-center bg-white rounded-lg shadow-xl border">
                  
                   <div class="text-blue-500 ">
-                  <img src='/static/assets(png)/img1.png' />
+                  <img src='/static/assets(png)/img2.png' />
                   </div>
                   <div>
-                  <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                  <p class="px-6 mb-2 text-xl font-semibold font-sans text-gray-900">
                      10 cities <br/> PAN India
                     </p>
                   </div>
                 </div>
 
             
-                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border">
+                <div class="container mx-2 flex w-1/2 items-center bg-white rounded-lg shadow-xl border">
                  
                   <div class="text-blue-500 ">
-                  <img src='/static/assets(png)/img1.png' />
+                  <img src='/static/assets(png)/img3.png' />
                   </div>
                   <div>
-                   <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                   <p class="px-6 mb-2 text-xl font-semibold font-sans text-gray-900">
                      Satisfied <br/> Clients
                     </p>
                   </div>
                 </div>
 
           
-        </main>
+        </div>
     </div>
 
 <Faq></Faq>
