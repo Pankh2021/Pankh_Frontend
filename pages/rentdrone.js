@@ -14,7 +14,7 @@ function rentdrone(){
             <img src='/static/assets(png)/Headerimage.png' />
         </div>
 
-        <div class="bg-white shadow-md mt-6 overflow-hidden">
+        <div class="bg-white shadow-md mt-6 overflow-hidden  backdrop-filter backdrop-blur-xl bg-opacity-60">
             <div class="items-center justify-between py-10 px-10 bg-white shadow-2xl rounded-lg mx-auto text-center">
                 <div class="px-2 -mt-6">
                     <div class="text-center">
@@ -138,9 +138,10 @@ function rentdrone(){
 
 <div class="container mx-auto mt-10 bg-white py-10 items-center justify-between">
 <div className='flex flex-center mx-auto justify-between items-center'>
-        <h1 className="flex text-4xl bg-white flex justify-center items-center font-sans-serif text-black"> Get drone for all your needs</h1>
+        <h1 className="flex text-4xl bg-white font-sans-serif text-black"> Get drone for all your needs</h1>
       </div>
-<div class="flex justify-center items-center mt-10 bg-white py-10">
+
+<div class="flex justify-center items-center px-8 mt-10 bg-white py-10">
 
 <div class="container ">
     <div class="w-11/12 bg-white mx-auto ">
@@ -167,9 +168,9 @@ function rentdrone(){
       </div>
       </div>
       <div class="flex justify-center items-center shadow-lg border px-5 pt-6 mt-2 py-6 text-xl font-sans font-medium text-gray-600">
-        <p className='items-center justify-between'>Get instant outline quotes<br/>
-          with few details about your<br/>
-          requiremants </p>
+        <p className='items-center justify-between'>Get trained pilots with<br/>
+          Pankh's PAN India Network of<br/>
+          trained and certified pilots </p>
       </div>
     </div>
   </div>
@@ -183,9 +184,9 @@ function rentdrone(){
       </div>
       </div>
       <div class="flex justify-center items-center shadow-lg border px-5 pt-6 mt-2 py-6 text-xl font-sans font-medium text-gray-600">
-        <p className='items-center justify-between'>Get instant outline quotes<br/>
-          with few details about your<br/>
-          requiremants </p>
+        <p className='items-center justify-between'>Get drone data visualization<br/>
+          on dedicated dashboards by<br/>
+        Pankh Tech </p>
       </div>
     </div>
   </div>
@@ -222,6 +223,55 @@ function rentdrone(){
     </div>
   </div>
 </section>
+
+
+
+
+<div class="py-5 mx-10 ">
+        <main class="h-full ">
+        
+              
+                
+                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border ">
+                 
+                  <div class="text-blue-500 ">
+                  <img src='/static/assets(png)/img1.png' />
+                  </div>
+                  <div>
+                    <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                     500+ trained <br/> drone pilots
+                    </p>
+                  </div>
+                </div>
+          
+                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border">
+                 
+                  <div class="text-blue-500 ">
+                  <img src='/static/assets(png)/img1.png' />
+                  </div>
+                  <div>
+                  <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                     10 cities <br/> PAN India
+                    </p>
+                  </div>
+                </div>
+
+            
+                <div class="flex w-3/4 items-center bg-white rounded-lg shadow-xl border">
+                 
+                  <div class="text-blue-500 ">
+                  <img src='/static/assets(png)/img1.png' />
+                  </div>
+                  <div>
+                   <p class="px-6 mb-2 text-sm font-medium text-gray-900">
+                     Satisfied <br/> Clients
+                    </p>
+                  </div>
+                </div>
+
+          
+        </main>
+    </div>
 
 <Faq></Faq>
 <Footerr></Footerr>
