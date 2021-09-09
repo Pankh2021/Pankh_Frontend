@@ -20,93 +20,57 @@ function rentdrone(){
                     <div class="text-center">
                         <h1 class="font-normal text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Get the
                             Latest Information</h1>
-                        <div class="w-full text-center">
+                        
                             <form action="#">
 
-<div class="group inline-block px-4 ">
-  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
-    <span class="font-semibold flex-1">Location</span>
-    <span>
-      <svg
-        class="fill-current h-4 w-4 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-      >
-        <path
-          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-        />
-      </svg>
-    </span>
-  </button>
-  <ul
-    class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32"
-  >
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Programming</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">DevOps</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Testing</li>
-  </ul>
+<div class="relative inline-flex mx-4">
+  <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+  <select class="border border-gray-900 text-gray-600 h-12 pl-5 pr-28 bg-white hover:border-gray-800 focus:outline-none appearance-none">
+    <option>Location</option>
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Luckhnow</option>
+    <option>Kanur</option>
+    <option>Indore</option>
+    <option>chandigarh</option>
+  </select>
 </div>
 
-<div class="group inline-block px-4">
-  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
-    <span class="pr-1 font-semibold flex-1">Application</span>
-    <span>
-      <svg
-        class="fill-current h-4 w-4 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-      >
-        <path
-          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-        />
-      </svg>
-    </span>
-  </button>
-  <ul
-    class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32"
-  >
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Programming</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">DevOps</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Testing</li>
-  </ul>
+
+<div class="relative inline-flex mx-4">
+  <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+  <select class="border border-gray-900 text-gray-600 h-12 pl-5 pr-28 bg-white hover:border-gray-800 focus:outline-none appearance-none">
+    <option>Application</option>
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Luckhnow</option>
+    <option>Kanur</option>
+    <option>Indore</option>
+    <option>chandigarh</option>
+  </select>
 </div>
 
-<div class="group inline-block px-4">
-  <button class="outline-none focus:outline-none border px-14 py-3 bg-white border-gray-900 flex min-w-32">
-    <span class="pr-1 font-semibold flex-1">Date</span>
-    <span>
-      <svg
-        class="fill-current h-4 w-4 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-      >
-        <path
-          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-        />
-      </svg>
-    </span>
-  </button>
-  <ul
-    class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32"
-  >
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Programming</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">DevOps</li>
-    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Testing</li>
-  </ul>
+<div class="relative inline-flex mx-4">
+  <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+  <select class="border border-gray-900 text-gray-600 h-12 pl-5 pr-28 bg-white hover:border-gray-800 focus:outline-none appearance-none">
+    <option>Date</option>
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Luckhnow</option>
+    <option>Kanur</option>
+    <option>Indore</option>
+    <option>chandigarh</option>
+  </select>
 </div>
 
-<div class=" relative inline-block px-4">
-    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-3 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="No. of days"/>
+<div class=" relative inline-flex mx-4">
+    <input type="text" class=" border border-gray-900 px-4 py-3 bg-white text-gray-700 placeholder-gray-600 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="No. of days"/>
 </div>
 
-<div class=" relative inline-block px-4">
-    <input type="text" class=" flex-1 appearance-none border border-gray-900 w-full py-3 px-4 bg-white text-gray-700 placeholder-gray-900 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="Area"/>
+<div class="relative inline-flex mx-4">
+    <input type="text" class=" border border-gray-900 w-1/2 py-3 px-4 bg-white text-gray-700 placeholder-gray-600 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent" placeholder="Area"/>
+    <span class="text-base border border-gray-900 py-3 px-4 bg-white">Km</span>
+  
 </div>
 
 
@@ -117,23 +81,9 @@ function rentdrone(){
                             <button type='submit' class=" w-full text-base items-center justify-center py-3 font-sans-serif font-medium text-white" style={{backgroundColor: 'var(--colour-1)'}}>GET QUOTE</button>
                         </div>
                     </div>
-                </div>
+                
             </div>
         </div>
-
-        <style jsx>{`
-  li>ul                 { transform: translatex(100%) scale(0) }
-  li:hover>ul           { transform: translatex(101%) scale(1) }
-  li > button svg       { transform: rotate(-90deg) }
-  li:hover > button svg { transform: rotate(-270deg) }
-
-  .group:hover .group-hover\:scale-100 { transform: scale(1) }
-  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
-  .scale-0 { transform: scale(0) }
-  .min-w-32 { min-width: 8rem }
-  `}
-</style>
-
     </div>
 
 <div class="container mx-auto mt-10 bg-white py-10 items-center justify-between">
