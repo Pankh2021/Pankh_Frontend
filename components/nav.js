@@ -2,19 +2,21 @@ import React, { useState, useEffect } from "react";
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 import { useRouter } from 'next/router';
-import { useAuth } from '../firebase/authuserprovider';
+import authHelper from '../auth/authHelper';
 
 function Nav() {
 
-  const { authUser } = useAuth();
+  
   const router = useRouter();
 
 
-  useEffect(() => {
-    if (!authUser){
-      console.log('you are not logged in');
-    }
-  }, [authUser])
+  // user instance
+  const {user, logOut} = authHelper();
+
+  const handleLogout = ()=>{
+    logOut();
+    router.push('/dashboard');
+  }
 
   return (
 
@@ -116,9 +118,9 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
 
 
       
-      {!authUser &&<a href='/signup'> <Frame2>Register/Sign In </Frame2></a> }
+      {/* render differently according to user state */}
+      {user?<a onClick={handleLogout}><Frame2>Logout</Frame2></a>:<a href='/signup'> <Frame2>Register/Sign In </Frame2></a> }
       
-      {authUser && <Frame2>Logout</Frame2> }
       </div>
       </div>
       
