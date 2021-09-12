@@ -25,7 +25,7 @@ return (
             <div className="product">
               <div className="product-i120117460  text-base font-sans-serif font-semibold text-black">Services</div>
               <div className="employee-database-i1 text-sm font-sans-serif font-normal text-blue-500">Buy Drones</div>
-              <div className="payroll-i120117460 text-sm font-sans-serif font-normal text-blue-500">Rent Drones</div>
+              <div className="payroll-i120117460 text-sm font-sans-serif font-normal text-blue-500"><a href='/rentdrone'> Rent Drones</a> </div>
               <div className="absences-i12011746 text-sm font-sans-serif font-normal text-blue-500">Drone Pilot</div>
             </div>
             <div className="information">
