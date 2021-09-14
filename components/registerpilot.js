@@ -83,7 +83,7 @@ function Frame8(props) {
   
     return (
       <div className="frame-2">
-        <button className="register-sign-in-i11 text-base font-sans-serif font-medium text-white">{children}</button>
+        <a href='/signup'> <button className="register-sign-in-i11 text-base font-sans-serif font-medium text-white">{children}</button></a>
         <style jsx>{`
         .frame-2 {
             align-items: center;

@@ -39,15 +39,35 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </a>
-                <a href="/rentdrone" class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans">
+                {/* <a href="/rentdrone" class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans">
                   Rent
                   <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
                   </svg>
-                </a>
+                </a> */}
+
+                <div class="dropdown inline-block relative">
+    <button class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans"> Rent
+      <svg class="w-3.5 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+    </button>
+    <ul class=" w-48 dropdown-menu absolute hidden text-gray-700 pt-7">
+      <li class=""><a href='/rentdrone' class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap">Delhi NCR</a></li>
+      <li class=""><a href='/rentdrone' class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap">Luckhnow-Kanpur</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Jaipur</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Mumbai</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Indore- Bhopal</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Chandigarh</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Bangalore</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Chennai</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Hyderabad</a></li>
+    </ul>
+    </div>
                 <span className="flex truncate items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans">
                 Drone Pilot
                 </span>
+
 
                  <div class="dropdown inline-block relative">
     <button class="flex items-center justify-center px-4 text-sm text-gray-700 font-medium font-sans"> Solutions
@@ -61,8 +81,9 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Security & Surveillance</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Agriculture</a></li>
     </ul>
-    </div>   
-              </div>
+    </div>
+
+    </div>
 
     <div className="searchbar ml-16">
       <div className="overlap-group border-1px-geyser">

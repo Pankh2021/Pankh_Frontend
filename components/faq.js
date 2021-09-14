@@ -37,7 +37,7 @@ function Faq(){
           categories depending on their maximum all –up weight which includes the weight of payloads as well:
           <ul className="list-disc">
           
-         <li> Nana Drones: Weighing less than 250gm</li>
+         <li> Nano Drones: Weighing less than 250gm</li>
           <li>Micro Drones: Weighing more than 250gm but less than 2.5kg</li>
           <li>Small Drones: Weight greater than 2.5kg but less than 25kg</li>
           <li>Medium Drones: Weight greater than 25kg but less than 150kg</li>
