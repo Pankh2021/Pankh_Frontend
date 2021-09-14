@@ -12,9 +12,9 @@ function Dashboard() {
 
   const getProjects = async ()=>{
           
-    // console.log(user.uid);
+    console.log(`Admin: ${user.admin}`);
     try{
-         const doc = await db.collection('projects').doc(user.uid).get();
+         const doc = await db.collection('projects').doc(user.email).get();
          setProjects(doc.data().projects);
     }
     catch(error)
@@ -31,7 +31,6 @@ useEffect(()=>{
 
     if(user)
     {
-         console.log(user.emailVerified);
          getProjects(); 
     
     }

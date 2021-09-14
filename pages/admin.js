@@ -1,14 +1,29 @@
 import React from 'react';
 import { useState } from 'react';
+import authHelper from '../auth/authHelper';
+import { useAuth } from '../firebase/authuserprovider';
+import { useRouter } from 'next/router';
 
 function Admin(){
+
+    const auth = authHelper();
+    const { signInWithEmailAndPassword } = useAuth();
+    const router = useRouter();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const submit = event =>{
-        console.log({email});
-        console.log({password});
-    }
+       signInWithEmailAndPassword(email, password)
+        .then(authUser => {
+        console.log(`Admin: ${authUser.user.admin}`)
+        auth.login(authUser.user);
+        router.push('/adminDash');
+    })
+      .catch(error => {
+        console.log("Error")
+      });
+      event.preventDefault();
+    };
 
     return (
         <>

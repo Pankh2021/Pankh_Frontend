@@ -1,5 +1,7 @@
 module.exports = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+
+    config.resolve.fallback = { fs: false };
     return config; // return the modified config
   },
   env: {
