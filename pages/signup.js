@@ -140,16 +140,7 @@ function Signup() {
     <label for="email" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Email</label>
   </div>
   </div>
-                    {/* <div class="flex -mx-2">
-                        <div class="w-full px-3 mb-5">
-                            <div class="flex">
-                                <div class="w-10 z-10 pl-1 "></div>
-                                <input type="password" name="password"
-                  value={password}
-                  onChange={(event) => setPassword(event.target.value)} class="w-full -ml-10 pl-4 pr-3 py-3 border border-gray-400 outline-none focus:border-indigo-500 text-gray-900" placeholder="************" required/>
-                            </div>
-                        </div>
-                    </div> */}
+                   
                <div class="flex w-full px-3 mb-5 -mx-2">
                      <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
     <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />

@@ -4,8 +4,10 @@ import { useState } from 'react';
 function Admin(){
 
     const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
     const submit = event =>{
         console.log({email});
+        console.log({password});
     }
 
     return (
@@ -13,11 +15,18 @@ function Admin(){
         <div class="flex justify-center mx-4 md:mx-0">
    <form class="w-full max-w-lg bg-white mt-8 rounded-lg shadow-md p-6" onSubmit={submit} >
       <div class="flex flex-wrap -mx-3 mb-6">
+        
       <div class="flex w-full px-3 mb-5 -mx-2">
-
     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
     <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder=" " class="block py-3 px-4 pr-4 w-1/2 text-sm appearance-none focus:outline-none bg-transparent" />
     <label for="email" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Email</label>
+  </div>
+  </div>
+
+  <div class="flex w-full px-3 mb-5 -mx-2">
+                     <div class="w-full outline justify-center relative border border-gray-400 focus-within:border-blue-500">
+    <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder=" " class="block py-3 px-2 w-full text-sm appearance-none focus:outline-none bg-transparent" />
+    <label for="password" class="absolute top-0 text-sm bg-white p-2 -z-1 duration-300 origin-0">Password</label>
   </div>
   </div>
     
