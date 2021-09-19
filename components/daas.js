@@ -3,14 +3,17 @@ import Link from 'next/link';
 
 function Daas(){
 
+
+
     return (
         <>
-<Frame7
+ <Frame7
       text23="Drones as a Service (DaaS)"
       text22="Buying drones is a costly affair and to manage drone operations is a task. With Pankh renting drones is easy just type in your requirement and we are there to assist you with our transparent pricing and standardized service quality"
       image11="/static/assets(png)/image-11.png"
       frame2Props={frame7Data.frame2Props}
       />
+
         </>
     )
   }
@@ -19,7 +22,6 @@ export default Daas;
 
 function Frame7(props) {
   const { text23, text22, image11, frame2Props } = props;
-
   return (
     <div className=" daas bg-white justify-between p-20 items-center">
     <div className="frame-7">
@@ -31,15 +33,16 @@ function Frame7(props) {
       <img className="image-11" src={image11} />
       </div>
       <style jsx>{`
+      
       .daas {
         justify-content: center;
         display: flex;
+        align-items: center;
       }
 
       .frame-7 {
         align-items: center;
         background-color: var(--cultured-pearl);
-        justify-content: center;
         display: flex;
       }
       

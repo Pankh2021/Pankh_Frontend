@@ -4,16 +4,15 @@ import {loadTimelineData} from 'anima-timeline';
 function Faq(){
   const [question, setquestion] = useState(0);
   return (
-    
       <div className="container mx-auto p-10">
     <div>
-        <h1 className="text-4xl bg-white flex justify-center items-center font-sans-serif text-black"> Frequently Asked Questions</h1>
+        <h1 className="lg:text-4xl md:text-xl bg-white flex justify-center items-center font-sans-serif text-black"> Frequently Asked Questions</h1>
       </div>
             <div className="faq justify-center items-center pt-10 bg-white ">
                     <ul >
                     <li >
-                            <div className="w-2/3 h-20 border-gray-200 border-2 flex justify-center items-center">
-                                <h3 className="text-1 ml-6 text-black text-lg font-sans-serif font-semibold md:text-lg  w-10/12">What are the drones and their different categories?</h3>
+                            <div className="lg:w-2/3 sm:w-20 h-20 border-gray-200 border-2 flex justify-center items-center">
+                                <h3 className="text-1 ml-4 text-black lg:text-lg font-sans-serif font-semibold sm:text-sm sm:w-1/3 lg:w-10/12">What are the drones and their different categories?</h3>
                                 <div className="cursor-pointer mr-6" onClick={() => (question === 0 ? setquestion(null) : setquestion(0))}>
                                     {question === 0 ? (
                                         <svg xmlns="http://www.w3.org/2000/svg" width={36} height={36} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#111827" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-label="Close">
@@ -47,7 +46,7 @@ function Faq(){
                         </li>
                         <li className="pt-4">
                             <div className="w-2/3 h-20 border-gray-200 border-2 flex justify-center items-center">
-                                <h3 className="text-1 ml-6 text-black text-lg font-sans-serif font-semibold md:text-lg  w-10/12">Who can fly drones and is there any rules and regulations for it?</h3>
+                                <h3 className="text-1 ml-4 text-black lg:text-lg font-sans-serif font-semibold sm:text-sm sm:w-1/3 lg:w-10/12">Who can fly drones and is there any rules and regulations for it?</h3>
                                 <div className="cursor-pointer mr-6" onClick={() => (question === 1 ? setquestion(null) : setquestion(1))}>
                                     {question === 1 ? (
                                         <svg xmlns="http://www.w3.org/2000/svg" width={36} height={36} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#111827" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-label="Close">
@@ -88,6 +87,13 @@ function Faq(){
               display: inline-block;
               width: 100%;
               margin-left: 16%;
+            }
+            @media only screen and (max-width: 750px) {
+                .faq {
+                    width: 100%;
+                    display: block;
+                    margin-right: 10%;
+                }
             }
             
             `} </style>

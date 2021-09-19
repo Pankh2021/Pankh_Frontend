@@ -43,6 +43,7 @@
     "react-flickity-component": "^3.6.1",
     "react-horizontal-scrolling-menu": "^2.0.6",
     "react-multi-carousel": "^2.6.3",
+    "react-responsive": "^9.0.0-beta.4",
     "react-responsive-carousel": "^3.2.20",
     "react-router-dom": "^5.2.0",
     "react-scroll-horizontal": "^1.6.6",

@@ -45,3 +45,61 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 750px) {
+  .daas .wrapper {
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .image-11 {
+    height: 100px;
+    width: auto;
+    align-items: center;
+    margin-left: 121px;
+  }
+  .group-28 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+.group-3 {
+  margin-left: 30px;
+}
+
+  .hero-content {
+    -webkit-backdrop-filter: blur(60px) brightness(100%);
+    align-items: flex-end;
+    backdrop-filter: blur(60px) brightness(100%);
+    background-color: var(--white-22);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .image-1 {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    object-fit: cover;
+    width: 500px;
+  }
+}

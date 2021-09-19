@@ -2,7 +2,7 @@ import React from 'react';
 
 function Service() {
   return (
-    <div className=" py-10 bg-white ">
+    <div className=" py-10 bg-white">
      <div className="feature">
       <div className="group-5">
         <div className="trophy-1">
@@ -72,17 +72,18 @@ function Service() {
       <style jsx>{`
       .feature {
   object-fit: cover;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   display: flex;
-  position: relative;
+
 }
 
 .group-5 {
   align-items: flex-start;
   display: flex;
   height: 85px;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-left: 30px;
   min-width: 285px;
   padding: 16px 0;
 }
@@ -112,8 +113,8 @@ function Service() {
   align-items: flex-start;
   display: flex;
   height: 85px;
-  justify-content: center;
-  margin-left: 88px;
+  justify-content: flex-start;
+  margin-left: 30px;
   min-width: 292px;
   padding: 16px 0;
 }
@@ -138,8 +139,8 @@ function Service() {
   align-items: flex-start;
   display: flex;
   height: 85px;
-  justify-content: center;
-  margin-left: 88px;
+  justify-content: flex-start;
+  margin-left: 30px;
   min-width: 214px;
   padding: 16px 0;
 }
@@ -163,8 +164,8 @@ function Service() {
   align-items: flex-start;
   display: flex;
   height: 85px;
-  justify-content: center;
-  margin-left: 88px;
+  justify-content: flex-start;
+  margin-left: 30px;
   min-width: 222px;
   padding: 16px 0;
 }

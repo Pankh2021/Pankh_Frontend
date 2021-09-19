@@ -12,7 +12,7 @@ function Location(){
         <>
 <div className=' justify-center items-center bg-white'>
 <h1 className="text-center text-4xl bg-white p-10 justify-between font-sans-serif text-black">Search Drones by City</h1>
-<div className="group-38 flex flex-start overflow-x-scroll hide-scroll-bar mx-40" >
+<div className="group-38 flex justify-between overflow-x-scroll hide-scroll-bar mx-40" >
 <HorizontalScroll>
 
       <div className="group-3">
@@ -88,7 +88,7 @@ function Location(){
 
 group-22 {
   
-  left: 253px;
+  left: 250px;
   position: absolute;
   width: 76px;
 }

@@ -54,7 +54,7 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
     </button>
     <ul class=" w-48 dropdown-menu absolute hidden text-gray-700 pt-7">
       <li class=""><a href='/rentdrone' class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap">Delhi NCR</a></li>
-      <li class=""><a href='/rentdrone' class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap">Luckhnow-Kanpur</a></li>
+      <li class=""><a href='/rentdrone' class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap">Lucknow-Kanpur</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Jaipur</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Mumbai</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href='/rentdrone'>Indore- Bhopal</a></li>
