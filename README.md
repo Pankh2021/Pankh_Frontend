@@ -5,4 +5,7 @@ This is the Frontend Part of the Pankh Website
 
 `npm install`
 
-`npm dun dev`
+`npm run dev`
+
+
+route at: localhost:3030

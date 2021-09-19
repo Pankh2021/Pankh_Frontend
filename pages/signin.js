@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { useAuth } from '../firebase/authuserprovider';
 import authHelper from '../auth/authHelper';
 import { Alert } from 'antd';
+// import {makeAdmin} from '../firebase/admin';
 
 
 function Signin(){
@@ -22,7 +23,7 @@ function Signin(){
     signInWithEmailAndPassword(email, password)
     .then(authUser => {
       console.log("success!! you have logged in")
-      console.log(authUser.user.emailVerified);
+      // makeAdmin(authUser.user.email);
       auth.login(authUser.user);
       router.push('/dashboard');
     })
