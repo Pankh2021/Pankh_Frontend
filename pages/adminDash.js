@@ -55,7 +55,7 @@ function AdminDash(){
 
     return (
         <>
-       {user.admin?
+       {user && user.admin?
         <>
         {/* Heading */}
         <Typography variant="h2" align="center" color="primary">
