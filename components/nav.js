@@ -77,9 +77,10 @@ src='/static/assets(png)/pankh-blue-logo-2-1-1.png'
     </button>
     <ul class=" w-52 dropdown-menu absolute hidden text-gray-700 pt-7">
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Construction</a></li>
-      <li class=""><a class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap" href="#">Utility</a></li>
+      <li class=""><a class="bg-white border hover:bg-gray-400 font-sans font-normal text-base py-3 px-4 block whitespace-no-wrap" href="#">Solar Industry</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Security & Surveillance</a></li>
       <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Agriculture</a></li>
+      <li class=""><a class="bg-white border font-sans font-normal text-base hover:bg-gray-400 py-3 px-4 block whitespace-no-wrap" href="#">Transmission lines and Towers</a></li>
     </ul>
     </div>
 
